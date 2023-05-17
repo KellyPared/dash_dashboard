@@ -25,6 +25,12 @@ The project relies on the following dependencies:
 * Plotly Express (px): A high-level library for interactive data visualization.
 * Pandas: A powerful data manipulation and analysis library.
 * pathlib: A module providing classes for working with file and directory paths.
+## Kaggle View
+
+<img width="1135" alt="Screenshot 2023-05-17 at 7 51 11 PM" src="https://github.com/KellyPared/dash_dashboard/assets/40581033/6ee5fdf2-e8d3-4a90-85d2-c925f49249b2">
+
+<img width="1155" alt="Screenshot 2023-05-17 at 7 51 29 PM" src="https://github.com/KellyPared/dash_dashboard/assets/40581033/265c9645-3a40-4474-880f-376dcdc9b934">
+
 
 ## Contributing
 Contributions to this project are welcome. If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request on the project's GitHub repository.
