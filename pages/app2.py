@@ -19,14 +19,14 @@ except Exception as e:
     print(f"An error occurred while reading the CSV file: {e}")
     PCdemographics_df = pd.DataFrame()  # Empty DataFrame to handle other exceptions
 
-app = dash.Dash(
+app2 = dash.Dash(
     __name__,
     external_stylesheets=[dbc.themes.BOOTSTRAP],
     title="Evaluation of Education Standards",
     url_base_pathname="/",
     suppress_callback_exceptions=True
 )
-app.css.append_css({"external_url": "/static/style.css?v=1.0"})
+app2.css.append_css({"external_url": "/static/style.css?v=1.0"})
 
 navbar = dbc.NavbarSimple(
     children=[
@@ -50,6 +50,25 @@ navbar = dbc.NavbarSimple(
     dark=True
 )
 
+# APP STUFF GRAPHS AND CALLBACKS
+# _______________________________
+
+@app2.callback(
+    Output("scatter_plot_data2", "figure"),
+    Input("student-dropdown2", "value"),
+)
+def update_student_data2(student_index):
+    scatter_data2 = px.scatter(
+        PCdemographics_df,
+        x="Grade",
+        y="Section_Grade",
+        color="Course_Type",
+        template="plotly_dark",
+        labels={"Course_Type": "Course Type"},
+    )
+    return scatter_data2
+
+
 def layout2():
     print("Rendering layout2")
     layout = dbc.Container(
@@ -66,34 +85,17 @@ def layout2():
             dcc.Dropdown(
                 id="student-dropdown2",
                 options=[
-                    {"label": str(index), "value": index}
-                    for index in PCdemographics_df["index"]
+                    {"label": str(student_id), "value": student_id}
+                    for student_id in PCdemographics_df["StudentID"]
                 ],
-                value=PCdemographics_df["index"].iloc[0],
+                value=PCdemographics_df["StudentID"].iloc[0],
             ),
         ]
     )
     return layout
 
-# APP STUFF GRAPHS AND CALLBACKS
-# _______________________________
+app2.layout = layout2
 
-@app.callback(
-    Output("scatter_plot_data2", "figure"),
-    Input("student-dropdown2", "value"),
-)
-def update_student_data2(student_index):
-    scatter_data2 = px.scatter(
-        PCdemographics_df,
-        x="Grade",
-        y="Section_Grade",
-        color="Course_Type",
-        template="plotly_dark",
-        labels={"Course_Type": "Course Type"},
-    )
-    return scatter_data2
 
-app.layout = layout2
-
-if __name__ == "__main__":
-    app.run_server(debug=True)
+if __name__ == '__main__':
+    app2.run_server(port=8052, debug=True)
