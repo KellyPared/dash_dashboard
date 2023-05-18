@@ -163,4 +163,4 @@ def update_student_data(student_index):
 app.layout = layout1
 
 if __name__ == "__main__":
-    app.run_server(port=8051, debug=True)
+    app.run_server(port=8051,debug=True)

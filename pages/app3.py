@@ -47,46 +47,48 @@ navbar = dbc.NavbarSimple(
     Output("scatter_plot_data2", "figure"),
     Input("student-dropdown2", "value"),
 )
-
-#Gender,Ethnicity,ELL,SWD,ED,SST,Gifted,Absences,Lexile,MATH 21 Scale Score,ELA 21 Scale Score,ELA 22 Pass,MATH 22 Pass,SCIE 22 Pass,SOCI 22 Pass,Subjects Passed,Overall Pass
-
-def update_student_data3(student_id):
-    filtered_df = GAdemographics_df[GAdemographics_df["StudentID"] == student_id]
+def update_student_data3(ethnicity):
     
     scatter_data3 = px.scatter(
         GAdemographics_df,
-        x="MATH 21 Scale Score",
+        x="MATH 21 Scale Score",  
         y="ELA 21 Scale Score",
-        color="Course_Type",
+        color="Gender",
         template="plotly_dark",
         labels={"Gender": "Gender"},
         hover_data=GAdemographics_df.columns,
         title="Scatter Plot",
     )
 
-    print(filtered_df)
     return scatter_data3
 
 
 
-
-
-# Define the layout for the app
 def layout3():
     layout = dbc.Container(
         [
             navbar,
-            html.H1("Georgia Rural School", style={"padding": "20px"}),
-            # Add components specific to app 3
-            # For example, you can add tables, graphs, or other components to display the data
+
+            html.H2("Georgia Rural School", style={"padding": "20px"}),
+            html.P('''The Georgia Milestones data uses the following features: 
+            gender, ethnicity, English-language learners (ELL), students with 
+            disabilities (SWD), economic disadvantage (ED), student support team (ST), 
+            gifted, absences, Lexile level, and previous year’s scores.'''),
+            html.P('''The accuracy results for Georgia Milestones are shown below:'''),
+            
+            dcc.Dropdown(
+                id="student-dropdown2",
+                options=[{"label": student_id, "value": student_id} for student_id in GAdemographics_df["Overall Pass"]],
+                value=GAdemographics_df["Overall Pass"].iloc[0],
+            ),
+            dcc.Graph(id="scatter_plot_data2"),
         ],
         fluid=True
     )
     return layout
 
-# Set the layout for the app
 app3.layout = layout3
 
-# Run the app if the script is executed directly
+
 if __name__ == '__main__':
     app3.run_server(port=8053, debug=True)
