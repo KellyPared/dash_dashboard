@@ -50,49 +50,92 @@ def layout1():
         [
             navbar,
             html.H2("The Problem with Standardizing Students", style={"padding": "20px"}),
-
+            
             html.P(
-                '''Education demographics is a complex and multifaceted field with various factors such as test scores, financial incomes, gender, race, ethnicity, 
-                school location, and parental education levels. This area of study has many problems that can make it difficult to obtain accurate and reliable data.'''
+                "Education demographics is a complex and multifaceted field with various factors such as test scores, financial incomes, gender, race, ethnicity, "
+                "school location, and parental education levels. This area of study has many problems that can make it difficult to obtain accurate and reliable data.",
+                className="custom-text",
             ),
-            html.P('''Here are three key problems in education demographics:'''),
-            html.P(
-                '''1.) Lack of standardized data collection methods: Different educational institutions and organizations may use different methods to collect data, leading to inconsistencies and difficulties in comparing and analyzing the information.'''
+            
+            html.P("Here are three key problems in education demographics:", className="custom-text"),
+            
+            dbc.ListGroup(
+                [
+                    dbc.ListGroupItem(
+                        "Lack of standardized data collection methods: Different educational institutions and organizations may use different methods to collect data, leading to inconsistencies and difficulties in comparing and analyzing the information.",
+                        className="custom-list-item",
+                    ),
+                    dbc.ListGroupItem(
+                        "Data privacy concerns: Education demographics often involve sensitive information about students and their families. Ensuring data privacy and security while still extracting valuable insights can be challenging.",
+                        className="custom-list-item",
+                    ),
+                    dbc.ListGroupItem(
+                        "Limited representation: Some demographic groups may be underrepresented or overlooked in education data, leading to biased analyses and inadequate policy decisions.",
+                        className="custom-list-item",
+                    ),
+                ],
+                flush=True,
+                className="custom-list",
             ),
-            html.P(
-                '''2.) Data privacy concerns: Education demographics often involve sensitive information about students and their families. Ensuring data privacy and security while still extracting valuable insights can be challenging.'''
-            ),
-            html.P(
-                '''3.) Limited representation: Some demographic groups may be underrepresented or overlooked in education data, leading to biased analyses and inadequate policy decisions.'''
-            ),
+            
             html.H2("Kaggle Data", style={"padding": "20px"}),
-
-            html.P('''The Kaggle data uses the following features: gender, race/ethnicity, parental level of education, lunch status (free/reduced), and test preparation course.The accuracy results for the Kaggle data set is shown below: '''
+            
+            html.P(
+                "Kaggle Data Set - 'This dataset contains information on the performance of high school students in mathematics, including their grades and demographic information. The data was collected from three high schools in the United States.",
+                className="custom-text",
             ),
+            
+            dbc.Table(
+                [
+                    html.Thead(
+                        html.Tr([html.Th("Attribute"), html.Th("Description")])
+                    ),
+                    html.Tbody(
+                        [
+                            html.Tr([html.Td("Gender"), html.Td("The gender of the student (male/female)")]),
+                            html.Tr([html.Td("Race/ethnicity"), html.Td("The student's racial or ethnic background (Asian, African-American, Hispanic, etc.)")]),
+                            html.Tr([html.Td("Parental level of education"), html.Td("The highest level of education attained by the student's parent(s) or guardian(s)")]),
+                            html.Tr([html.Td("Lunch"), html.Td("Whether the student receives free or reduced-price lunch (yes/no)")]),
+                            html.Tr([html.Td("Test preparation course"), html.Td("Whether the student completed a test preparation course (yes/no)")]),
+                            html.Tr([html.Td("Math score"), html.Td("The student's score on a standardized mathematics test")]),
+                            html.Tr([html.Td("Reading score"), html.Td("The student's score on a standardized reading test")]),
+                            html.Tr([html.Td("Writing score"), html.Td("The student's score on a standardized writing test")]),
+                        ],
+                        className="custom-table",
+                    ),
+                ],
+                bordered=True,
+                responsive=True,
+            ),
+            
             html.H3(children='Student Demographics'),
             dcc.Graph(id='scatter_plot_data'),
+            html.P('Select a student index to view individual Student Demographics.'),
+            html.H3(children='Student Information by Student Index'),
+            html.Div(id='demographic-table'),       
             dcc.Dropdown(
                 id='student-dropdown',
                 options=[{'label': student_id, 'value': student_id} for student_id in demographics_df['student_id']],
-                value=demographics_df['student_id'].iloc[0],
-            ),
-            dcc.Graph(id='update_demographic_table'),
-            html.P('Select a student index to view individual Student Demographics.'),
-            dcc.Dropdown(
-                id='student-dropdown1',
-                options=[{'label': str(index), 'value': index} for index in demographics_df.index],
-                value=1,
-                placeholder='Select a student...',
-            ),
-            html.H3(children='Student Information by Student Index'),
-            html.Div(id='demographic-table'),
+                value=demographics_df['student_id'].iloc[0],),
             html.H3(children='Student Information Overview by Demographics'),
             dcc.Graph(id='update_score_graph', figure={}),
+            
+    
+            # dcc.Graph(id='update_demographic_table'),
+            # dcc.Dropdown(
+            #     id='student-dropdown1',
+            #     options=[{'label': str(index), 'value': index} for index in demographics_df.index],
+            #     value=1,
+            #     placeholder='Select a student...',
+            # ),
+            
+            
         ],
         style={"padding": "20px"},
         fluid=True,
     )
     return layout
+
 
 
 @app.callback(
