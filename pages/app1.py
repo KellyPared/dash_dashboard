@@ -49,7 +49,8 @@ def layout1():
     layout = dbc.Container(
         [
             navbar,
-            html.H1("Kaggle Data", style={"padding": "20px"}),
+            html.H2("The Problem with Standardizing Students", style={"padding": "20px"}),
+
             html.P(
                 '''Education demographics is a complex and multifaceted field with various factors such as test scores, financial incomes, gender, race, ethnicity, 
                 school location, and parental education levels. This area of study has many problems that can make it difficult to obtain accurate and reliable data.'''
@@ -63,6 +64,10 @@ def layout1():
             ),
             html.P(
                 '''3.) Limited representation: Some demographic groups may be underrepresented or overlooked in education data, leading to biased analyses and inadequate policy decisions.'''
+            ),
+            html.H2("Kaggle Data", style={"padding": "20px"}),
+
+            html.P('''The Kaggle data uses the following features: gender, race/ethnicity, parental level of education, lunch status (free/reduced), and test preparation course.The accuracy results for the Kaggle data set is shown below: '''
             ),
             html.H3(children='Student Demographics'),
             dcc.Graph(id='scatter_plot_data'),
@@ -158,4 +163,4 @@ def update_student_data(student_index):
 app.layout = layout1
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(port=8051, debug=True)

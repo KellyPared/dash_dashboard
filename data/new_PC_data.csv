@@ -1,19 +1,19 @@
 ,StudentID,Course,Grade,Section_Grade,Course_Type
 0,STU711,English I Honors,9,96.67,English
 1,STU711,French II Honors,9,87.92,Foreign Language
-2,STU711,Computer Science Principles AP,9,86.02,Science
+2,STU711,Computer Science Principles AP,9,86.02,Computer Science
 3,STU711,Chemistry,9,88.89,Science
 4,STU711,Human Geography AP,9,88.49,Humanities
 5,STU563,English I Honors,9,87.92,English
 6,STU563,Spanish II Honors,9,81.27,Foreign Language
 7,STU563,Geometry,9,82.39,Math
-8,STU563,Computer Science Principles AP,9,82.9,Science
+8,STU563,Computer Science Principles AP,9,82.9,Computer Science
 9,STU563,Chemistry,9,87.88,Science
 10,STU563,Modern World Honors: 1750 to the Present,9,91.86,Humanities
 11,STU744,English I Honors,9,94.39,English
 12,STU744,Latin I Honors,9,98.5,Foreign Language
 13,STU744,Pre-Calculus Honors,9,94.03,Math
-14,STU744,Computer Science Principles AP,9,97.21,Science
+14,STU744,Computer Science Principles AP,9,97.21,Computer Science
 15,STU744,Chemistry Honors,9,95.32,Science
 16,STU744,World History AP,9,96.53,Humanities
 17,STU681,English I Honors,9,95.77,English
@@ -24,13 +24,13 @@
 22,STU69,English I Honors,9,84.2,English
 23,STU69,Spanish II Honors,9,90.59,Foreign Language
 24,STU69,Geometry,9,91.25,Math
-25,STU69,Computer Science Principles AP,9,84.8,Science
+25,STU69,Computer Science Principles AP,9,84.8,Computer Science
 26,STU69,Chemistry,9,89.56,Science
 27,STU69,Human Geography AP,9,87.88,Humanities
 28,STU362,English I Honors,9,98.24,English
 29,STU362,Spanish IV Honors - Heritage Speakers,9,99.86,Foreign Language
 30,STU362,Geometry Honors,9,94.78,Math
-31,STU362,Computer Science Principles AP,9,96.61,Science
+31,STU362,Computer Science Principles AP,9,96.61,Computer Science
 32,STU362,Chemistry Honors,9,98.74,Science
 33,STU362,World History AP,9,98.78,Humanities
 34,STU289,English I Honors,9,93.56,English
@@ -56,7 +56,7 @@
 54,STU380,English I Honors,9,96.65,English
 55,STU380,Spanish IV Honors - Heritage Speakers,9,98.56,Foreign Language
 56,STU380,Geometry Honors,9,88.33,Math
-57,STU380,Computer Science Principles AP,9,94.63,Science
+57,STU380,Computer Science Principles AP,9,94.63,Computer Science
 58,STU380,Chemistry Honors,9,85.05,Science
 59,STU380,Human Geography AP,9,94.75,Humanities
 60,STU546,English I Honors,9,87.71,English
@@ -73,7 +73,7 @@
 71,STU643,English I Honors,9,97.41,English
 72,STU643,Latin I Honors,9,98.5,Foreign Language
 73,STU643,Pre-Calculus Honors,9,94.19,Math
-74,STU643,Computer Science Principles AP,9,99.46,Science
+74,STU643,Computer Science Principles AP,9,99.46,Computer Science
 75,STU643,Chemistry Honors,9,97.01,Science
 76,STU643,Human Geography AP,9,94.55,Humanities
 77,STU714,English I Honors,9,92.5,English
@@ -94,7 +94,7 @@
 92,STU348,English I Honors,9,96.56,English
 93,STU348,Spanish II Honors,9,90.58,Foreign Language
 94,STU348,Geometry Honors,9,97.28,Math
-95,STU348,Computer Science Principles AP,9,98.83,Science
+95,STU348,Computer Science Principles AP,9,98.83,Computer Science
 96,STU348,Chemistry Honors,9,93.57,Science
 97,STU348,World History AP,9,98.98,Humanities
 98,STU735,English I Honors,9,94.6,English
@@ -116,7 +116,7 @@
 114,STU373,English I Honors,9,85.66,English
 115,STU373,Spanish II,9,92.73,Foreign Language
 116,STU373,Geometry,9,92.31,Math
-117,STU373,Computer Science Principles AP,9,94.14,Science
+117,STU373,Computer Science Principles AP,9,94.14,Computer Science
 118,STU373,Chemistry,9,88.59,Science
 119,STU373,Modern World Honors: 1750 to the Present,9,90.03,Humanities
 120,STU705,English I Honors,9,95.36,English
@@ -142,7 +142,7 @@
 140,STU807,English I Honors,9,95.15,English
 141,STU807,Latin I Honors,9,88.26,Foreign Language
 142,STU807,Geometry,9,87.92,Math
-143,STU807,Computer Science Principles AP,9,90.02,Science
+143,STU807,Computer Science Principles AP,9,90.02,Computer Science
 144,STU807,Chemistry,9,96.98,Science
 145,STU807,Human Geography AP,9,91.71,Humanities
 146,STU736,English I Honors,9,97.62,English
@@ -158,7 +158,7 @@
 156,STU707,English I Honors,9,91.62,English
 157,STU707,Spanish II Honors,9,87.53,Foreign Language
 158,STU707,Geometry Honors,9,87.19,Math
-159,STU707,Computer Science Principles AP,9,97.69,Science
+159,STU707,Computer Science Principles AP,9,97.69,Computer Science
 160,STU707,Chemistry Honors,9,90.57,Science
 161,STU707,Human Geography AP,9,89.08,Humanities
 162,STU209,English I Honors,9,94.65,English
@@ -169,19 +169,19 @@
 167,STU693,English I Honors,9,94.71,English
 168,STU693,Latin I Honors,9,99.25,Foreign Language
 169,STU693,Geometry Honors,9,91.6,Math
-170,STU693,Computer Science Principles AP,9,96.38,Science
+170,STU693,Computer Science Principles AP,9,96.38,Computer Science
 171,STU693,Chemistry Honors,9,89.39,Science
 172,STU693,Human Geography AP,9,94.84,Humanities
 173,STU812,English I Honors,9,93.12,English
 174,STU812,Spanish II Honors,9,93.4,Foreign Language
 175,STU812,Geometry,9,94.84,Math
-176,STU812,Computer Science Principles AP,9,89.95,Science
+176,STU812,Computer Science Principles AP,9,89.95,Computer Science
 177,STU812,Chemistry,9,97.08,Science
 178,STU812,Human Geography AP,9,92.14,Humanities
 179,STU19,English I Honors,9,97.18,English
 180,STU19,Latin I Honors,9,98.35,Foreign Language
 181,STU19,Geometry,9,92.29,Math
-182,STU19,Computer Science Principles AP,9,87.7,Science
+182,STU19,Computer Science Principles AP,9,87.7,Computer Science
 183,STU19,Chemistry,9,94.07,Science
 184,STU19,Human Geography AP,9,89.4,Humanities
 185,STU820,English I Honors,9,87.7,English
@@ -197,7 +197,7 @@
 195,STU109,English I Honors,9,96.65,English
 196,STU109,Spanish II Honors,9,94.59,Foreign Language
 197,STU109,Geometry Honors,9,85.07,Math
-198,STU109,Computer Science Principles AP,9,91.11,Science
+198,STU109,Computer Science Principles AP,9,91.11,Computer Science
 199,STU109,Chemistry Honors,9,84.62,Science
 200,STU109,World History AP,9,89.8,Humanities
 201,STU222,English I Honors,9,88.95,English
@@ -218,13 +218,13 @@
 216,STU651,English I Honors,9,91.0,English
 217,STU651,Spanish II Honors,9,91.0,Foreign Language
 218,STU651,Geometry Honors,9,91.66,Math
-219,STU651,Computer Science Principles AP,9,96.94,Science
+219,STU651,Computer Science Principles AP,9,96.94,Computer Science
 220,STU651,Chemistry Honors,9,90.38,Science
 221,STU651,Human Geography AP,9,94.75,Humanities
 222,STU169,English I Honors,9,98.5,English
 223,STU169,Latin I Honors,9,98.55,Foreign Language
 224,STU169,Pre-Calculus Honors,9,93.75,Math
-225,STU169,Computer Science Principles AP,9,97.45,Science
+225,STU169,Computer Science Principles AP,9,97.45,Computer Science
 226,STU169,Chemistry Honors,9,93.19,Science
 227,STU169,World History AP,9,96.73,Humanities
 228,STU856,English I Honors,9,95.9,English
@@ -257,7 +257,7 @@
 255,STU795,English I Honors,9,87.31,English
 256,STU795,Latin I Honors,9,97.43,Foreign Language
 257,STU795,Geometry Honors,9,88.15,Math
-258,STU795,Computer Science Principles AP,9,95.38,Science
+258,STU795,Computer Science Principles AP,9,95.38,Computer Science
 259,STU795,Chemistry Honors,9,86.89,Science
 260,STU795,Human Geography AP,9,93.27,Humanities
 261,STU648,English I Honors,9,92.5,English
@@ -289,13 +289,13 @@
 287,STU599,English I Honors,9,94.23,English
 288,STU599,Chinese II Honors,9,91.21,Foreign Language
 289,STU599,Geometry Honors,9,92.69,Math
-290,STU599,Computer Science Principles AP,9,95.44,Science
+290,STU599,Computer Science Principles AP,9,95.44,Computer Science
 291,STU599,Chemistry Honors,9,89.53,Science
 292,STU599,Human Geography AP,9,91.86,Humanities
 293,STU416,English I Honors,9,96.09,English
 294,STU416,Spanish II Honors,9,94.45,Foreign Language
 295,STU416,Geometry Honors,9,96.53,Math
-296,STU416,Computer Science Principles AP,9,97.54,Science
+296,STU416,Computer Science Principles AP,9,97.54,Computer Science
 297,STU416,Chemistry Honors,9,95.71,Science
 298,STU416,World History AP,9,98.57,Humanities
 299,STU644,English I Honors,9,94.8,English
@@ -321,25 +321,25 @@
 319,STU351,English I Honors,9,90.14,English
 320,STU351,French II Honors,9,86.33,Foreign Language
 321,STU351,Geometry Honors,9,83.31,Math
-322,STU351,Computer Science Principles AP,9,94.42,Science
+322,STU351,Computer Science Principles AP,9,94.42,Computer Science
 323,STU351,Chemistry,9,98.2,Science
 324,STU351,Human Geography AP,9,89.4,Humanities
 325,STU777,English I Honors,9,87.74,English
 326,STU777,Latin I Honors,9,96.98,Foreign Language
 327,STU777,Geometry,9,93.19,Math
-328,STU777,Computer Science Principles AP,9,96.49,Science
+328,STU777,Computer Science Principles AP,9,96.49,Computer Science
 329,STU777,Chemistry,9,96.98,Science
 330,STU777,Human Geography AP,9,94.27,Humanities
 331,STU427,English I Honors,9,89.76,English
 332,STU427,Spanish II,9,92.55,Foreign Language
 333,STU427,Geometry Honors,9,90.61,Math
-334,STU427,Computer Science Principles AP,9,98.74,Science
+334,STU427,Computer Science Principles AP,9,98.74,Computer Science
 335,STU427,Chemistry Honors,9,89.52,Science
 336,STU427,Human Geography AP,9,89.1,Humanities
 337,STU760,English I Honors,9,83.05,English
 338,STU760,Latin I Honors,9,94.35,Foreign Language
 339,STU760,Geometry,9,89.52,Math
-340,STU760,Computer Science Principles AP,9,89.03,Science
+340,STU760,Computer Science Principles AP,9,89.03,Computer Science
 341,STU760,Chemistry,9,87.88,Science
 342,STU760,Modern World Honors: 1750 to the Present,9,93.17,Humanities
 343,STU415,English I Honors,9,89.67,English
@@ -355,19 +355,19 @@
 353,STU63,English I Honors,9,88.2,English
 354,STU63,Spanish II Honors,9,97.18,Foreign Language
 355,STU63,Geometry Honors,9,92.71,Math
-356,STU63,Computer Science Principles AP,9,95.17,Science
+356,STU63,Computer Science Principles AP,9,95.17,Computer Science
 357,STU63,Chemistry Honors,9,89.81,Science
 358,STU63,Human Geography AP,9,93.68,Humanities
 359,STU321,English I Honors,9,91.62,English
 360,STU321,Spanish II Honors,9,95.33,Foreign Language
 361,STU321,Geometry Honors,9,85.81,Math
-362,STU321,Computer Science Principles AP,9,89.2,Science
+362,STU321,Computer Science Principles AP,9,89.2,Computer Science
 363,STU321,Chemistry Honors,9,83.82,Science
 364,STU321,World History AP,9,93.88,Humanities
 365,STU226,English I Honors,9,96.59,English
 366,STU226,Spanish II Honors,9,97.77,Foreign Language
 367,STU226,Geometry Honors,9,91.04,Math
-368,STU226,Computer Science Principles AP,9,91.6,Science
+368,STU226,Computer Science Principles AP,9,91.6,Computer Science
 369,STU226,Chemistry Honors,9,89.46,Science
 370,STU226,World History AP,9,92.45,Humanities
 371,STU762,English I Honors,9,82.5,English
@@ -384,13 +384,13 @@
 382,STU50,English I Honors,9,94.09,English
 383,STU50,Spanish II Honors,9,97.51,Foreign Language
 384,STU50,Geometry,9,96.62,Math
-385,STU50,Computer Science Principles AP,9,89.05,Science
+385,STU50,Computer Science Principles AP,9,89.05,Computer Science
 386,STU50,Chemistry,9,95.1,Science
 387,STU50,Human Geography AP,9,93.45,Humanities
 388,STU413,English I Honors,9,87.31,English
 389,STU413,Spanish IV Honors - Heritage Speakers,9,95.33,Foreign Language
 390,STU413,Geometry Honors,9,86.15,Math
-391,STU413,Computer Science Principles AP,9,93.37,Science
+391,STU413,Computer Science Principles AP,9,93.37,Computer Science
 392,STU413,Chemistry Honors,9,87.67,Science
 393,STU413,Human Geography AP,9,94.35,Humanities
 394,STU730,English I Honors,9,93.64,English
@@ -401,13 +401,13 @@
 399,STU472,English I Honors,9,91.99,English
 400,STU472,Spanish IV Honors - Heritage Speakers,9,95.49,Foreign Language
 401,STU472,Geometry Honors,9,87.6,Math
-402,STU472,Computer Science Principles AP,9,90.97,Science
+402,STU472,Computer Science Principles AP,9,90.97,Computer Science
 403,STU472,Chemistry,9,98.74,Science
 404,STU472,World History AP,9,97.14,Humanities
 405,STU188,English I Honors,9,95.34,English
 406,STU188,Spanish IV Honors - Heritage Speakers,9,96.77,Foreign Language
 407,STU188,Geometry Honors,9,87.43,Math
-408,STU188,Computer Science Principles AP,9,92.38,Science
+408,STU188,Computer Science Principles AP,9,92.38,Computer Science
 409,STU188,Chemistry Honors,9,89.46,Science
 410,STU188,Human Geography AP,9,90.35,Humanities
 411,STU793,English I Honors,9,87.9,English
@@ -423,7 +423,7 @@
 421,STU764,English I Honors,9,94.97,English
 422,STU764,Latin I Honors,9,86.45,Foreign Language
 423,STU764,Geometry Honors,9,91.98,Math
-424,STU764,Computer Science Principles AP,9,95.02,Science
+424,STU764,Computer Science Principles AP,9,95.02,Computer Science
 425,STU764,Chemistry Honors,9,89.99,Science
 426,STU764,Human Geography AP,9,91.78,Humanities
 427,STU324,English I Honors,9,89.6,English
@@ -450,7 +450,7 @@
 448,STU274,English I Honors,9,87.52,English
 449,STU274,Spanish IV Honors - Heritage Speakers,9,91.37,Foreign Language
 450,STU274,Geometry,9,88.45,Math
-451,STU274,Computer Science Principles AP,9,92.73,Science
+451,STU274,Computer Science Principles AP,9,92.73,Computer Science
 452,STU274,Chemistry,9,94.5,Science
 453,STU274,Modern World Honors: 1750 to the Present,9,92.83,Humanities
 454,STU271,English I Honors,9,89.64,English
@@ -466,13 +466,13 @@
 464,STU432,English I Honors,9,90.5,English
 465,STU432,French II Honors,9,86.23,Foreign Language
 466,STU432,Geometry Honors,9,88.22,Math
-467,STU432,Computer Science Principles AP,9,95.98,Science
+467,STU432,Computer Science Principles AP,9,95.98,Computer Science
 468,STU432,Chemistry Honors,9,89.75,Science
 469,STU432,Human Geography AP,9,96.52,Humanities
 470,STU700,English I Honors,9,95.5,English
 471,STU700,Spanish II,9,89.97,Foreign Language
 472,STU700,Geometry Honors,9,85.75,Math
-473,STU700,Computer Science Principles AP,9,96.04,Science
+473,STU700,Computer Science Principles AP,9,96.04,Computer Science
 474,STU700,Chemistry,9,95.94,Science
 475,STU700,Modern World Honors: 1750 to the Present,9,97.17,Humanities
 476,STU605,English I Honors,9,93.96,English
@@ -488,19 +488,19 @@
 486,STU182,English I Honors,9,82.59,English
 487,STU182,Spanish II Honors,9,83.37,Foreign Language
 488,STU182,Geometry,9,90.53,Math
-489,STU182,Computer Science Principles AP,9,86.1,Science
+489,STU182,Computer Science Principles AP,9,86.1,Computer Science
 490,STU182,Chemistry,9,91.66,Science
 491,STU182,Human Geography AP,9,85.32,Humanities
 492,STU58,English I Honors,9,92.86,English
 493,STU58,Spanish II,9,97.31,Foreign Language
 494,STU58,Geometry Honors,9,87.73,Math
-495,STU58,Computer Science Principles AP,9,93.97,Science
+495,STU58,Computer Science Principles AP,9,93.97,Computer Science
 496,STU58,Chemistry Honors,9,89.99,Science
 497,STU58,Human Geography AP,9,96.8,Humanities
 498,STU219,English I Honors,9,92.61,English
 499,STU219,Spanish II,9,94.74,Foreign Language
 500,STU219,Geometry,9,91.69,Math
-501,STU219,Computer Science Principles AP,9,87.07,Science
+501,STU219,Computer Science Principles AP,9,87.07,Computer Science
 502,STU219,Chemistry,9,95.04,Science
 503,STU219,Human Geography AP,9,94.02,Humanities
 504,STU854,English I Honors,9,96.28,English
@@ -535,25 +535,25 @@
 533,STU388,English I Honors,9,88.64,English
 534,STU388,French II Honors,9,86.68,Foreign Language
 535,STU388,Geometry Honors,9,92.5,Math
-536,STU388,Computer Science Principles AP,9,97.48,Science
+536,STU388,Computer Science Principles AP,9,97.48,Computer Science
 537,STU388,Chemistry Honors,9,89.85,Science
 538,STU388,Human Geography AP,9,92.86,Humanities
 539,STU405,English I Honors,9,91.9,English
 540,STU405,Spanish II,9,92.83,Foreign Language
 541,STU405,Geometry Honors,9,95.9,Math
-542,STU405,Computer Science Principles AP,9,91.79,Science
+542,STU405,Computer Science Principles AP,9,91.79,Computer Science
 543,STU405,Chemistry Honors,9,85.05,Science
 544,STU405,Human Geography AP,9,93.3,Humanities
 545,STU556,English I Honors,9,94.73,English
 546,STU556,Chinese III Honors,9,95.29,Foreign Language
 547,STU556,Pre-Calculus Honors,9,95.85,Math
-548,STU556,Computer Science Principles AP,9,99.04,Science
+548,STU556,Computer Science Principles AP,9,99.04,Computer Science
 549,STU556,Chemistry Honors,9,97.15,Science
 550,STU556,World History AP,9,96.73,Humanities
 551,STU601,English I Honors,9,92.64,English
 552,STU601,Latin I Honors,9,89.55,Foreign Language
 553,STU601,Geometry,9,87.66,Math
-554,STU601,Computer Science Principles AP,9,85.81,Science
+554,STU601,Computer Science Principles AP,9,85.81,Computer Science
 555,STU601,Chemistry,9,90.08,Science
 556,STU601,Human Geography AP,9,88.73,Humanities
 557,STU560,English I Honors,9,98.06,English
@@ -574,7 +574,7 @@
 572,STU840,English I Honors,9,96.81,English
 573,STU840,Spanish IV Honors - Heritage Speakers,9,96.14,Foreign Language
 574,STU840,Pre-Calculus Honors,9,90.41,Math
-575,STU840,Computer Science Principles AP,9,96.19,Science
+575,STU840,Computer Science Principles AP,9,96.19,Computer Science
 576,STU840,Chemistry Honors,9,94.03,Science
 577,STU840,World History AP,9,92.86,Humanities
 578,STU541,English I Honors,9,93.55,English
@@ -595,7 +595,7 @@
 593,STU719,English I Honors,9,94.07,English
 594,STU719,Latin I Honors,9,97.53,Foreign Language
 595,STU719,Geometry Honors,9,89.88,Math
-596,STU719,Computer Science Principles AP,9,96.28,Science
+596,STU719,Computer Science Principles AP,9,96.28,Computer Science
 597,STU719,Chemistry Honors,9,96.51,Science
 598,STU719,Human Geography AP,9,90.04,Humanities
 599,STU837,English I Honors,9,98.37,English
@@ -611,13 +611,13 @@
 609,STU460,English I Honors,9,90.32,English
 610,STU460,Spanish IV Honors - Heritage Speakers,9,95.29,Foreign Language
 611,STU460,Geometry Honors,9,83.13,Math
-612,STU460,Computer Science Principles AP,9,92.29,Science
+612,STU460,Computer Science Principles AP,9,92.29,Computer Science
 613,STU460,Chemistry Honors,9,82.56,Science
 614,STU460,Human Geography AP,9,92.86,Humanities
 615,STU769,English I Honors,9,93.09,English
 616,STU769,Spanish II Honors,9,90.28,Foreign Language
 617,STU769,Geometry Honors,9,88.16,Math
-618,STU769,Computer Science Principles AP,9,94.22,Science
+618,STU769,Computer Science Principles AP,9,94.22,Computer Science
 619,STU769,Chemistry Honors,9,84.88,Science
 620,STU769,Human Geography AP,9,91.74,Humanities
 621,STU437,English I Honors,9,85.94,English
@@ -629,13 +629,13 @@
 627,STU621,English I Honors,9,97.71,English
 628,STU621,Spanish IV Honors - Heritage Speakers,9,97.83,Foreign Language
 629,STU621,Geometry Honors,9,83.81,Math
-630,STU621,Computer Science Principles AP,9,94.33,Science
+630,STU621,Computer Science Principles AP,9,94.33,Computer Science
 631,STU621,Chemistry Honors,9,84.95,Science
 632,STU621,World History AP,9,93.27,Humanities
 633,STU260,English I Honors,9,96.65,English
 634,STU260,Spanish II Honors,9,93.4,Foreign Language
 635,STU260,Geometry Honors,9,82.73,Math
-636,STU260,Computer Science Principles AP,9,89.56,Science
+636,STU260,Computer Science Principles AP,9,89.56,Computer Science
 637,STU260,Chemistry,9,90.73,Science
 638,STU260,Human Geography AP,9,91.79,Humanities
 639,STU713,English I Honors,9,89.66,English
@@ -733,25 +733,25 @@
 731,STU576,English I Honors,9,93.83,English
 732,STU576,Spanish II Honors,9,84.38,Foreign Language
 733,STU576,Geometry,9,91.31,Math
-734,STU576,Computer Science Principles AP,9,90.18,Science
+734,STU576,Computer Science Principles AP,9,90.18,Computer Science
 735,STU576,Chemistry,9,92.21,Science
 736,STU576,Modern World Honors: 1750 to the Present,9,94.17,Humanities
 737,STU612,English I Honors,9,92.74,English
 738,STU612,Spanish II Honors,9,94.88,Foreign Language
 739,STU612,Geometry Honors,9,96.56,Math
-740,STU612,Computer Science Principles AP,9,96.56,Science
+740,STU612,Computer Science Principles AP,9,96.56,Computer Science
 741,STU612,Chemistry Honors,9,98.76,Science
 742,STU612,Human Geography AP,9,95.26,Humanities
 743,STU364,English I Honors,9,86.93,English
 744,STU364,French II Honors,9,83.23,Foreign Language
 745,STU364,Geometry,9,88.02,Math
-746,STU364,Computer Science Principles AP,9,87.95,Science
+746,STU364,Computer Science Principles AP,9,87.95,Computer Science
 747,STU364,Chemistry,9,90.68,Science
 748,STU364,Human Geography AP,9,91.98,Humanities
 749,STU315,English I Honors,9,97.35,English
 750,STU315,Spanish II Honors,9,93.6,Foreign Language
 751,STU315,Geometry Honors,9,87.48,Math
-752,STU315,Computer Science Principles AP,9,94.72,Science
+752,STU315,Computer Science Principles AP,9,94.72,Computer Science
 753,STU315,Chemistry Honors,9,92.89,Science
 754,STU315,World History AP,9,92.65,Humanities
 755,STU848,English I Honors,9,95.18,English
@@ -762,7 +762,7 @@
 760,STU743,English I Honors,9,97.18,English
 761,STU743,Chinese II Honors,9,94.86,Foreign Language
 762,STU743,Geometry Honors,9,93.9,Math
-763,STU743,Computer Science Principles AP,9,99.4,Science
+763,STU743,Computer Science Principles AP,9,99.4,Computer Science
 764,STU743,Chemistry Honors,9,93.57,Science
 765,STU743,World History AP,9,95.92,Humanities
 766,STU403,English I Honors,9,90.0,English
@@ -772,13 +772,13 @@
 770,STU403,Human Geography AP,9,87.18,Humanities
 771,STU114,English I Honors,9,92.59,English
 772,STU114,Geometry Honors,9,83.74,Math
-773,STU114,Computer Science Principles AP,9,91.96,Science
+773,STU114,Computer Science Principles AP,9,91.96,Computer Science
 774,STU114,Chemistry Honors,9,82.61,Science
 775,STU114,Human Geography AP,9,90.14,Humanities
 776,STU727,English I Honors,9,94.84,English
 777,STU727,Spanish II Honors,9,93.58,Foreign Language
 778,STU727,Geometry Honors,9,92.52,Math
-779,STU727,Computer Science Principles AP,9,96.49,Science
+779,STU727,Computer Science Principles AP,9,96.49,Computer Science
 780,STU727,Chemistry,9,99.59,Science
 781,STU727,World History AP,9,94.08,Humanities
 782,STU826,English I Honors,9,97.32,English
@@ -801,7 +801,7 @@
 799,STU20,English I Honors,9,89.39,English
 800,STU20,Chinese II,9,89.95,Foreign Language
 801,STU20,Geometry,9,80.34,Math
-802,STU20,Computer Science Principles AP,9,83.24,Science
+802,STU20,Computer Science Principles AP,9,83.24,Computer Science
 803,STU20,Chemistry,9,83.14,Science
 804,STU20,Modern World Honors: 1750 to the Present,9,90.9,Humanities
 805,STU850,English I Honors,9,93.78,English
@@ -817,14 +817,14 @@
 815,STU580,English I Honors,9,95.94,English
 816,STU580,Spanish II Honors,9,95.05,Foreign Language
 817,STU580,Geometry Honors,9,96.73,Math
-818,STU580,Computer Science Principles AP,9,97.69,Science
+818,STU580,Computer Science Principles AP,9,97.69,Computer Science
 819,STU580,Chemistry Honors,9,95.36,Science
 820,STU580,World History AP,9,98.37,Humanities
 821,STU710,English I Honors,9,94.21,English
 822,STU710,Fundamentals of Music Theory,9,99.73,Arts
 823,STU710,Chinese II Honors,9,90.32,Foreign Language
 824,STU710,Geometry Honors,9,81.41,Math
-825,STU710,Computer Science Principles AP,9,92.91,Science
+825,STU710,Computer Science Principles AP,9,92.91,Computer Science
 826,STU710,Chemistry Honors,9,86.76,Science
 827,STU710,World History AP,9,94.29,Humanities
 828,STU59,English I Honors,9,76.6,English
@@ -845,7 +845,7 @@
 843,STU464,English I Honors,9,95.82,English
 844,STU464,Spanish IV Honors - Heritage Speakers,9,99.73,Foreign Language
 845,STU464,Geometry Honors,9,90.84,Math
-846,STU464,Computer Science Principles AP,9,94.81,Science
+846,STU464,Computer Science Principles AP,9,94.81,Computer Science
 847,STU464,Chemistry Honors,9,89.59,Science
 848,STU464,World History AP,9,97.76,Humanities
 849,STU696,English I Honors,9,88.8,English
@@ -856,7 +856,7 @@
 854,STU465,English I Honors,9,91.99,English
 855,STU465,Chinese II Honors,9,88.04,Foreign Language
 856,STU465,Geometry,9,93.7,Math
-857,STU465,Computer Science Principles AP,9,91.86,Science
+857,STU465,Computer Science Principles AP,9,91.86,Computer Science
 858,STU465,Chemistry,9,97.92,Science
 859,STU465,Human Geography AP,9,90.49,Humanities
 860,STU258,English I Honors,9,96.83,English
@@ -902,7 +902,7 @@
 900,STU639,English I Honors,9,94.23,English
 901,STU639,Spanish II Honors,9,93.91,Foreign Language
 902,STU639,Pre-Calculus Honors,9,96.34,Math
-903,STU639,Computer Science Principles AP,9,98.59,Science
+903,STU639,Computer Science Principles AP,9,98.59,Computer Science
 904,STU639,Chemistry Honors,9,96.49,Science
 905,STU639,World History AP,9,101.22,Humanities
 906,STU851,English I Honors,9,89.98,English
@@ -918,7 +918,7 @@
 916,STU568,English I Honors,9,90.65,English
 917,STU568,Spanish II,9,90.16,Foreign Language
 918,STU568,Geometry,9,87.67,Math
-919,STU568,Computer Science Principles AP,9,82.44,Science
+919,STU568,Computer Science Principles AP,9,82.44,Computer Science
 920,STU568,Chemistry,9,90.65,Science
 921,STU568,Modern World Honors: 1750 to the Present,9,91.58,Humanities
 922,STU578,English I Honors,9,89.19,English
@@ -929,7 +929,7 @@
 927,STU547,English I Honors,9,94.27,English
 928,STU547,Chinese II Honors,9,93.75,Foreign Language
 929,STU547,Geometry Honors,9,84.11,Math
-930,STU547,Computer Science Principles AP,9,89.41,Science
+930,STU547,Computer Science Principles AP,9,89.41,Computer Science
 931,STU547,Chemistry,9,99.04,Science
 932,STU547,Human Geography AP,9,89.58,Humanities
 933,STU701,English I Honors,9,89.29,English
@@ -951,7 +951,7 @@
 949,STU690,English I Honors,9,84.92,English
 950,STU690,Spanish II,9,91.49,Foreign Language
 951,STU690,Geometry,9,91.34,Math
-952,STU690,Computer Science Principles AP,9,86.67,Science
+952,STU690,Computer Science Principles AP,9,86.67,Computer Science
 953,STU690,Chemistry,9,90.55,Science
 954,STU690,Modern World Honors: 1750 to the Present,9,92.23,Humanities
 955,STU371,English I Honors,9,96.56,English
@@ -962,7 +962,7 @@
 960,STU42,English I Honors,9,91.43,English
 961,STU42,Chinese II Honors,9,90.98,Foreign Language
 962,STU42,Geometry Honors,9,86.54,Math
-963,STU42,Computer Science Principles AP,9,90.58,Science
+963,STU42,Computer Science Principles AP,9,90.58,Computer Science
 964,STU42,Chemistry Honors,9,86.76,Science
 965,STU42,Human Geography AP,9,93.47,Humanities
 966,STU334,English I Honors,9,93.58,English
@@ -984,7 +984,7 @@
 982,STU367,English I Honors,9,97.27,English
 983,STU367,Spanish IV Honors - Heritage Speakers,9,98.71,Foreign Language
 984,STU367,Geometry Honors,9,84.39,Math
-985,STU367,Computer Science Principles AP,9,90.52,Science
+985,STU367,Computer Science Principles AP,9,90.52,Computer Science
 986,STU367,Chemistry Honors,9,86.01,Science
 987,STU367,World History AP,9,95.51,Humanities
 988,STU423,English I Honors,9,90.16,English
@@ -1010,7 +1010,7 @@
 1008,STU104,English I Honors,9,96.56,English
 1009,STU104,Latin I Honors,9,99.49,Foreign Language
 1010,STU104,Geometry Honors,9,90.75,Math
-1011,STU104,Computer Science Principles AP,9,91.78,Science
+1011,STU104,Computer Science Principles AP,9,91.78,Computer Science
 1012,STU104,Chemistry Honors,9,87.52,Science
 1013,STU104,Human Geography AP,9,94.93,Humanities
 1014,STU691,English I Honors,9,92.5,English
@@ -1021,7 +1021,7 @@
 1019,STU298,English I Honors,9,94.83,English
 1020,STU298,Spanish IV Honors - Heritage Speakers,9,95.02,Foreign Language
 1021,STU298,Geometry Honors,9,87.9,Math
-1022,STU298,Computer Science Principles AP,9,96.57,Science
+1022,STU298,Computer Science Principles AP,9,96.57,Computer Science
 1023,STU298,Chemistry,9,96.35,Science
 1024,STU298,Human Geography AP,9,93.12,Humanities
 1025,STU438,English I Honors,9,91.05,English
@@ -1058,7 +1058,7 @@
 1056,STU404,English I Honors,9,93.48,English
 1057,STU404,Chinese II Honors,9,93.0,Foreign Language
 1058,STU404,Geometry Honors,9,89.88,Math
-1059,STU404,Computer Science Principles AP,9,91.33,Science
+1059,STU404,Computer Science Principles AP,9,91.33,Computer Science
 1060,STU404,Chemistry Honors,9,89.85,Science
 1061,STU404,Human Geography AP,9,96.28,Humanities
 1062,STU359,English I Honors,9,96.65,English
@@ -1084,7 +1084,7 @@
 1082,STU647,English I Honors,9,87.9,English
 1083,STU647,Spanish IV Honors - Heritage Speakers,9,91.38,Foreign Language
 1084,STU647,Geometry,9,95.75,Math
-1085,STU647,Computer Science Principles AP,9,93.04,Science
+1085,STU647,Computer Science Principles AP,9,93.04,Computer Science
 1086,STU647,Chemistry,9,95.67,Science
 1087,STU647,Human Geography AP,9,92.48,Humanities
 1088,STU330,English I Honors,9,95.9,English
@@ -1095,7 +1095,7 @@
 1093,STU789,English I Honors,9,95.86,English
 1094,STU789,Spanish II Honors,9,95.07,Foreign Language
 1095,STU789,Geometry Honors,9,95.95,Math
-1096,STU789,Computer Science Principles AP,9,94.57,Science
+1096,STU789,Computer Science Principles AP,9,94.57,Computer Science
 1097,STU789,Chemistry Honors,9,96.35,Science
 1098,STU789,World History AP,9,93.88,Humanities
 1099,STU476,English I Honors,9,83.33,English
@@ -1106,7 +1106,7 @@
 1104,STU532,English I Honors,9,93.25,English
 1105,STU532,Spanish II Honors,9,87.58,Foreign Language
 1106,STU532,Geometry Honors,9,90.66,Math
-1107,STU532,Computer Science Principles AP,9,89.83,Science
+1107,STU532,Computer Science Principles AP,9,89.83,Computer Science
 1108,STU532,Chemistry Honors,9,86.6,Science
 1109,STU532,Human Geography AP,9,90.88,Humanities
 1110,STU604,English I Honors,9,89.51,English
@@ -1127,13 +1127,13 @@
 1125,STU800,English I Honors,9,93.29,English
 1126,STU800,Spanish II,9,93.22,Foreign Language
 1127,STU800,Geometry Honors,9,93.33,Math
-1128,STU800,Computer Science Principles AP,9,96.01,Science
+1128,STU800,Computer Science Principles AP,9,96.01,Computer Science
 1129,STU800,Chemistry,9,101.46,Science
 1130,STU800,Human Geography AP,9,89.8,Humanities
 1131,STU609,English I Honors,9,90.24,English
 1132,STU609,French II Honors,9,83.68,Foreign Language
 1133,STU609,Geometry Honors,9,83.01,Math
-1134,STU609,Computer Science Principles AP,9,90.42,Science
+1134,STU609,Computer Science Principles AP,9,90.42,Computer Science
 1135,STU609,Chemistry Honors,9,82.96,Science
 1136,STU609,Human Geography AP,9,93.51,Humanities
 1137,STU537,English I Honors,9,86.87,English
@@ -1170,19 +1170,19 @@
 1168,STU739,English I Honors,9,90.52,English
 1169,STU739,French II,9,83.42,Foreign Language
 1170,STU739,Geometry Honors,9,83.44,Math
-1171,STU739,Computer Science Principles AP,9,87.37,Science
+1171,STU739,Computer Science Principles AP,9,87.37,Computer Science
 1172,STU739,Chemistry Honors,9,83.96,Science
 1173,STU739,Human Geography AP,9,90.86,Humanities
 1174,STU475,English I Honors,9,88.64,English
 1175,STU475,Spanish II Honors,9,97.84,Foreign Language
 1176,STU475,Geometry Honors,9,87.43,Math
-1177,STU475,Computer Science Principles AP,9,94.71,Science
+1177,STU475,Computer Science Principles AP,9,94.71,Computer Science
 1178,STU475,Chemistry,9,97.26,Science
 1179,STU475,Human Geography AP,9,94.76,Humanities
 1180,STU378,English I Honors,9,92.71,English
 1181,STU378,Spanish II Honors,9,91.62,Foreign Language
 1182,STU378,Geometry Honors,9,89.61,Math
-1183,STU378,Computer Science Principles AP,9,93.85,Science
+1183,STU378,Computer Science Principles AP,9,93.85,Computer Science
 1184,STU378,Chemistry Honors,9,84.58,Science
 1185,STU378,Human Geography AP,9,93.3,Humanities
 1186,STU453,English I Honors,9,92.71,English
@@ -1193,18 +1193,18 @@
 1191,STU288,English Language and Composition AP,10,91.24,English
 1192,STU288,Spanish III Honors,10,93.95,Foreign Language
 1193,STU288,Pre-Calculus Honors,10,90.83,Math
-1194,STU288,Computer Science Principles AP,10,98.11,Science
+1194,STU288,Computer Science Principles AP,10,98.11,Computer Science
 1195,STU288,Biology Honors,10,90.23,Science
 1196,STU288,United States History AP,10,93.31,Humanities
 1197,STU653,English II Honors,10,91.89,English
 1198,STU653,Spanish III,10,94.08,Foreign Language
 1199,STU653,Geometry,10,90.85,Math
-1200,STU653,Computer Science Principles AP,10,95.25,Science
+1200,STU653,Computer Science Principles AP,10,95.25,Computer Science
 1201,STU653,Biology,10,99.71,Science
 1202,STU653,United States History Honors,10,91.15,Humanities
 1203,STU623,English II Honors,10,84.78,English
 1204,STU623,Latin II Honors,10,97.88,Foreign Language
-1205,STU623,Computer Science A AP,10,87.77,Science
+1205,STU623,Computer Science A AP,10,87.77,Computer Science
 1206,STU623,Biology Honors,10,83.41,Science
 1207,STU623,United States History AP,10,77.12,Humanities
 1208,STU623,Constitutional Law Honors,10,96.89,Law and Politics
@@ -1215,19 +1215,19 @@
 1213,STU565,English II Honors,10,93.44,English
 1214,STU565,Spanish II,10,93.18,Foreign Language
 1215,STU565,Geometry Honors,10,89.55,Math
-1216,STU565,Computer Science Principles AP,10,93.99,Science
+1216,STU565,Computer Science Principles AP,10,93.99,Computer Science
 1217,STU565,Biology Honors,10,88.9,Science
 1218,STU565,United States History AP,10,89.32,Humanities
 1219,STU516,English Language and Composition AP,10,92.42,English
 1220,STU516,Chinese III Honors,10,93.06,Foreign Language
 1221,STU516,Geometry Honors,10,92.4,Math
-1222,STU516,Computer Science A AP,10,92.17,Science
+1222,STU516,Computer Science A AP,10,92.17,Computer Science
 1223,STU516,Biology Honors,10,95.55,Science
 1224,STU516,United States History AP,10,90.0,Humanities
 1225,STU836,English Language and Composition AP,10,97.27,English
 1226,STU836,Spanish III Honors,10,96.03,Foreign Language
 1227,STU836,Geometry Honors,10,99.04,Math
-1228,STU836,Computer Science Principles AP,10,99.43,Science
+1228,STU836,Computer Science Principles AP,10,99.43,Computer Science
 1229,STU836,Biology Honors,10,95.94,Science
 1230,STU836,United States History AP,10,97.01,Humanities
 1231,STU836,Social Entrepreneurship I Honors,10,99.19,Entrepreneurship
@@ -1239,14 +1239,14 @@
 1237,STU564,English Language and Composition AP,10,94.88,English
 1238,STU564,Spanish III Honors,10,97.3,Foreign Language
 1239,STU564,Calculus AB AP,10,93.85,Math
-1240,STU564,Computer Science Principles AP,10,99.85,Science
+1240,STU564,Computer Science Principles AP,10,99.85,Computer Science
 1241,STU564,Chemistry AP,10,97.43,Science
 1242,STU564,United States History AP,10,94.24,Humanities
 1243,STU280,English Language and Composition AP,10,97.41,English
 1244,STU280,Spanish III Honors,10,94.93,Foreign Language
 1245,STU280,Calculus AB AP,10,93.24,Math
 1246,STU280,Biology Honors,10,96.72,Science
-1247,STU280,Science Research I Honors,10,95.0,Science
+1247,STU280,Science Research I Honors,10,95.0,unknown
 1248,STU280,United States History AP,10,96.78,Humanities
 1249,STU280,Psychology AP,10,95.5,Psychology
 1250,STU827,English Language and Composition AP,10,92.52,English
@@ -1280,7 +1280,7 @@
 1278,STU325,English Language and Composition AP,10,94.69,English
 1279,STU325,Spanish III Honors,10,90.26,Foreign Language
 1280,STU325,Geometry Honors,10,92.1,Math
-1281,STU325,Computer Science A AP,10,89.02,Science
+1281,STU325,Computer Science A AP,10,89.02,Computer Science
 1282,STU325,Biology Honors,10,92.78,Science
 1283,STU325,United States History AP,10,92.8,Humanities
 1284,STU6,English II Honors,10,94.2,English
@@ -1302,13 +1302,13 @@
 1300,STU463,English II Honors,10,93.71,English
 1301,STU463,Spanish Language and Culture AP (for Heritage Speakers),10,93.5,Foreign Language
 1302,STU463,Pre-Calculus Honors,10,81.51,Math
-1303,STU463,Computer Science Principles AP,10,90.01,Science
+1303,STU463,Computer Science Principles AP,10,90.01,Computer Science
 1304,STU463,Biology Honors,10,90.09,Science
 1305,STU463,United States History AP,10,87.63,Humanities
 1306,STU248,English II Honors,10,93.24,English
 1307,STU248,Spanish III Honors,10,91.6,Foreign Language
 1308,STU248,Pre-Calculus,10,95.6,Math
-1309,STU248,Computer Science Principles AP,10,93.94,Science
+1309,STU248,Computer Science Principles AP,10,93.94,Computer Science
 1310,STU248,Biology,10,93.47,Science
 1311,STU248,United States History AP,10,90.0,Humanities
 1312,STU248,Social Entrepreneurship I Honors,10,96.89,Entrepreneurship
@@ -1327,47 +1327,47 @@
 1325,STU558,English Language and Composition AP,10,95.45,English
 1326,STU558,Spanish III Honors,10,95.58,Foreign Language
 1327,STU558,Calculus AB AP,10,95.14,Math
-1328,STU558,Computer Science A AP,10,94.75,Science
+1328,STU558,Computer Science A AP,10,94.75,Computer Science
 1329,STU558,Biology Honors,10,94.76,Science
-1330,STU558,Science Research I Honors,10,95.0,Science
+1330,STU558,Science Research I Honors,10,95.0,unknown
 1331,STU558,United States History AP,10,96.92,Humanities
 1332,STU507,English II Honors,10,89.37,English
 1333,STU507,Spanish III,10,92.64,Foreign Language
 1334,STU507,Pre-Calculus,10,95.18,Math
-1335,STU507,Computer Science A AP,10,90.52,Science
+1335,STU507,Computer Science A AP,10,90.52,Computer Science
 1336,STU507,Biology Honors,10,86.95,Science
 1337,STU507,United States History AP,10,86.95,Humanities
 1338,STU236,English II Honors,10,88.65,English
 1339,STU236,Latin II Honors,10,93.4,Foreign Language
 1340,STU236,Pre-Calculus Honors,10,85.27,Math
-1341,STU236,Computer Science Principles AP,10,95.26,Science
+1341,STU236,Computer Science Principles AP,10,95.26,Computer Science
 1342,STU236,Biology Honors,10,84.79,Science
 1343,STU236,United States History AP,10,88.21,Humanities
 1344,STU236,Social Entrepreneurship I Honors,10,96.44,Entrepreneurship
 1345,STU753,English II Honors,10,89.86,English
 1346,STU753,Spanish III Honors,10,83.0,Foreign Language
 1347,STU753,Pre-Calculus Honors,10,81.72,Math
-1348,STU753,Computer Science A AP,10,86.6,Science
+1348,STU753,Computer Science A AP,10,86.6,Computer Science
 1349,STU753,Biology Honors,10,86.81,Science
 1350,STU753,Anatomy and Physiology Honors,10,84.24,Science
 1351,STU753,United States History AP,10,79.32,Humanities
 1352,STU497,English Language and Composition AP,10,93.64,English
 1353,STU497,Spanish III Honors,10,96.19,Foreign Language
 1354,STU497,Calculus AB AP,10,90.54,Math
-1355,STU497,Computer Science A AP,10,92.17,Science
+1355,STU497,Computer Science A AP,10,92.17,Computer Science
 1356,STU497,Biology Honors,10,91.36,Science
 1357,STU497,United States History AP,10,92.54,Humanities
 1358,STU654,English Language and Composition AP,10,97.49,English
 1359,STU654,French III Honors,10,95.15,Foreign Language
 1360,STU654,Calculus BC AP,10,98.12,Math
-1361,STU654,Computer Science Principles AP,10,99.16,Science
+1361,STU654,Computer Science Principles AP,10,99.16,Computer Science
 1362,STU654,Chemistry AP,10,99.86,Science
-1363,STU654,Science Research I Honors,10,95.0,Science
+1363,STU654,Science Research I Honors,10,95.0,unknown
 1364,STU654,United States History AP,10,98.22,Humanities
 1365,STU228,English Language and Composition AP,10,90.76,English
 1366,STU228,Spanish III Honors,10,92.92,Foreign Language
 1367,STU228,Pre-Calculus Honors,10,86.88,Math
-1368,STU228,Computer Science A AP,10,89.01,Science
+1368,STU228,Computer Science A AP,10,89.01,Computer Science
 1369,STU228,Biology Honors,10,93.87,Science
 1370,STU228,United States History AP,10,91.2,Humanities
 1371,STU855,English Language and Composition AP,10,84.62,English
@@ -1389,33 +1389,33 @@
 1387,STU124,English Language and Composition AP,10,95.54,English
 1388,STU124,Spanish III Honors,10,95.74,Foreign Language
 1389,STU124,Pre-Calculus Honors,10,92.64,Math
-1390,STU124,Computer Science A AP,10,95.47,Science
+1390,STU124,Computer Science A AP,10,95.47,Computer Science
 1391,STU124,Biology Honors,10,92.85,Science
 1392,STU124,United States History AP,10,95.08,Humanities
 1393,STU124,Psychology AP,10,95.17,Psychology
 1394,STU773,English Language and Composition AP,10,89.61,English
 1395,STU773,Spanish III Honors,10,88.08,Foreign Language
 1396,STU773,Calculus I Honors,10,93.73,Math
-1397,STU773,Computer Science Principles AP,10,98.47,Science
+1397,STU773,Computer Science Principles AP,10,98.47,Computer Science
 1398,STU773,Biology Honors,10,89.6,Science
 1399,STU773,United States History AP,10,89.7,Humanities
 1400,STU419,English II Honors,10,93.11,English
 1401,STU419,Spanish II,10,90.86,Foreign Language
 1402,STU419,Geometry Honors,10,96.5,Math
-1403,STU419,Computer Science Principles AP,10,96.25,Science
+1403,STU419,Computer Science Principles AP,10,96.25,Computer Science
 1404,STU419,Biology Honors,10,91.77,Science
 1405,STU419,United States History AP,10,94.07,Humanities
 1406,STU311,English Language and Composition AP,10,96.23,English
 1407,STU311,Spanish IV Honors,10,99.07,Foreign Language
 1408,STU311,Calculus AB AP,10,98.2,Math
-1409,STU311,Computer Science A AP,10,95.23,Science
+1409,STU311,Computer Science A AP,10,95.23,Computer Science
 1410,STU311,Biology Honors,10,93.87,Science
-1411,STU311,Science Research I Honors,10,95.0,Science
+1411,STU311,Science Research I Honors,10,95.0,unknown
 1412,STU311,United States History AP,10,92.97,Humanities
 1413,STU767,English II Honors,10,86.47,English
 1414,STU767,French III,10,81.86,Foreign Language
 1415,STU767,Geometry Honors,10,82.65,Math
-1416,STU767,Computer Science Principles AP,10,93.01,Science
+1416,STU767,Computer Science Principles AP,10,93.01,Computer Science
 1417,STU767,Biology Honors,10,86.82,Science
 1418,STU767,United States History Honors,10,85.09,Humanities
 1419,STU779,English Language and Composition AP,10,92.73,English
@@ -1443,7 +1443,7 @@
 1441,STU792,English II Honors,10,90.35,English
 1442,STU792,Spanish Language and Culture AP (for Heritage Speakers),10,88.7,Foreign Language
 1443,STU792,Geometry,10,88.21,Math
-1444,STU792,Computer Science Principles AP,10,93.04,Science
+1444,STU792,Computer Science Principles AP,10,93.04,Computer Science
 1445,STU792,Biology Honors,10,86.96,Science
 1446,STU792,United States History AP,10,84.36,Humanities
 1447,STU824,English Language and Composition AP,10,96.82,English
@@ -1456,7 +1456,7 @@
 1454,STU7,English Language and Composition AP,10,92.52,English
 1455,STU7,Spanish Language and Culture AP (for Heritage Speakers),10,92.12,Foreign Language
 1456,STU7,Pre-Calculus Honors,10,86.52,Math
-1457,STU7,Computer Science A AP,10,91.1,Science
+1457,STU7,Computer Science A AP,10,91.1,Computer Science
 1458,STU7,Biology Honors,10,94.53,Science
 1459,STU7,United States History AP,10,97.71,Humanities
 1460,STU575,English Language and Composition AP,10,91.52,English
@@ -1480,19 +1480,19 @@
 1478,STU247,English Language and Composition AP,10,93.72,English
 1479,STU247,Latin II Honors,10,95.23,Foreign Language
 1480,STU247,Pre-Calculus Honors,10,86.23,Math
-1481,STU247,Computer Science A AP,10,92.01,Science
+1481,STU247,Computer Science A AP,10,92.01,Computer Science
 1482,STU247,Biology Honors,10,90.76,Science
 1483,STU247,United States History AP,10,86.36,Humanities
 1484,STU113,English Language and Composition AP,10,94.9,English
 1485,STU113,Latin II Honors,10,99.07,Foreign Language
 1486,STU113,Geometry Honors,10,96.55,Math
-1487,STU113,Computer Science A AP,10,92.62,Science
+1487,STU113,Computer Science A AP,10,92.62,Computer Science
 1488,STU113,Biology Honors,10,93.15,Science
 1489,STU113,United States History AP,10,93.47,Humanities
 1490,STU33,English II Honors,10,93.65,English
 1491,STU33,Spanish III Honors,10,95.11,Foreign Language
 1492,STU33,Pre-Calculus Honors,10,86.06,Math
-1493,STU33,Computer Science A AP,10,89.75,Science
+1493,STU33,Computer Science A AP,10,89.75,Computer Science
 1494,STU33,Biology Honors,10,92.5,Science
 1495,STU33,United States History AP,10,90.93,Humanities
 1496,STU33,International Relations Honors,10,94.19,Law and Politics
@@ -1525,7 +1525,7 @@
 1523,STU552,French III Honors,10,96.66,Foreign Language
 1524,STU552,Calculus AB AP,10,97.37,Math
 1525,STU552,Chemistry AP,10,97.97,Science
-1526,STU552,Science Research I Honors,10,95.0,Science
+1526,STU552,Science Research I Honors,10,95.0,unknown
 1527,STU552,United States History AP,10,97.88,Humanities
 1528,STU238,English II Honors,10,87.6,English
 1529,STU238,Spanish III,10,93.1,Foreign Language
@@ -1535,7 +1535,7 @@
 1533,STU765,English Language and Composition AP,10,93.94,English
 1534,STU765,Spanish Language and Culture AP (for Heritage Speakers),10,92.6,Foreign Language
 1535,STU765,Geometry Honors,10,89.52,Math
-1536,STU765,Computer Science Principles AP,10,94.9,Science
+1536,STU765,Computer Science Principles AP,10,94.9,Computer Science
 1537,STU765,Biology Honors,10,91.28,Science
 1538,STU765,United States History AP,10,88.05,Humanities
 1539,STU265,English II Honors,10,93.57,English
@@ -1546,7 +1546,7 @@
 1544,STU611,English II Honors,10,88.46,English
 1545,STU611,Spanish III,10,90.15,Foreign Language
 1546,STU611,Pre-Calculus,10,90.82,Math
-1547,STU611,Computer Science A AP,10,85.15,Science
+1547,STU611,Computer Science A AP,10,85.15,Computer Science
 1548,STU611,Biology Honors,10,87.65,Science
 1549,STU611,United States History Honors,10,93.29,Humanities
 1550,STU250,English Language and Composition AP,10,92.52,English
@@ -1582,13 +1582,13 @@
 1580,STU245,English II Honors,10,90.16,English
 1581,STU245,Spanish III Honors,10,85.63,Foreign Language
 1582,STU245,Geometry,10,87.02,Math
-1583,STU245,Computer Science Principles AP,10,78.89,Science
+1583,STU245,Computer Science Principles AP,10,78.89,Computer Science
 1584,STU245,Biology,10,91.55,Science
 1585,STU245,United States History AP,10,83.56,Humanities
 1586,STU649,English Language and Composition AP,10,93.03,English
 1587,STU649,Spanish III Honors,10,97.52,Foreign Language
 1588,STU649,Calculus AB AP,10,97.0,Math
-1589,STU649,Computer Science A AP,10,95.74,Science
+1589,STU649,Computer Science A AP,10,95.74,Computer Science
 1590,STU649,Biology Honors,10,96.62,Science
 1591,STU649,United States History AP,10,97.69,Humanities
 1592,STU616,English Language and Composition AP,10,94.04,English
@@ -1601,7 +1601,7 @@
 1599,STU266,Spanish III Honors,10,84.71,Foreign Language
 1600,STU266,Geometry,10,89.83,Math
 1601,STU266,Biology Honors,10,88.23,Science
-1602,STU266,Marine Science Honors,10,97.31,Science
+1602,STU266,Marine Science Honors,10,97.31,unknown
 1603,STU266,United States History AP,10,85.77,Humanities
 1604,STU424,English Language and Composition AP,10,94.13,English
 1605,STU424,French III Honors,10,93.51,Foreign Language
@@ -1634,7 +1634,7 @@
 1632,STU148,English II Honors,10,88.32,English
 1633,STU148,Spanish III Honors,10,84.76,Foreign Language
 1634,STU148,Geometry,10,85.86,Math
-1635,STU148,Computer Science Principles AP,10,81.55,Science
+1635,STU148,Computer Science Principles AP,10,81.55,Computer Science
 1636,STU148,Biology,10,89.26,Science
 1637,STU148,United States History Honors,10,90.37,Humanities
 1638,STU78,English Language and Composition AP,10,89.38,English
@@ -1651,7 +1651,7 @@
 1649,STU267,English Language and Composition AP,10,92.3,English
 1650,STU267,Chinese III Honors,10,97.23,Foreign Language
 1651,STU267,Pre-Calculus Honors,10,90.88,Math
-1652,STU267,Computer Science A AP,10,92.15,Science
+1652,STU267,Computer Science A AP,10,92.15,Computer Science
 1653,STU267,Biology Honors,10,92.83,Science
 1654,STU267,United States History AP,10,89.57,Humanities
 1655,STU267,Social Entrepreneurship I Honors,10,94.59,Entrepreneurship
@@ -1675,7 +1675,7 @@
 1673,STU624,English Language and Composition AP,10,89.57,English
 1674,STU624,Chinese IV Honors,10,97.07,Foreign Language
 1675,STU624,Pre-Calculus Honors,10,85.81,Math
-1676,STU624,Computer Science A AP,10,89.08,Science
+1676,STU624,Computer Science A AP,10,89.08,Computer Science
 1677,STU624,Biology Honors,10,92.94,Science
 1678,STU624,Anatomy and Physiology Honors,10,93.8,Science
 1679,STU624,United States History AP,10,87.69,Humanities
@@ -1694,13 +1694,13 @@
 1692,STU286,Spanish Language and Culture AP (for Heritage Speakers),10,95.17,Foreign Language
 1693,STU286,Pre-Calculus Honors,10,92.8,Math
 1694,STU286,Biology Honors,10,97.03,Science
-1695,STU286,Science Research I Honors,10,95.0,Science
+1695,STU286,Science Research I Honors,10,95.0,unknown
 1696,STU286,United States History AP,10,92.71,Humanities
 1697,STU286,Government and Politics: United States AP,10,95.93,Humanities
 1698,STU262,English II Honors,10,94.94,English
 1699,STU262,Spanish III Honors,10,95.6,Foreign Language
 1700,STU262,Geometry Honors,10,87.41,Math
-1701,STU262,Computer Science Principles AP,10,95.95,Science
+1701,STU262,Computer Science Principles AP,10,95.95,Computer Science
 1702,STU262,Biology Honors,10,90.24,Science
 1703,STU262,United States History AP,10,93.73,Humanities
 1704,STU426,English Language and Composition AP,10,93.33,English
@@ -1714,13 +1714,13 @@
 1712,STU510,Spanish II Honors,10,94.11,Foreign Language
 1713,STU510,Chinese III Honors,10,97.14,Foreign Language
 1714,STU510,Calculus AB AP,10,91.6,Math
-1715,STU510,Computer Science Principles AP,10,98.35,Science
+1715,STU510,Computer Science Principles AP,10,98.35,Computer Science
 1716,STU510,Biology Honors,10,93.31,Science
 1717,STU510,United States History AP,10,89.81,Humanities
 1718,STU794,English Language and Composition AP,10,90.81,English
 1719,STU794,Spanish III,10,96.51,Foreign Language
 1720,STU794,Geometry Honors,10,96.7,Math
-1721,STU794,Computer Science A AP,10,90.82,Science
+1721,STU794,Computer Science A AP,10,90.82,Computer Science
 1722,STU794,Biology Honors,10,89.63,Science
 1723,STU794,United States History AP,10,83.68,Humanities
 1724,STU309,English Language and Composition AP,10,89.95,English
@@ -1737,19 +1737,19 @@
 1735,STU729,English II Honors,10,91.58,English
 1736,STU729,Spanish III Honors,10,92.03,Foreign Language
 1737,STU729,Pre-Calculus,10,94.07,Math
-1738,STU729,Computer Science Principles AP,10,91.92,Science
+1738,STU729,Computer Science Principles AP,10,91.92,Computer Science
 1739,STU729,Biology Honors,10,85.77,Science
 1740,STU729,United States History AP,10,84.1,Humanities
 1741,STU393,English Language and Composition AP,10,88.52,English
 1742,STU393,Spanish Language and Culture AP (for Heritage Speakers),10,97.82,Foreign Language
 1743,STU393,Geometry Honors,10,85.53,Math
-1744,STU393,Computer Science Principles AP,10,90.44,Science
+1744,STU393,Computer Science Principles AP,10,90.44,Computer Science
 1745,STU393,Biology Honors,10,93.58,Science
 1746,STU393,United States History AP,10,94.49,Humanities
 1747,STU655,English II Honors,10,92.51,English
 1748,STU655,Spanish III Honors,10,90.16,Foreign Language
 1749,STU655,Geometry Honors,10,86.96,Math
-1750,STU655,Computer Science Principles AP,10,92.89,Science
+1750,STU655,Computer Science Principles AP,10,92.89,Computer Science
 1751,STU655,Biology Honors,10,83.84,Science
 1752,STU655,United States History AP,10,80.59,Humanities
 1753,STU656,English Language and Composition AP,10,91.09,English
@@ -1760,7 +1760,7 @@
 1758,STU572,English II Honors,10,86.96,English
 1759,STU572,Spanish Language and Culture AP (for Heritage Speakers),10,90.13,Foreign Language
 1760,STU572,Geometry,10,89.76,Math
-1761,STU572,Computer Science A AP,10,78.79,Science
+1761,STU572,Computer Science A AP,10,78.79,Computer Science
 1762,STU572,Biology,10,89.51,Science
 1763,STU572,United States History Honors,10,90.95,Humanities
 1764,STU857,English II Honors,10,97.17,English
@@ -1777,15 +1777,15 @@
 1775,STU555,English Language and Composition AP,10,89.15,English
 1776,STU555,Spanish Language and Culture AP (for Heritage Speakers),10,97.1,Foreign Language
 1777,STU555,Geometry Honors,10,94.62,Math
-1778,STU555,Computer Science Principles AP,10,96.25,Science
+1778,STU555,Computer Science Principles AP,10,96.25,Computer Science
 1779,STU555,Biology Honors,10,92.7,Science
 1780,STU555,United States History AP,10,90.34,Humanities
 1781,STU452,English Language and Composition AP,10,98.22,English
 1782,STU452,Latin II Honors,10,100.43,Foreign Language
 1783,STU452,Calculus AB AP,10,95.95,Math
 1784,STU452,Biology Honors,10,97.97,Science
-1785,STU452,Environmental Science AP,10,96.93,Science
-1786,STU452,Science Research I Honors,10,95.0,Science
+1785,STU452,Environmental Science AP,10,96.93,unknown
+1786,STU452,Science Research I Honors,10,95.0,unknown
 1787,STU452,United States History AP,10,100.76,Humanities
 1788,STU581,English Language and Composition AP,10,89.39,English
 1789,STU581,Latin II Honors,10,97.6,Foreign Language
@@ -1801,13 +1801,13 @@
 1799,STU809,English Language and Composition AP,10,90.9,English
 1800,STU809,Spanish Language and Culture AP (for Heritage Speakers),10,93.83,Foreign Language
 1801,STU809,Calculus AB AP,10,93.34,Math
-1802,STU809,Computer Science A AP,10,95.82,Science
+1802,STU809,Computer Science A AP,10,95.82,Computer Science
 1803,STU809,Biology Honors,10,95.11,Science
 1804,STU809,United States History AP,10,90.59,Humanities
 1805,STU317,English Language and Composition AP,10,89.4,English
 1806,STU317,Spanish IV Honors,10,97.61,Foreign Language
 1807,STU317,Pre-Calculus Honors,10,86.94,Math
-1808,STU317,Computer Science Principles AP,10,96.75,Science
+1808,STU317,Computer Science Principles AP,10,96.75,Computer Science
 1809,STU317,Biology Honors,10,90.33,Science
 1810,STU317,United States History AP,10,89.24,Humanities
 1811,STU317,Social Entrepreneurship I Honors,10,96.22,Entrepreneurship
@@ -1820,7 +1820,7 @@
 1818,STU780,English II Honors,10,84.06,English
 1819,STU780,Latin II Honors,10,83.08,Foreign Language
 1820,STU780,Pre-Calculus,10,88.38,Math
-1821,STU780,Computer Science Principles AP,10,92.89,Science
+1821,STU780,Computer Science Principles AP,10,92.89,Computer Science
 1822,STU780,Biology Honors,10,79.15,Science
 1823,STU780,United States History Honors,10,85.96,Humanities
 1824,STU607,English Language and Composition AP,10,90.08,English
@@ -1838,27 +1838,27 @@
 1836,STU663,English Language and Composition AP,10,94.36,English
 1837,STU663,Spanish III Honors,10,96.18,Foreign Language
 1838,STU663,Calculus AB AP,10,96.1,Math
-1839,STU663,Computer Science A AP,10,97.36,Science
+1839,STU663,Computer Science A AP,10,97.36,Computer Science
 1840,STU663,Biology Honors,10,94.77,Science
 1841,STU663,United States History AP,10,97.35,Humanities
 1842,STU663,Psychology AP,10,96.5,Psychology
 1843,STU755,English Language and Composition AP,10,92.58,English
 1844,STU755,Chinese III,10,91.2,Foreign Language
 1845,STU755,Pre-Calculus Honors,10,84.59,Math
-1846,STU755,Computer Science Principles AP,10,94.01,Science
+1846,STU755,Computer Science Principles AP,10,94.01,Computer Science
 1847,STU755,Biology Honors,10,88.13,Science
 1848,STU755,United States History AP,10,89.83,Humanities
 1849,STU712,English Language and Composition AP,10,91.36,English
 1850,STU712,Chinese III Honors,10,90.22,Foreign Language
 1851,STU712,Calculus AB AP,10,89.96,Math
-1852,STU712,Computer Science A AP,10,88.88,Science
+1852,STU712,Computer Science A AP,10,88.88,Computer Science
 1853,STU712,Biology Honors,10,93.66,Science
 1854,STU712,United States History AP,10,87.54,Humanities
 1855,STU712,Social Entrepreneurship I Honors,10,96.17,Entrepreneurship
 1856,STU108,English II Honors,10,90.86,English
 1857,STU108,Spanish III Honors,10,95.28,Foreign Language
 1858,STU108,Pre-Calculus Honors,10,97.97,Math
-1859,STU108,Computer Science Principles AP,10,98.11,Science
+1859,STU108,Computer Science Principles AP,10,98.11,Computer Science
 1860,STU108,Biology Honors,10,86.54,Science
 1861,STU108,United States History AP,10,82.88,Humanities
 1862,STU108,Constitutional Law Honors,10,97.6,Law and Politics
@@ -1871,7 +1871,7 @@
 1869,STU307,English Language and Composition AP,10,93.57,English
 1870,STU307,Spanish III Honors,10,96.02,Foreign Language
 1871,STU307,Pre-Calculus Honors,10,97.09,Math
-1872,STU307,Computer Science A AP,10,95.23,Science
+1872,STU307,Computer Science A AP,10,95.23,Computer Science
 1873,STU307,Biology Honors,10,93.34,Science
 1874,STU307,United States History AP,10,96.69,Humanities
 1875,STU61,English Language and Composition AP,10,92.73,English
@@ -1889,15 +1889,15 @@
 1887,STU398,English II Honors,10,91.3,English
 1888,STU398,Spanish III Honors,10,93.31,Foreign Language
 1889,STU398,Pre-Calculus,10,93.69,Math
-1890,STU398,Computer Science Principles AP,10,95.71,Science
+1890,STU398,Computer Science Principles AP,10,95.71,Computer Science
 1891,STU398,Biology Honors,10,89.58,Science
 1892,STU398,United States History AP,10,91.5,Humanities
 1893,STU281,English Language and Composition AP,10,93.21,English
 1894,STU281,Spanish IV Honors,10,99.01,Foreign Language
 1895,STU281,Pre-Calculus Honors,10,93.28,Math
-1896,STU281,Computer Science Principles AP,10,93.91,Science
+1896,STU281,Computer Science Principles AP,10,93.91,Computer Science
 1897,STU281,Biology Honors,10,91.43,Science
-1898,STU281,Science Research I Honors,10,95.0,Science
+1898,STU281,Science Research I Honors,10,95.0,unknown
 1899,STU281,United States History AP,10,92.56,Humanities
 1900,STU591,English Language and Composition AP,10,97.66,English
 1901,STU591,Spanish IV Honors,10,98.95,Foreign Language
@@ -1908,7 +1908,7 @@
 1906,STU119,English Language and Composition AP,10,94.26,English
 1907,STU119,Latin II Honors,10,98.88,Foreign Language
 1908,STU119,Calculus AB AP,10,90.4,Math
-1909,STU119,Computer Science Principles AP,10,96.34,Science
+1909,STU119,Computer Science Principles AP,10,96.34,Computer Science
 1910,STU119,Biology Honors,10,90.83,Science
 1911,STU119,Anatomy and Physiology Honors,10,92.87,Science
 1912,STU119,United States History AP,10,86.95,Humanities
@@ -1916,7 +1916,7 @@
 1914,STU778,Talented Writers Program I Honors,10,90.79,English
 1915,STU778,Spanish III,10,95.33,Foreign Language
 1916,STU778,Geometry Honors,10,90.77,Math
-1917,STU778,Computer Science Principles AP,10,94.63,Science
+1917,STU778,Computer Science Principles AP,10,94.63,Computer Science
 1918,STU778,Biology Honors,10,89.66,Science
 1919,STU778,United States History AP,10,92.71,Humanities
 1920,STU634,English Language and Composition AP,10,97.27,English
@@ -1934,21 +1934,21 @@
 1932,STU660,English II Honors,10,90.53,English
 1933,STU660,Chinese III Honors,10,83.08,Foreign Language
 1934,STU660,Geometry,10,82.81,Math
-1935,STU660,Computer Science Principles AP,10,85.88,Science
+1935,STU660,Computer Science Principles AP,10,85.88,Computer Science
 1936,STU660,Biology,10,87.02,Science
 1937,STU660,United States History AP,10,86.61,Humanities
 1938,STU184,English Language and Composition AP,10,93.03,English
 1939,STU184,Spanish III Honors,10,97.34,Foreign Language
 1940,STU184,Calculus AB AP,10,98.39,Math
 1941,STU184,Biology Honors,10,96.53,Science
-1942,STU184,Science Research I Honors,10,95.0,Science
+1942,STU184,Science Research I Honors,10,95.0,unknown
 1943,STU184,United States History AP,10,96.27,Humanities
 1944,STU184,Psychology AP,10,93.13,Psychology
 1945,STU159,English II Honors,10,91.02,English
 1946,STU159,Spanish III,10,94.3,Foreign Language
 1947,STU159,Geometry Honors,10,80.05,Math
 1948,STU159,Biology Honors,10,86.98,Science
-1949,STU159,Marine Science Honors,10,95.77,Science
+1949,STU159,Marine Science Honors,10,95.77,unknown
 1950,STU159,United States History Honors,10,91.07,Humanities
 1951,STU304,English II Honors,10,91.65,English
 1952,STU304,Music Theory AP,10,90.9,Arts
@@ -1965,13 +1965,13 @@
 1963,STU831,English Language and Composition AP,10,94.85,English
 1964,STU831,Spanish III Honors,10,87.27,Foreign Language
 1965,STU831,Algebra II Honors,10,91.17,Math
-1966,STU831,Computer Science Principles AP,10,93.76,Science
+1966,STU831,Computer Science Principles AP,10,93.76,Computer Science
 1967,STU831,Chemistry Honors,10,91.11,Science
 1968,STU831,United States History AP,10,85.5,Humanities
 1969,STU456,English II Honors,10,89.71,English
 1970,STU456,Spanish Language and Culture AP (for Heritage Speakers),10,93.81,Foreign Language
 1971,STU456,Pre-Calculus Honors,10,83.34,Math
-1972,STU456,Computer Science Principles AP,10,95.53,Science
+1972,STU456,Computer Science Principles AP,10,95.53,Computer Science
 1973,STU456,Biology Honors,10,89.54,Science
 1974,STU456,Anatomy and Physiology Honors,10,89.98,Science
 1975,STU456,United States History AP,10,82.71,Humanities
@@ -1990,7 +1990,7 @@
 1988,STU382,Talented Writers Program I Honors,10,92.04,English
 1989,STU382,Spanish IV Honors,10,98.15,Foreign Language
 1990,STU382,Pre-Calculus Honors,10,93.35,Math
-1991,STU382,Computer Science A AP,10,93.76,Science
+1991,STU382,Computer Science A AP,10,93.76,Computer Science
 1992,STU382,Biology Honors,10,94.06,Science
 1993,STU382,United States History AP,10,94.96,Humanities
 1994,STU462,English II Honors,10,88.8,English
@@ -2001,7 +2001,7 @@
 1999,STU590,English II Honors,10,86.23,English
 2000,STU590,Latin II Honors,10,92.7,Foreign Language
 2001,STU590,Geometry,10,92.09,Math
-2002,STU590,Computer Science Principles AP,10,85.99,Science
+2002,STU590,Computer Science Principles AP,10,85.99,Computer Science
 2003,STU590,Biology,10,91.67,Science
 2004,STU590,United States History AP,10,87.03,Humanities
 2005,STU341,English II Honors,10,95.62,English
@@ -2017,25 +2017,25 @@
 2015,STU593,English Language and Composition AP,10,93.03,English
 2016,STU593,Latin II Honors,10,98.82,Foreign Language
 2017,STU593,Calculus AB AP,10,94.02,Math
-2018,STU593,Computer Science A AP,10,94.87,Science
+2018,STU593,Computer Science A AP,10,94.87,Computer Science
 2019,STU593,Biology Honors,10,93.03,Science
 2020,STU593,United States History AP,10,95.0,Humanities
 2021,STU106,English II Honors,10,85.08,English
 2022,STU106,Latin II Honors,10,91.25,Foreign Language
 2023,STU106,Geometry,10,81.7,Math
-2024,STU106,Computer Science Principles AP,10,81.97,Science
+2024,STU106,Computer Science Principles AP,10,81.97,Computer Science
 2025,STU106,Biology,10,86.12,Science
 2026,STU106,United States History Honors,10,89.27,Humanities
 2027,STU283,English II Honors,10,89.37,English
 2028,STU283,Spanish III Honors,10,85.73,Foreign Language
 2029,STU283,Geometry Honors,10,79.72,Math
-2030,STU283,Computer Science Principles AP,10,96.18,Science
+2030,STU283,Computer Science Principles AP,10,96.18,Computer Science
 2031,STU283,Biology Honors,10,87.77,Science
 2032,STU283,United States History AP,10,78.9,Humanities
 2033,STU333,English II Honors,10,94.16,English
 2034,STU333,Spanish III,10,82.84,Foreign Language
 2035,STU333,Pre-Calculus,10,91.98,Math
-2036,STU333,Computer Science Principles AP,10,90.32,Science
+2036,STU333,Computer Science Principles AP,10,90.32,Computer Science
 2037,STU333,Biology,10,92.05,Science
 2038,STU333,United States History Honors,10,89.15,Humanities
 2039,STU706,English Language and Composition AP,10,97.84,English
@@ -2048,7 +2048,7 @@
 2046,STU514,English II Honors,10,85.02,English
 2047,STU514,Spanish II,10,92.68,Foreign Language
 2048,STU514,Geometry,10,88.83,Math
-2049,STU514,Computer Science Principles AP,10,84.69,Science
+2049,STU514,Computer Science Principles AP,10,84.69,Computer Science
 2050,STU514,Biology,10,88.29,Science
 2051,STU514,United States History Honors,10,85.49,Humanities
 2052,STU115,English Language and Composition AP,10,95.15,English
@@ -2061,7 +2061,7 @@
 2059,STU608,French III Honors,10,90.1,Foreign Language
 2060,STU608,Pre-Calculus Honors,10,93.73,Math
 2061,STU608,Chemistry AP,10,97.95,Science
-2062,STU608,Science Research I Honors,10,95.0,Science
+2062,STU608,Science Research I Honors,10,95.0,unknown
 2063,STU608,United States History AP,10,98.97,Humanities
 2064,STU608,Psychology AP,10,97.35,Psychology
 2065,STU493,English Language and Composition AP,10,84.63,English
@@ -2084,7 +2084,7 @@
 2082,STU830,English Language and Composition AP,10,93.87,English
 2083,STU830,Spanish III Honors,10,91.03,Foreign Language
 2084,STU830,Pre-Calculus Honors,10,96.09,Math
-2085,STU830,Computer Science A AP,10,98.23,Science
+2085,STU830,Computer Science A AP,10,98.23,Computer Science
 2086,STU830,Biology Honors,10,96.72,Science
 2087,STU830,United States History AP,10,88.81,Humanities
 2088,STU830,Psychology AP,10,93.38,Psychology
@@ -2097,13 +2097,13 @@
 2095,STU243,English Language and Composition AP,10,92.52,English
 2096,STU243,Spanish III Honors,10,91.04,Foreign Language
 2097,STU243,Geometry Honors,10,94.64,Math
-2098,STU243,Computer Science Principles AP,10,94.75,Science
+2098,STU243,Computer Science Principles AP,10,94.75,Computer Science
 2099,STU243,Biology Honors,10,93.37,Science
 2100,STU243,United States History AP,10,90.77,Humanities
 2101,STU389,English Language and Composition AP,10,89.58,English
 2102,STU389,Spanish Language and Culture AP (for Heritage Speakers),10,94.76,Foreign Language
 2103,STU389,Geometry Honors,10,87.79,Math
-2104,STU389,Computer Science A AP,10,85.27,Science
+2104,STU389,Computer Science A AP,10,85.27,Computer Science
 2105,STU389,Biology Honors,10,84.99,Science
 2106,STU389,United States History AP,10,91.79,Humanities
 2107,STU389,International Relations Honors,10,90.93,Law and Politics
@@ -2145,39 +2145,39 @@
 2143,STU821,Spanish III Honors,10,98.77,Foreign Language
 2144,STU821,Calculus AB AP,10,97.75,Math
 2145,STU821,Chemistry AP,10,98.04,Science
-2146,STU821,Science Research I Honors,10,95.0,Science
+2146,STU821,Science Research I Honors,10,95.0,unknown
 2147,STU821,Anatomy and Physiology Honors,10,99.87,Science
 2148,STU821,United States History AP,10,100.6,Humanities
 2149,STU455,English Language and Composition AP,10,92.57,English
 2150,STU455,Spanish Language and Culture AP (for Heritage Speakers),10,97.46,Foreign Language
 2151,STU455,Pre-Calculus Honors,10,94.03,Math
-2152,STU455,Computer Science Principles AP,10,99.13,Science
+2152,STU455,Computer Science Principles AP,10,99.13,Computer Science
 2153,STU455,Biology Honors,10,97.14,Science
 2154,STU455,United States History AP,10,92.54,Humanities
 2155,STU455,Government and Politics: United States AP,10,93.91,Humanities
 2156,STU785,English Language and Composition AP,10,93.01,English
 2157,STU785,Latin II Honors,10,97.1,Foreign Language
 2158,STU785,Pre-Calculus Honors,10,87.75,Math
-2159,STU785,Computer Science Principles AP,10,94.62,Science
+2159,STU785,Computer Science Principles AP,10,94.62,Computer Science
 2160,STU785,Biology Honors,10,94.06,Science
 2161,STU785,United States History AP,10,92.12,Humanities
 2162,STU538,English Language and Composition AP,10,96.5,English
 2163,STU538,Spanish III Honors,10,97.08,Foreign Language
 2164,STU538,Calculus AB AP,10,98.12,Math
 2165,STU538,Chemistry AP,10,100.27,Science
-2166,STU538,Science Research I Honors,10,95.0,Science
+2166,STU538,Science Research I Honors,10,95.0,unknown
 2167,STU538,Anatomy and Physiology Honors,10,99.42,Science
 2168,STU538,United States History AP,10,98.39,Humanities
 2169,STU264,English Language and Composition AP,10,94.55,English
 2170,STU264,Latin II Honors,10,99.53,Foreign Language
 2171,STU264,Geometry Honors,10,92.57,Math
-2172,STU264,Computer Science Principles AP,10,94.9,Science
+2172,STU264,Computer Science Principles AP,10,94.9,Computer Science
 2173,STU264,Biology Honors,10,93.38,Science
 2174,STU264,United States History AP,10,90.08,Humanities
 2175,STU615,English II Honors,10,95.17,English
 2176,STU615,Latin II Honors,10,95.98,Foreign Language
 2177,STU615,Geometry Honors,10,93.12,Math
-2178,STU615,Computer Science A AP,10,88.74,Science
+2178,STU615,Computer Science A AP,10,88.74,Computer Science
 2179,STU615,Biology Honors,10,89.72,Science
 2180,STU615,United States History AP,10,92.46,Humanities
 2181,STU615,Psychology AP,10,90.23,Psychology
@@ -2190,14 +2190,14 @@
 2188,STU819,English Language and Composition AP,10,95.45,English
 2189,STU819,Spanish III Honors,10,96.12,Foreign Language
 2190,STU819,Pre-Calculus Honors,10,97.82,Math
-2191,STU819,Computer Science Principles AP,10,99.53,Science
+2191,STU819,Computer Science Principles AP,10,99.53,Computer Science
 2192,STU819,Chemistry AP,10,99.32,Science
-2193,STU819,Science Research I Honors,10,95.0,Science
+2193,STU819,Science Research I Honors,10,95.0,unknown
 2194,STU819,United States History AP,10,99.74,Humanities
 2195,STU811,English Language and Composition AP,10,83.95,English
 2196,STU811,Spanish I,10,94.9,Foreign Language
 2197,STU811,Algebra II Honors,10,87.42,Math
-2198,STU811,Computer Science Principles AP,10,92.2,Science
+2198,STU811,Computer Science Principles AP,10,92.2,Computer Science
 2199,STU811,Chemistry Honors,10,90.12,Science
 2200,STU811,United States History Honors,10,91.73,Humanities
 2201,STU135,English II Honors,10,85.27,English
@@ -2231,14 +2231,14 @@
 2229,STU723,English Language and Composition AP,10,93.64,English
 2230,STU723,Latin II Honors,10,96.48,Foreign Language
 2231,STU723,Geometry Honors,10,88.15,Math
-2232,STU723,Computer Science Principles AP,10,94.47,Science
+2232,STU723,Computer Science Principles AP,10,94.47,Computer Science
 2233,STU723,Biology Honors,10,90.97,Science
 2234,STU723,United States History AP,10,87.46,Humanities
 2235,STU823,English Language and Composition AP,10,91.26,English
 2236,STU823,Fundamentals of Music Theory,10,98.48,Arts
 2237,STU823,Spanish Language and Culture AP (for Heritage Speakers),10,86.68,Foreign Language
 2238,STU823,Algebra II Honors,10,87.93,Math
-2239,STU823,Computer Science A AP,10,88.36,Science
+2239,STU823,Computer Science A AP,10,88.36,Computer Science
 2240,STU823,Chemistry Honors,10,85.26,Science
 2241,STU823,Human Geography AP,10,89.06,Humanities
 2242,STU96,English Language and Composition AP,10,91.72,English
@@ -2251,25 +2251,25 @@
 2249,STU745,Latin II Honors,10,100.58,Foreign Language
 2250,STU745,Calculus AB AP,10,98.1,Math
 2251,STU745,Chemistry AP,10,99.32,Science
-2252,STU745,Science Research I Honors,10,95.0,Science
+2252,STU745,Science Research I Honors,10,95.0,unknown
 2253,STU745,United States History AP,10,99.66,Humanities
 2254,STU745,Psychology AP,10,98.44,Psychology
 2255,STU60,English Language and Composition AP,10,89.09,English
 2256,STU60,Spanish III Honors,10,93.23,Foreign Language
 2257,STU60,Pre-Calculus Honors,10,94.18,Math
-2258,STU60,Computer Science A AP,10,94.57,Science
+2258,STU60,Computer Science A AP,10,94.57,Computer Science
 2259,STU60,Biology Honors,10,93.66,Science
 2260,STU60,United States History AP,10,87.2,Humanities
 2261,STU256,English Language and Composition AP,10,95.76,English
 2262,STU256,Spanish III Honors,10,95.06,Foreign Language
 2263,STU256,Pre-Calculus Honors,10,90.75,Math
-2264,STU256,Computer Science Principles AP,10,94.36,Science
+2264,STU256,Computer Science Principles AP,10,94.36,Computer Science
 2265,STU256,Biology Honors,10,91.22,Science
 2266,STU256,United States History AP,10,96.53,Humanities
 2267,STU618,English Language and Composition AP,10,97.0,English
 2268,STU618,Spanish III Honors,10,98.06,Foreign Language
 2269,STU618,Pre-Calculus Honors,10,99.21,Math
-2270,STU618,Computer Science Principles AP,10,99.4,Science
+2270,STU618,Computer Science Principles AP,10,99.4,Computer Science
 2271,STU618,Chemistry AP,10,100.14,Science
 2272,STU618,United States History AP,10,101.45,Humanities
 2273,STU582,English II Honors,10,86.47,English
@@ -2302,7 +2302,7 @@
 2300,STU357,English Language and Composition AP,10,92.73,English
 2301,STU357,Latin II Honors,10,100.13,Foreign Language
 2302,STU357,Pre-Calculus Honors,10,95.05,Math
-2303,STU357,Computer Science A AP,10,95.5,Science
+2303,STU357,Computer Science A AP,10,95.5,Computer Science
 2304,STU357,Biology Honors,10,92.02,Science
 2305,STU357,United States History AP,10,91.71,Humanities
 2306,STU357,International Relations Honors,10,96.95,Law and Politics
@@ -2321,7 +2321,7 @@
 2319,STU797,English II Honors,10,85.51,English
 2320,STU797,Spanish Language and Culture AP (for Heritage Speakers),10,86.93,Foreign Language
 2321,STU797,Geometry,10,87.76,Math
-2322,STU797,Computer Science Principles AP,10,83.92,Science
+2322,STU797,Computer Science Principles AP,10,83.92,Computer Science
 2323,STU797,Biology,10,85.8,Science
 2324,STU797,United States History Honors,10,88.97,Humanities
 2325,STU323,English Language and Composition AP,10,88.06,English
@@ -2374,7 +2374,7 @@
 2372,STU815,English Language and Composition AP,10,94.55,English
 2373,STU815,Spanish III,10,99.24,Foreign Language
 2374,STU815,Geometry Honors,10,88.07,Math
-2375,STU815,Computer Science Principles AP,10,97.24,Science
+2375,STU815,Computer Science Principles AP,10,97.24,Computer Science
 2376,STU815,Biology Honors,10,91.21,Science
 2377,STU815,United States History AP,10,86.67,Humanities
 2378,STU815,Social Entrepreneurship I Honors,10,97.21,Entrepreneurship
@@ -2387,12 +2387,12 @@
 2385,STU127,English II Honors,10,92.36,English
 2386,STU127,Spanish III,10,89.78,Foreign Language
 2387,STU127,Geometry,10,84.65,Math
-2388,STU127,Computer Science Principles AP,10,83.93,Science
+2388,STU127,Computer Science Principles AP,10,83.93,Computer Science
 2389,STU127,Biology,10,88.92,Science
 2390,STU27,English Language and Composition AP,10,93.94,English
 2391,STU27,Spanish III Honors,10,93.86,Foreign Language
 2392,STU27,Pre-Calculus Honors,10,90.79,Math
-2393,STU27,Computer Science Principles AP,10,95.71,Science
+2393,STU27,Computer Science Principles AP,10,95.71,Computer Science
 2394,STU27,Biology Honors,10,92.58,Science
 2395,STU27,United States History AP,10,94.15,Humanities
 2396,STU303,English II Honors,10,84.78,English
@@ -2403,7 +2403,7 @@
 2401,STU14,English Language and Composition AP,10,95.61,English
 2402,STU14,Spanish III Honors,10,95.84,Foreign Language
 2403,STU14,Pre-Calculus Honors,10,95.82,Math
-2404,STU14,Computer Science A AP,10,94.17,Science
+2404,STU14,Computer Science A AP,10,94.17,Computer Science
 2405,STU14,Chemistry AP,10,97.57,Science
 2406,STU14,United States History AP,10,95.25,Humanities
 2407,STU146,English II Honors,10,82.37,English
@@ -2433,39 +2433,39 @@
 2431,STU390,English Language and Composition AP,10,90.15,English
 2432,STU390,Latin II Honors,10,99.13,Foreign Language
 2433,STU390,Pre-Calculus Honors,10,83.92,Math
-2434,STU390,Computer Science Principles AP,10,94.49,Science
+2434,STU390,Computer Science Principles AP,10,94.49,Computer Science
 2435,STU390,Biology Honors,10,87.27,Science
 2436,STU390,United States History AP,10,90.89,Humanities
 2437,STU740,English Language and Composition AP,10,96.67,English
 2438,STU740,Chinese III Honors,10,97.41,Foreign Language
 2439,STU740,Pre-Calculus Honors,10,99.25,Math
-2440,STU740,Computer Science A AP,10,98.41,Science
+2440,STU740,Computer Science A AP,10,98.41,Computer Science
 2441,STU740,Chemistry AP,10,95.41,Science
-2442,STU740,Science Research I Honors,10,95.0,Science
+2442,STU740,Science Research I Honors,10,95.0,unknown
 2443,STU740,United States History AP,10,96.78,Humanities
 2444,STU338,English Language and Composition AP,10,90.0,English
 2445,STU338,Spanish III Honors,10,94.74,Foreign Language
 2446,STU338,Calculus AB AP,10,92.35,Math
-2447,STU338,Computer Science A AP,10,92.55,Science
+2447,STU338,Computer Science A AP,10,92.55,Computer Science
 2448,STU338,Biology Honors,10,95.56,Science
 2449,STU338,Anatomy and Physiology Honors,10,93.68,Science
 2450,STU338,United States History AP,10,95.56,Humanities
 2451,STU299,English II Honors,10,90.2,English
 2452,STU299,Spanish III Honors,10,90.0,Foreign Language
 2453,STU299,Geometry Honors,10,91.43,Math
-2454,STU299,Computer Science A AP,10,82.05,Science
+2454,STU299,Computer Science A AP,10,82.05,Computer Science
 2455,STU299,Biology Honors,10,83.46,Science
 2456,STU299,United States History AP,10,87.71,Humanities
 2457,STU152,English Language and Composition AP,10,95.58,English
 2458,STU152,French III Honors,10,91.74,Foreign Language
 2459,STU152,Pre-Calculus Honors,10,89.1,Math
-2460,STU152,Computer Science A AP,10,93.1,Science
+2460,STU152,Computer Science A AP,10,93.1,Computer Science
 2461,STU152,Biology Honors,10,94.63,Science
 2462,STU152,United States History AP,10,93.39,Humanities
 2463,STU784,English Language and Composition AP,10,93.02,English
 2464,STU784,Spanish Language and Culture AP (for Heritage Speakers),10,96.36,Foreign Language
 2465,STU784,Geometry Honors,10,87.27,Math
-2466,STU784,Computer Science Principles AP,10,93.7,Science
+2466,STU784,Computer Science Principles AP,10,93.7,Computer Science
 2467,STU784,Biology Honors,10,86.57,Science
 2468,STU784,United States History AP,10,86.57,Humanities
 2469,STU720,English II Honors,10,88.47,English
@@ -2488,14 +2488,14 @@
 2486,STU62,English Literature and Composition AP,11,87.94,English
 2487,STU62,Spanish IV Honors,11,92.52,Foreign Language
 2488,STU62,Calculus AB AP,11,76.45,Math
-2489,STU62,Environmental Science AP,11,89.65,Science
+2489,STU62,Environmental Science AP,11,89.65,unknown
 2490,STU62,Psychology AP,11,89.55,Psychology
 2491,STU62,European History AP,11,84.36,Humanities
 2492,STU62,Government and Politics: United States AP,11,84.84,Humanities
 2493,STU287,English Literature and Composition AP,11,93.4,English
 2494,STU287,Spanish IV Honors,11,99.35,Foreign Language
 2495,STU287,Calculus AB AP,11,96.1,Math
-2496,STU287,Computer Science A AP,11,96.04,Science
+2496,STU287,Computer Science A AP,11,96.04,Computer Science
 2497,STU287,Biology AP,11,98.92,Science
 2498,STU287,Anatomy and Physiology Honors,11,99.06,Science
 2499,STU287,European History AP,11,97.26,Humanities
@@ -2515,7 +2515,7 @@
 2513,STU585,English Literature and Composition AP,11,91.36,English
 2514,STU585,Spanish IV Honors,11,93.11,Foreign Language
 2515,STU585,Calculus AB AP,11,85.9,Math
-2516,STU585,Computer Science Principles AP,11,96.16,Science
+2516,STU585,Computer Science Principles AP,11,96.16,Computer Science
 2517,STU585,Physics I AP,11,88.91,Science
 2518,STU585,AP Seminar (Capstone Year 1),11,92.69,Research
 2519,STU191,English Literature and Composition AP,11,91.51,English
@@ -2529,13 +2529,13 @@
 2527,STU770,Calculus AB AP,11,91.6,Math
 2528,STU770,Biology AP,11,92.97,Science
 2529,STU770,Organic Chemistry Post-AP,11,98.02,Science
-2530,STU770,Science Research II Advanced,11,97.0,Science
+2530,STU770,Science Research II Advanced,11,97.0,unknown
 2531,STU770,European History AP,11,95.2,Humanities
 2532,STU275,English Language and Composition AP,11,90.08,English
 2533,STU275,Spanish IV Honors,11,89.64,Foreign Language
 2534,STU275,Pre-Calculus,11,81.75,Math
-2535,STU275,Computer Science Principles AP,11,85.16,Science
-2536,STU275,Marine Science Honors,11,84.77,Science
+2535,STU275,Computer Science Principles AP,11,85.16,Computer Science
+2536,STU275,Marine Science Honors,11,84.77,unknown
 2537,STU275,Constitutional Law Honors,11,90.88,Law and Politics
 2538,STU486,English Literature and Composition AP,11,90.86,English
 2539,STU486,Spanish IV Honors,11,98.03,Foreign Language
@@ -2576,20 +2576,20 @@
 2574,STU21,English Literature and Composition AP,11,90.53,English
 2575,STU21,Spanish IV,11,92.74,Foreign Language
 2576,STU21,Pre-Calculus Honors,11,90.23,Math
-2577,STU21,Environmental Science AP,11,91.61,Science
+2577,STU21,Environmental Science AP,11,91.61,unknown
 2578,STU21,Psychology AP,11,94.64,Psychology
 2579,STU21,European History AP,11,93.34,Humanities
 2580,STU121,English Language and Composition AP,11,91.64,English
 2581,STU121,Spanish Literature and Culture AP,11,82.42,Foreign Language
 2582,STU121,French IV Honors,11,80.24,Foreign Language
 2583,STU121,Pre-Calculus,11,83.38,Math
-2584,STU121,Environmental Science AP,11,82.84,Science
+2584,STU121,Environmental Science AP,11,82.84,unknown
 2585,STU121,European History AP,11,89.61,Humanities
 2586,STU577,English Language and Composition AP,11,88.18,English
 2587,STU577,Studio Art 3-D Design AP,11,89.61,Arts
 2588,STU577,Spanish IV,11,91.88,Foreign Language
 2589,STU577,Pre-Calculus,11,85.56,Math
-2590,STU577,Environmental Science AP,11,89.69,Science
+2590,STU577,Environmental Science AP,11,89.69,unknown
 2591,STU577,European History AP,11,93.76,Humanities
 2592,STU577,Government and Politics: United States AP,11,93.28,Humanities
 2593,STU233,English Language and Composition AP,11,88.7,English
@@ -2616,7 +2616,7 @@
 2614,STU379,Studio Art Drawing AP,11,97.39,Arts
 2615,STU379,French IV Honors,11,92.8,Foreign Language
 2616,STU379,Pre-Calculus Honors,11,92.86,Math
-2617,STU379,Computer Science A AP,11,95.47,Science
+2617,STU379,Computer Science A AP,11,95.47,Computer Science
 2618,STU379,Biology AP,11,96.78,Science
 2619,STU379,European History AP,11,92.93,Humanities
 2620,STU196,English Language and Composition AP,11,91.13,English
@@ -2628,7 +2628,7 @@
 2626,STU439,English Literature and Composition AP,11,89.08,English
 2627,STU439,Spanish IV Honors,11,95.9,Foreign Language
 2628,STU439,Pre-Calculus,11,94.76,Math
-2629,STU439,Marine Science Honors,11,95.21,Science
+2629,STU439,Marine Science Honors,11,95.21,unknown
 2630,STU439,European History AP,11,93.68,Humanities
 2631,STU439,Government and Politics: United States AP,11,93.56,Humanities
 2632,STU305,English Literature and Composition AP,11,90.19,English
@@ -2646,13 +2646,13 @@
 2644,STU747,English Literature and Composition AP,11,92.13,English
 2645,STU747,Spanish IV,11,88.94,Foreign Language
 2646,STU747,Pre-Calculus,11,92.81,Math
-2647,STU747,Environmental Science AP,11,89.9,Science
+2647,STU747,Environmental Science AP,11,89.9,unknown
 2648,STU747,Psychology AP,11,89.25,Psychology
 2649,STU747,European History AP,11,91.69,Humanities
 2650,STU342,English Language and Composition AP,11,90.57,English
 2651,STU342,Spanish IV,11,87.95,Foreign Language
 2652,STU342,Pre-Calculus,11,89.55,Math
-2653,STU342,Computer Science Principles AP,11,87.72,Science
+2653,STU342,Computer Science Principles AP,11,87.72,Computer Science
 2654,STU342,Anatomy and Physiology Honors,11,89.52,Science
 2655,STU342,Psychology AP,11,85.07,Psychology
 2656,STU738,English Language and Composition AP,11,94.77,English
@@ -2660,7 +2660,7 @@
 2658,STU738,Calculus BC AP,11,97.65,Math
 2659,STU738,Physics I AP,11,98.0,Science
 2660,STU738,Astronomy Honors,11,97.77,Science
-2661,STU738,Science Research II Advanced,11,95.0,Science
+2661,STU738,Science Research II Advanced,11,95.0,unknown
 2662,STU738,Microeconomics AP,11,93.47,Humanities
 2663,STU664,English Literature and Composition AP,11,88.64,English
 2664,STU664,Art History AP,11,92.25,Humanities
@@ -2672,14 +2672,14 @@
 2670,STU242,English Language and Composition AP,11,91.72,English
 2671,STU242,Spanish IV,11,86.69,Foreign Language
 2672,STU242,Pre-Calculus,11,87.15,Math
-2673,STU242,Marine Science Honors,11,94.58,Science
+2673,STU242,Marine Science Honors,11,94.58,unknown
 2674,STU242,European History AP,11,89.61,Humanities
 2675,STU787,English Language and Composition AP,11,88.5,English
 2676,STU787,Studio Art Drawing AP,11,91.0,Arts
 2677,STU787,Art History AP,11,92.24,Humanities
 2678,STU787,Spanish IV,11,86.44,Foreign Language
 2679,STU787,Pre-Calculus,11,83.45,Math
-2680,STU787,Marine Science Honors,11,95.03,Science
+2680,STU787,Marine Science Honors,11,95.03,unknown
 2681,STU3,English Literature and Composition AP,11,96.89,English
 2682,STU3,Talented Writers Program II Honors,11,95.2,English
 2683,STU3,Spanish IV Honors,11,99.35,Foreign Language
@@ -2689,7 +2689,7 @@
 2687,STU3,European History AP,11,98.93,Humanities
 2688,STU502,English Literature and Composition AP,11,93.78,English
 2689,STU502,Chinese IV Honors,11,93.04,Foreign Language
-2690,STU502,Environmental Science AP,11,94.3,Science
+2690,STU502,Environmental Science AP,11,94.3,unknown
 2691,STU502,European History AP,11,92.31,Humanities
 2692,STU126,English Literature and Composition AP,11,88.82,English
 2693,STU126,Spanish IV,11,89.74,Foreign Language
@@ -2704,7 +2704,7 @@
 2702,STU458,Spanish Literature and Culture AP,11,89.57,Foreign Language
 2703,STU458,Latin III Honors,11,96.26,Foreign Language
 2704,STU458,Pre-Calculus,11,87.93,Math
-2705,STU458,Marine Science Honors,11,95.43,Science
+2705,STU458,Marine Science Honors,11,95.43,unknown
 2706,STU458,European History AP,11,96.79,Humanities
 2707,STU194,English Literature and Composition AP,11,96.24,English
 2708,STU194,Studio Art 3-D Design AP,11,96.59,Arts
@@ -2747,13 +2747,13 @@
 2745,STU25,English Language and Composition AP,11,93.78,English
 2746,STU25,Chinese IV Honors,11,90.34,Foreign Language
 2747,STU25,Pre-Calculus Honors,11,83.51,Math
-2748,STU25,Environmental Science AP,11,92.89,Science
+2748,STU25,Environmental Science AP,11,92.89,unknown
 2749,STU25,European History AP,11,93.84,Humanities
 2750,STU25,Government and Politics: United States AP,11,90.27,Humanities
 2751,STU717,English Language and Composition AP,11,92.51,English
 2752,STU717,Latin III Honors,11,85.62,Foreign Language
 2753,STU717,Pre-Calculus,11,76.86,Math
-2754,STU717,Marine Science Honors,11,84.86,Science
+2754,STU717,Marine Science Honors,11,84.86,unknown
 2755,STU717,United States History AP,11,79.75,Humanities
 2756,STU717,Government and Politics: United States AP,11,84.72,Humanities
 2757,STU195,English Literature and Composition AP,11,91.25,English
@@ -2765,8 +2765,8 @@
 2763,STU776,English Literature and Composition AP,11,91.59,English
 2764,STU776,Spanish III,11,92.64,Foreign Language
 2765,STU776,Calculus I Honors,11,95.62,Math
-2766,STU776,Environmental Science AP,11,90.57,Science
-2767,STU776,Marine Science Honors,11,95.8,Science
+2766,STU776,Environmental Science AP,11,90.57,unknown
+2767,STU776,Marine Science Honors,11,95.8,unknown
 2768,STU776,AP Seminar (Capstone Year 1),11,88.8,Research
 2769,STU98,English Literature and Composition AP,11,91.73,English
 2770,STU98,Studio Art 3-D Design AP,11,99.27,Arts
@@ -2780,14 +2780,14 @@
 2778,STU587,Calculus BC AP,11,90.1,Math
 2779,STU587,Data Structures Post-AP,11,88.45,Computer Science
 2780,STU587,Chemistry AP,11,90.68,Science
-2781,STU587,Science Research II Advanced,11,93.0,Science
+2781,STU587,Science Research II Advanced,11,93.0,unknown
 2782,STU587,Microeconomics AP,11,92.07,Humanities
 2783,STU35,English Literature and Composition AP,11,96.29,English
 2784,STU35,Spanish IV Honors,11,99.07,Foreign Language
 2785,STU35,Calculus AB AP,11,91.9,Math
 2786,STU35,Biology AP,11,98.13,Science
 2787,STU35,Astronomy Honors,11,98.56,Science
-2788,STU35,Science Research II Advanced,11,94.0,Science
+2788,STU35,Science Research II Advanced,11,94.0,unknown
 2789,STU35,European History AP,11,97.53,Humanities
 2790,STU665,English Literature and Composition AP,11,88.82,English
 2791,STU665,Studio Art 2-D Design AP,11,95.35,Arts
@@ -2799,7 +2799,7 @@
 2797,STU487,English Literature and Composition AP,11,95.05,English
 2798,STU487,Spanish IV Honors,11,99.57,Foreign Language
 2799,STU487,Calculus BC AP,11,98.83,Math
-2800,STU487,Computer Science A AP,11,98.11,Science
+2800,STU487,Computer Science A AP,11,98.11,Computer Science
 2801,STU487,Biology AP,11,99.98,Science
 2802,STU487,Organic Chemistry Post-AP,11,98.77,Science
 2803,STU487,Microeconomics AP,11,98.84,Humanities
@@ -2812,34 +2812,34 @@
 2810,STU674,English Literature and Composition AP,11,97.05,English
 2811,STU674,Spanish IV Honors,11,98.92,Foreign Language
 2812,STU674,Pre-Calculus Honors,11,94.83,Math
-2813,STU674,Environmental Science AP,11,98.73,Science
+2813,STU674,Environmental Science AP,11,98.73,unknown
 2814,STU674,Psychology AP,11,98.49,Psychology
 2815,STU674,European History AP,11,98.66,Humanities
 2816,STU594,English Language and Composition AP,11,87.13,English
 2817,STU594,Studio Art 3-D Design AP,11,96.83,Arts
 2818,STU594,French IV,11,86.41,Foreign Language
 2819,STU594,Pre-Calculus,11,90.48,Math
-2820,STU594,Marine Science Honors,11,91.49,Science
+2820,STU594,Marine Science Honors,11,91.49,unknown
 2821,STU594,Government and Politics: United States AP,11,88.36,Humanities
 2822,STU594,International Relations Honors,11,95.58,Law and Politics
 2823,STU212,English Language and Composition AP,11,91.11,English
 2824,STU212,Art History AP,11,94.29,Humanities
 2825,STU212,Chinese IV,11,92.03,Foreign Language
 2826,STU212,Pre-Calculus,11,82.25,Math
-2827,STU212,Marine Science Honors,11,91.47,Science
+2827,STU212,Marine Science Honors,11,91.47,unknown
 2828,STU212,European History AP,11,88.54,Humanities
 2829,STU521,English Language and Composition AP,11,90.41,English
 2830,STU521,Chinese IV,11,90.1,Foreign Language
 2831,STU521,Pre-Calculus Honors,11,78.23,Math
-2832,STU521,Environmental Science AP,11,90.16,Science
-2833,STU521,Marine Science Honors,11,94.35,Science
+2832,STU521,Environmental Science AP,11,90.16,unknown
+2833,STU521,Marine Science Honors,11,94.35,unknown
 2834,STU521,European History AP,11,89.77,Humanities
 2835,STU521,Government and Politics: United States AP,11,91.15,Humanities
 2836,STU817,English Language and Composition AP,11,93.05,English
 2837,STU817,Spanish V Honors,11,96.79,Foreign Language
 2838,STU817,Pre-Calculus Honors,11,89.98,Math
-2839,STU817,Computer Science Principles AP,11,96.79,Science
-2840,STU817,Environmental Science AP,11,95.31,Science
+2839,STU817,Computer Science Principles AP,11,96.79,Computer Science
+2840,STU817,Environmental Science AP,11,95.31,unknown
 2841,STU817,World History AP,11,97.55,Humanities
 2842,STU817,AP Seminar (Capstone Year 1),11,89.0,Research
 2843,STU471,English Literature and Composition AP,11,96.28,English
@@ -2858,14 +2858,14 @@
 2856,STU716,Chinese IV Honors,11,90.52,Foreign Language
 2857,STU716,Calculus AB AP,11,89.48,Math
 2858,STU716,Chemistry AP,11,90.7,Science
-2859,STU716,Environmental Science AP,11,92.16,Science
+2859,STU716,Environmental Science AP,11,92.16,unknown
 2860,STU716,European History AP,11,90.76,Humanities
 2861,STU716,Government and Politics: United States AP,11,93.73,Humanities
 2862,STU442,English Language and Composition AP,11,93.08,English
 2863,STU442,Talented Writers Program I Honors,11,89.11,English
 2864,STU442,Spanish Literature and Culture AP,11,87.77,Foreign Language
 2865,STU442,Pre-Calculus,11,89.69,Math
-2866,STU442,Marine Science Honors,11,94.09,Science
+2866,STU442,Marine Science Honors,11,94.09,unknown
 2867,STU442,Government and Politics: United States AP,11,82.39,Humanities
 2868,STU733,English Literature and Composition AP,11,95.94,English
 2869,STU733,Art History AP,11,99.07,Humanities
@@ -2878,7 +2878,7 @@
 2876,STU436,Studio Art 3-D Design AP,11,82.2,Arts
 2877,STU436,Spanish IV,11,83.54,Foreign Language
 2878,STU436,Pre-Calculus,11,84.97,Math
-2879,STU436,Marine Science Honors,11,90.19,Science
+2879,STU436,Marine Science Honors,11,90.19,unknown
 2880,STU436,Psychology AP,11,75.75,Psychology
 2881,STU71,English Literature and Composition AP,11,93.48,English
 2882,STU71,Chinese IV Honors,11,93.21,Foreign Language
@@ -2889,12 +2889,12 @@
 2887,STU48,Studio Art 2-D Design AP,11,93.87,Arts
 2888,STU48,Spanish IV,11,93.88,Foreign Language
 2889,STU48,Pre-Calculus Honors,11,95.03,Math
-2890,STU48,Environmental Science AP,11,91.43,Science
+2890,STU48,Environmental Science AP,11,91.43,unknown
 2891,STU48,Government and Politics: United States AP,11,93.3,Humanities
 2892,STU270,English Language and Composition AP,11,88.96,English
 2893,STU270,Spanish IV,11,95.01,Foreign Language
 2894,STU270,Pre-Calculus Honors,11,81.18,Math
-2895,STU270,Environmental Science AP,11,89.48,Science
+2895,STU270,Environmental Science AP,11,89.48,unknown
 2896,STU270,Psychology AP,11,89.19,Psychology
 2897,STU270,European History AP,11,91.38,Humanities
 2898,STU64,English Literature and Composition AP,11,91.63,English
@@ -2902,13 +2902,13 @@
 2900,STU64,Calculus BC AP,11,94.72,Math
 2901,STU64,Data Structures Post-AP,11,95.95,Computer Science
 2902,STU64,Physics I AP,11,93.07,Science
-2903,STU64,Environmental Science AP,11,95.48,Science
+2903,STU64,Environmental Science AP,11,95.48,unknown
 2904,STU64,Microeconomics AP,11,94.2,Humanities
 2905,STU838,English Literature and Composition AP,11,89.82,English
 2906,STU838,Spanish Language and Culture AP (for Heritage Speakers),11,96.94,Foreign Language
 2907,STU838,Calculus AB AP,11,91.15,Math
 2908,STU838,Biology AP,11,87.61,Science
-2909,STU838,Environmental Science AP,11,92.85,Science
+2909,STU838,Environmental Science AP,11,92.85,unknown
 2910,STU838,Psychology AP,11,92.83,Psychology
 2911,STU586,English Literature and Composition AP,11,94.85,English
 2912,STU586,French IV Honors,11,94.69,Foreign Language
@@ -2919,14 +2919,14 @@
 2917,STU312,English Literature and Composition AP,11,94.54,English
 2918,STU312,French IV Honors,11,95.09,Foreign Language
 2919,STU312,Pre-Calculus,11,93.7,Math
-2920,STU312,Environmental Science AP,11,91.16,Science
+2920,STU312,Environmental Science AP,11,91.16,unknown
 2921,STU312,Psychology AP,11,91.14,Psychology
 2922,STU312,European History AP,11,93.91,Humanities
 2923,STU312,Social Entrepreneurship II Advanced,11,94.65,Entrepreneurship
 2924,STU176,English Literature and Composition AP,11,93.46,English
 2925,STU176,Chinese IV Honors,11,93.52,Foreign Language
 2926,STU176,Calculus AB AP,11,94.46,Math
-2927,STU176,Computer Science A AP,11,94.79,Science
+2927,STU176,Computer Science A AP,11,94.79,Computer Science
 2928,STU176,Biology AP,11,98.9,Science
 2929,STU176,Government and Politics: United States AP,11,96.35,Humanities
 2930,STU176,Social Entrepreneurship II Advanced,11,95.96,Entrepreneurship
@@ -2934,31 +2934,31 @@
 2932,STU746,Spanish III Honors,11,93.95,Foreign Language
 2933,STU746,Calculus AB AP,11,91.01,Math
 2934,STU746,Chemistry AP,11,89.17,Science
-2935,STU746,Environmental Science AP,11,95.07,Science
+2935,STU746,Environmental Science AP,11,95.07,unknown
 2936,STU746,AP Seminar (Capstone Year 1),11,88.66,Research
 2937,STU263,English Language and Composition AP,11,90.66,English
 2938,STU263,Studio Art 2-D Design AP,11,93.61,Arts
 2939,STU263,French IV,11,83.16,Foreign Language
 2940,STU263,Pre-Calculus Honors,11,85.51,Math
-2941,STU263,Environmental Science AP,11,90.08,Science
+2941,STU263,Environmental Science AP,11,90.08,unknown
 2942,STU263,United States History AP,11,91.2,Humanities
 2943,STU461,English Literature and Composition AP,11,88.94,English
 2944,STU461,Chinese IV Honors,11,90.11,Foreign Language
 2945,STU461,Pre-Calculus,11,89.71,Math
-2946,STU461,Environmental Science AP,11,88.07,Science
+2946,STU461,Environmental Science AP,11,88.07,unknown
 2947,STU461,Psychology AP,11,86.29,Psychology
 2948,STU461,AP Seminar (Capstone Year 1),11,89.91,Research
 2949,STU461,Social Entrepreneurship II Advanced,11,94.95,Entrepreneurship
 2950,STU692,English Literature and Composition AP,11,85.41,English
 2951,STU692,French IV Honors,11,82.24,Foreign Language
 2952,STU692,Pre-Calculus,11,86.51,Math
-2953,STU692,Environmental Science AP,11,83.89,Science
+2953,STU692,Environmental Science AP,11,83.89,unknown
 2954,STU692,European History AP,11,86.84,Humanities
 2955,STU692,Social Entrepreneurship II Advanced,11,94.11,Entrepreneurship
 2956,STU549,English Language and Composition AP,11,89.53,English
 2957,STU549,Spanish IV,11,90.52,Foreign Language
 2958,STU549,Pre-Calculus Honors,11,89.54,Math
-2959,STU549,Marine Science Honors,11,88.84,Science
+2959,STU549,Marine Science Honors,11,88.84,unknown
 2960,STU549,Psychology AP,11,87.19,Psychology
 2961,STU168,English Literature and Composition AP,11,96.1,English
 2962,STU168,Studio Art Drawing AP,11,97.17,Arts
@@ -2966,19 +2966,19 @@
 2964,STU168,Calculus BC AP,11,96.82,Math
 2965,STU168,Biology AP,11,96.75,Science
 2966,STU168,Organic Chemistry Post-AP,11,99.01,Science
-2967,STU168,Science Research II Advanced,11,97.0,Science
+2967,STU168,Science Research II Advanced,11,97.0,unknown
 2968,STU168,European History AP,11,98.75,Humanities
 2969,STU597,English Literature and Composition AP,11,91.53,English
 2970,STU597,Spanish IV,11,89.06,Foreign Language
 2971,STU597,Pre-Calculus Honors,11,79.73,Math
-2972,STU597,Environmental Science AP,11,91.87,Science
+2972,STU597,Environmental Science AP,11,91.87,unknown
 2973,STU597,European History AP,11,93.76,Humanities
 2974,STU597,Government and Politics: United States AP,11,90.46,Humanities
 2975,STU190,English Literature and Composition AP,11,95.94,English
 2976,STU190,Spanish Literature and Culture AP,11,92.17,Foreign Language
 2977,STU190,Calculus AB AP,11,89.37,Math
 2978,STU190,Biology AP,11,92.97,Science
-2979,STU190,Science Research II Advanced,11,97.0,Science
+2979,STU190,Science Research II Advanced,11,97.0,unknown
 2980,STU190,Psychology AP,11,92.91,Psychology
 2981,STU190,European History AP,11,97.41,Humanities
 2982,STU670,English Language and Composition AP,11,86.98,English
@@ -2986,7 +2986,7 @@
 2984,STU670,Art History AP,11,88.6,Humanities
 2985,STU670,Spanish III,11,92.63,Foreign Language
 2986,STU670,Pre-Calculus,11,79.55,Math
-2987,STU670,Marine Science Honors,11,89.78,Science
+2987,STU670,Marine Science Honors,11,89.78,unknown
 2988,STU494,English Language and Composition AP,11,92.66,English
 2989,STU494,Studio Art 3-D Design AP,11,96.34,Arts
 2990,STU494,Latin III Honors,11,94.88,Foreign Language
@@ -2997,7 +2997,7 @@
 2995,STU343,English Literature and Composition AP,11,93.4,English
 2996,STU343,Chinese IV Honors,11,88.2,Foreign Language
 2997,STU343,Pre-Calculus Honors,11,75.99,Math
-2998,STU343,Environmental Science AP,11,91.58,Science
+2998,STU343,Environmental Science AP,11,91.58,unknown
 2999,STU343,Government and Politics: United States AP,11,91.32,Humanities
 3000,STU343,AP Seminar (Capstone Year 1),11,88.92,Research
 3001,STU343,Social Entrepreneurship II Advanced,11,98.11,Entrepreneurship
@@ -3011,30 +3011,30 @@
 3009,STU167,Studio Art 3-D Design AP,11,95.98,Arts
 3010,STU167,French IV Honors,11,91.91,Foreign Language
 3011,STU167,Calculus AB AP,11,93.7,Math
-3012,STU167,Environmental Science AP,11,95.34,Science
+3012,STU167,Environmental Science AP,11,95.34,unknown
 3013,STU167,European History AP,11,95.9,Humanities
 3014,STU167,Government and Politics: United States AP,11,94.39,Humanities
 3015,STU189,English Language and Composition AP,11,89.75,English
 3016,STU189,Spanish IV,11,86.86,Foreign Language
 3017,STU189,Pre-Calculus,11,89.95,Math
-3018,STU189,Marine Science Honors,11,90.68,Science
+3018,STU189,Marine Science Honors,11,90.68,unknown
 3019,STU189,Psychology AP,11,79.98,Psychology
 3020,STU189,International Relations Honors,11,87.44,Law and Politics
 3021,STU253,English Language and Composition AP,11,94.26,English
 3022,STU253,Spanish IV Honors,11,97.94,Foreign Language
 3023,STU253,Calculus AB AP,11,90.1,Math
-3024,STU253,Marine Science Honors,11,93.1,Science
+3024,STU253,Marine Science Honors,11,93.1,unknown
 3025,STU253,Astronomy Honors,11,94.83,Science
 3026,STU253,European History AP,11,90.1,Humanities
 3027,STU201,English Literature and Composition AP,11,90.62,English
 3028,STU201,Spanish IV Honors,11,97.69,Foreign Language
 3029,STU201,Pre-Calculus,11,96.68,Math
-3030,STU201,Environmental Science AP,11,87.86,Science
+3030,STU201,Environmental Science AP,11,87.86,unknown
 3031,STU201,Psychology AP,11,88.17,Psychology
 3032,STU294,English Literature and Composition AP,11,93.5,English
 3033,STU294,Spanish IV Honors,11,99.07,Foreign Language
 3034,STU294,Calculus BC AP,11,98.33,Math
-3035,STU294,Computer Science A AP,11,94.48,Science
+3035,STU294,Computer Science A AP,11,94.48,Computer Science
 3036,STU294,Chemistry AP,11,97.09,Science
 3037,STU294,European History AP,11,97.09,Humanities
 3038,STU294,Microeconomics AP,11,96.56,Humanities
@@ -3042,20 +3042,20 @@
 3040,STU749,Studio Art 3-D Design AP,11,96.83,Arts
 3041,STU749,Spanish III,11,90.95,Foreign Language
 3042,STU749,Pre-Calculus,11,88.15,Math
-3043,STU749,Marine Science Honors,11,92.43,Science
+3043,STU749,Marine Science Honors,11,92.43,unknown
 3044,STU749,European History AP,11,89.55,Humanities
 3045,STU742,English Literature and Composition AP,11,89.86,English
 3046,STU742,Spanish III,11,90.69,Foreign Language
 3047,STU742,Pre-Calculus,11,85.01,Math
-3048,STU742,Marine Science Honors,11,86.18,Science
+3048,STU742,Marine Science Honors,11,86.18,unknown
 3049,STU742,Psychology AP,11,82.88,Psychology
 3050,STU742,Government and Politics: United States AP,11,92.18,Humanities
 3051,STU84,English Literature and Composition AP,11,92.14,English
 3052,STU84,Studio Art 3-D Design AP,11,96.71,Arts
 3053,STU84,Spanish IV,11,92.08,Foreign Language
 3054,STU84,Pre-Calculus Honors,11,79.4,Math
-3055,STU84,Computer Science Principles AP,11,91.51,Science
-3056,STU84,Environmental Science AP,11,88.67,Science
+3055,STU84,Computer Science Principles AP,11,91.51,Computer Science
+3056,STU84,Environmental Science AP,11,88.67,unknown
 3057,STU84,European History AP,11,92.58,Humanities
 3058,STU15,English Literature and Composition AP,11,94.13,English
 3059,STU15,Chinese IV Honors,11,97.12,Foreign Language
@@ -3066,13 +3066,13 @@
 3064,STU478,English Language and Composition AP,11,86.13,English
 3065,STU478,Spanish III,11,93.44,Foreign Language
 3066,STU478,Pre-Calculus,11,93.17,Math
-3067,STU478,Marine Science Honors,11,95.97,Science
+3067,STU478,Marine Science Honors,11,95.97,unknown
 3068,STU478,Psychology AP,11,83.68,Psychology
 3069,STU478,Constitutional Law Honors,11,97.42,Law and Politics
 3070,STU125,English Language and Composition AP,11,89.45,English
 3071,STU125,Spanish IV Honors,11,90.06,Foreign Language
 3072,STU125,Pre-Calculus Honors,11,87.16,Math
-3073,STU125,Environmental Science AP,11,88.07,Science
+3073,STU125,Environmental Science AP,11,88.07,unknown
 3074,STU125,Psychology AP,11,89.09,Psychology
 3075,STU125,European History AP,11,89.65,Humanities
 3076,STU467,English Language and Composition AP,11,89.48,English
@@ -3084,7 +3084,7 @@
 3082,STU748,English Literature and Composition AP,11,91.53,English
 3083,STU748,Spanish IV,11,94.82,Foreign Language
 3084,STU748,Pre-Calculus Honors,11,89.47,Math
-3085,STU748,Environmental Science AP,11,95.93,Science
+3085,STU748,Environmental Science AP,11,95.93,unknown
 3086,STU748,Psychology AP,11,91.14,Psychology
 3087,STU748,Social Entrepreneurship II Advanced,11,96.76,Entrepreneurship
 3088,STU759,English Literature and Composition AP,11,94.75,English
@@ -3096,7 +3096,7 @@
 3094,STU95,English Language and Composition AP,11,89.24,English
 3095,STU95,French IV,11,82.1,Foreign Language
 3096,STU95,Pre-Calculus,11,90.11,Math
-3097,STU95,Computer Science Principles AP,11,89.58,Science
+3097,STU95,Computer Science Principles AP,11,89.58,Computer Science
 3098,STU95,Astronomy Honors,11,91.6,Science
 3099,STU95,European History AP,11,86.33,Humanities
 3100,STU559,English Literature and Composition AP,11,93.09,English
@@ -3108,38 +3108,38 @@
 3106,STU185,English Language and Composition AP,11,89.5,English
 3107,STU185,Latin III Honors,11,93.92,Foreign Language
 3108,STU185,Pre-Calculus,11,91.72,Math
-3109,STU185,Marine Science Honors,11,91.53,Science
+3109,STU185,Marine Science Honors,11,91.53,unknown
 3110,STU185,Psychology AP,11,85.98,Psychology
 3111,STU185,European History AP,11,89.53,Humanities
 3112,STU768,English Literature and Composition AP,11,92.19,English
 3113,STU768,Spanish IV Honors,11,97.61,Foreign Language
 3114,STU768,Pre-Calculus Honors,11,90.09,Math
-3115,STU768,Computer Science A AP,11,90.01,Science
-3116,STU768,Environmental Science AP,11,94.57,Science
+3115,STU768,Computer Science A AP,11,90.01,Computer Science
+3116,STU768,Environmental Science AP,11,94.57,unknown
 3117,STU768,Psychology AP,11,90.42,Psychology
 3118,STU205,English Literature and Composition AP,11,92.91,English
 3119,STU205,French IV Honors,11,90.96,Foreign Language
 3120,STU205,Calculus AB AP,11,95.64,Math
-3121,STU205,Computer Science Principles AP,11,97.48,Science
+3121,STU205,Computer Science Principles AP,11,97.48,Computer Science
 3122,STU205,Chemistry AP,11,94.46,Science
-3123,STU205,Environmental Science AP,11,94.69,Science
+3123,STU205,Environmental Science AP,11,94.69,unknown
 3124,STU205,European History AP,11,93.29,Humanities
 3125,STU220,English Language and Composition AP,11,88.62,English
 3126,STU220,Spanish IV,11,90.08,Foreign Language
 3127,STU220,Pre-Calculus Honors,11,83.01,Math
-3128,STU220,Marine Science Honors,11,94.69,Science
+3128,STU220,Marine Science Honors,11,94.69,unknown
 3129,STU220,European History AP,11,86.64,Humanities
 3130,STU220,Government and Politics: United States AP,11,88.54,Humanities
 3131,STU399,English Language and Composition AP,11,89.46,English
 3132,STU399,Spanish IV,11,87.86,Foreign Language
 3133,STU399,Pre-Calculus,11,98.73,Math
-3134,STU399,Computer Science A AP,11,82.66,Science
-3135,STU399,Marine Science Honors,11,94.62,Science
+3134,STU399,Computer Science A AP,11,82.66,Computer Science
+3135,STU399,Marine Science Honors,11,94.62,unknown
 3136,STU399,Government and Politics: United States AP,11,81.45,Humanities
 3137,STU542,English Language and Composition AP,11,92.46,English
 3138,STU542,Latin III Honors,11,84.72,Foreign Language
 3139,STU542,Pre-Calculus,11,81.69,Math
-3140,STU542,Marine Science Honors,11,79.3,Science
+3140,STU542,Marine Science Honors,11,79.3,unknown
 3141,STU542,Government and Politics: United States AP,11,78.55,Humanities
 3142,STU523,English Literature and Composition AP,11,93.78,English
 3143,STU523,Spanish IV Honors,11,97.43,Foreign Language
@@ -3153,13 +3153,13 @@
 3151,STU518,Data Structures Post-AP,11,98.35,Computer Science
 3152,STU518,Biology AP,11,98.58,Science
 3153,STU518,Organic Chemistry Post-AP,11,98.77,Science
-3154,STU518,Science Research II Advanced,11,98.0,Science
+3154,STU518,Science Research II Advanced,11,98.0,unknown
 3155,STU518,Microeconomics AP,11,98.25,Humanities
 3156,STU45,English Literature and Composition AP,11,92.58,English
 3157,STU45,Studio Art 2-D Design AP,11,97.09,Arts
 3158,STU45,Spanish IV,11,89.61,Foreign Language
 3159,STU45,Pre-Calculus,11,97.48,Math
-3160,STU45,Environmental Science AP,11,89.86,Science
+3160,STU45,Environmental Science AP,11,89.86,unknown
 3161,STU45,Anatomy and Physiology Honors,11,98.26,Science
 3162,STU45,Psychology AP,11,88.53,Psychology
 3163,STU199,English Language and Composition AP,11,91.34,English
@@ -3184,7 +3184,7 @@
 3182,STU210,English Literature and Composition AP,11,94.08,English
 3183,STU210,Spanish IV,11,92.59,Foreign Language
 3184,STU210,Calculus I Honors,11,96.33,Math
-3185,STU210,Environmental Science AP,11,92.96,Science
+3185,STU210,Environmental Science AP,11,92.96,unknown
 3186,STU210,Psychology AP,11,92.7,Psychology
 3187,STU210,European History AP,11,94.0,Humanities
 3188,STU210,AP Seminar (Capstone Year 1),11,90.79,Research
@@ -3193,19 +3193,19 @@
 3191,STU240,Calculus BC AP,11,98.13,Math
 3192,STU240,Data Structures Post-AP,11,98.05,Computer Science
 3193,STU240,Biology AP,11,97.38,Science
-3194,STU240,Science Research II Advanced,11,98.0,Science
+3194,STU240,Science Research II Advanced,11,98.0,unknown
 3195,STU240,European History AP,11,98.52,Humanities
 3196,STU459,English Language and Composition AP,11,90.59,English
 3197,STU459,Art History AP,11,90.87,Humanities
 3198,STU459,Spanish Literature and Culture AP,11,81.46,Foreign Language
 3199,STU459,Pre-Calculus,11,80.44,Math
-3200,STU459,Marine Science Honors,11,92.61,Science
+3200,STU459,Marine Science Honors,11,92.61,unknown
 3201,STU459,Anatomy and Physiology Honors,11,81.7,Science
 3202,STU588,English Language and Composition AP,11,88.34,English
 3203,STU588,Art History AP,11,92.68,Humanities
 3204,STU588,Spanish III,11,95.41,Foreign Language
 3205,STU588,Pre-Calculus,11,83.49,Math
-3206,STU588,Marine Science Honors,11,92.41,Science
+3206,STU588,Marine Science Honors,11,92.41,unknown
 3207,STU588,European History AP,11,84.47,Humanities
 3208,STU627,English Literature and Composition AP,11,93.16,English
 3209,STU627,French IV Honors,11,91.28,Foreign Language
@@ -3217,15 +3217,15 @@
 3215,STU76,Studio Art 3-D Design AP,11,97.68,Arts
 3216,STU76,Latin III Honors,11,94.23,Foreign Language
 3217,STU76,Calculus AB AP,11,90.1,Math
-3218,STU76,Environmental Science AP,11,95.25,Science
-3219,STU76,Marine Science Honors,11,100.09,Science
+3218,STU76,Environmental Science AP,11,95.25,unknown
+3219,STU76,Marine Science Honors,11,100.09,unknown
 3220,STU76,Psychology AP,11,92.68,Psychology
 3221,STU741,English Literature and Composition AP,11,96.62,English
 3222,STU741,French IV Honors,11,95.44,Foreign Language
 3223,STU741,Calculus BC AP,11,98.72,Math
-3224,STU741,Computer Science A AP,11,95.8,Science
+3224,STU741,Computer Science A AP,11,95.8,Computer Science
 3225,STU741,Biology AP,11,96.5,Science
-3226,STU741,Science Research II Advanced,11,98.0,Science
+3226,STU741,Science Research II Advanced,11,98.0,unknown
 3227,STU741,European History AP,11,99.05,Humanities
 3228,STU331,English Literature and Composition AP,11,91.13,English
 3229,STU331,Spanish Literature and Culture AP,11,90.82,Foreign Language
@@ -3238,7 +3238,7 @@
 3236,STU91,Studio Art Drawing AP,11,96.35,Arts
 3237,STU91,Spanish IV Honors,11,94.42,Foreign Language
 3238,STU91,Pre-Calculus,11,89.53,Math
-3239,STU91,Marine Science Honors,11,91.94,Science
+3239,STU91,Marine Science Honors,11,91.94,unknown
 3240,STU91,Psychology AP,11,81.7,Psychology
 3241,STU91,Government and Politics: United States AP,11,85.87,Humanities
 3242,STU218,English Literature and Composition AP,11,85.1,English
@@ -3246,12 +3246,12 @@
 3244,STU218,Spanish IV,11,93.94,Foreign Language
 3245,STU218,Latin III Honors,11,94.47,Foreign Language
 3246,STU218,Pre-Calculus,11,82.5,Math
-3247,STU218,Marine Science Honors,11,93.28,Science
+3247,STU218,Marine Science Honors,11,93.28,unknown
 3248,STU218,Psychology AP,11,80.15,Psychology
 3249,STU671,English Literature and Composition AP,11,92.32,English
 3250,STU671,Latin III Honors,11,96.14,Foreign Language
 3251,STU671,Calculus AB AP,11,92.75,Math
-3252,STU671,Environmental Science AP,11,96.06,Science
+3252,STU671,Environmental Science AP,11,96.06,unknown
 3253,STU671,Psychology AP,11,96.42,Psychology
 3254,STU671,European History AP,11,95.89,Humanities
 3255,STU402,English Literature and Composition AP,11,91.94,English
@@ -3269,7 +3269,7 @@
 3267,STU391,English Language and Composition AP,11,93.77,English
 3268,STU391,Latin III Honors,11,95.01,Foreign Language
 3269,STU391,Pre-Calculus Honors,11,85.14,Math
-3270,STU391,Environmental Science AP,11,93.44,Science
+3270,STU391,Environmental Science AP,11,93.44,unknown
 3271,STU391,European History AP,11,96.73,Humanities
 3272,STU391,AP Seminar (Capstone Year 1),11,91.12,Research
 3273,STU391,Social Entrepreneurship II Advanced,11,93.64,Entrepreneurship
@@ -3290,7 +3290,7 @@
 3288,STU477,Studio Art 3-D Design AP,11,94.88,Arts
 3289,STU477,Spanish III,11,91.18,Foreign Language
 3290,STU477,Pre-Calculus,11,89.5,Math
-3291,STU477,Marine Science Honors,11,97.47,Science
+3291,STU477,Marine Science Honors,11,97.47,unknown
 3292,STU477,Psychology AP,11,77.09,Psychology
 3293,STU313,English Literature and Composition AP,11,89.28,English
 3294,STU313,Studio Art 3-D Design AP,11,97.07,Arts
@@ -3310,7 +3310,7 @@
 3308,STU99,Studio Art 3-D Design AP,11,97.56,Arts
 3309,STU99,Spanish IV,11,94.68,Foreign Language
 3310,STU99,Pre-Calculus,11,89.53,Math
-3311,STU99,Marine Science Honors,11,97.89,Science
+3311,STU99,Marine Science Honors,11,97.89,unknown
 3312,STU99,Psychology AP,11,89.59,Psychology
 3313,STU628,English Literature and Composition AP,11,95.58,English
 3314,STU628,Spanish IV Honors,11,93.65,Foreign Language
@@ -3327,18 +3327,18 @@
 3325,STU261,English Literature and Composition AP,11,92.36,English
 3326,STU261,Spanish Literature and Culture AP,11,94.02,Foreign Language
 3327,STU261,Pre-Calculus,11,95.75,Math
-3328,STU261,Environmental Science AP,11,92.9,Science
+3328,STU261,Environmental Science AP,11,92.9,unknown
 3329,STU261,Government and Politics: United States AP,11,95.31,Humanities
 3330,STU261,AP Seminar (Capstone Year 1),11,92.87,Research
 3331,STU291,English Literature and Composition AP,11,90.14,English
 3332,STU291,Spanish IV Honors,11,94.49,Foreign Language
 3333,STU291,Pre-Calculus,11,88.43,Math
-3334,STU291,Environmental Science AP,11,92.37,Science
+3334,STU291,Environmental Science AP,11,92.37,unknown
 3335,STU291,European History AP,11,97.11,Humanities
 3336,STU237,English Literature and Composition AP,11,92.16,English
 3337,STU237,Chinese IV Honors,11,94.42,Foreign Language
 3338,STU237,Calculus AB AP,11,91.38,Math
-3339,STU237,Computer Science A AP,11,92.92,Science
+3339,STU237,Computer Science A AP,11,92.92,Computer Science
 3340,STU237,Biology AP,11,94.83,Science
 3341,STU237,Psychology AP,11,87.16,Psychology
 3342,STU237,AP Seminar (Capstone Year 1),11,82.69,Research
@@ -3347,7 +3347,7 @@
 3345,STU82,Calculus AB AP,11,93.25,Math
 3346,STU82,Data Structures Post-AP,11,93.7,Computer Science
 3347,STU82,Biology AP,11,96.77,Science
-3348,STU82,Science Research II Advanced,11,97.0,Science
+3348,STU82,Science Research II Advanced,11,97.0,unknown
 3349,STU82,Microeconomics AP,11,94.87,Humanities
 3350,STU757,English Literature and Composition AP,11,93.47,English
 3351,STU757,Spanish III,11,93.99,Foreign Language
@@ -3358,14 +3358,14 @@
 3356,STU513,English Literature and Composition AP,11,93.25,English
 3357,STU513,Spanish Literature and Culture AP,11,96.45,Foreign Language
 3358,STU513,Calculus AB AP,11,96.25,Math
-3359,STU513,Computer Science A AP,11,96.85,Science
+3359,STU513,Computer Science A AP,11,96.85,Computer Science
 3360,STU513,Chemistry AP,11,96.28,Science
-3361,STU513,Science Research II Advanced,11,91.0,Science
+3361,STU513,Science Research II Advanced,11,91.0,unknown
 3362,STU513,Microeconomics AP,11,94.97,Humanities
 3363,STU279,English Literature and Composition AP,11,91.73,English
 3364,STU279,Spanish IV,11,87.5,Foreign Language
 3365,STU279,Pre-Calculus,11,84.79,Math
-3366,STU279,Environmental Science AP,11,89.84,Science
+3366,STU279,Environmental Science AP,11,89.84,unknown
 3367,STU279,European History AP,11,92.93,Humanities
 3368,STU279,Government and Politics: United States AP,11,94.02,Humanities
 3369,STU721,English Language and Composition AP,11,90.84,English
@@ -3377,13 +3377,13 @@
 3375,STU211,English Literature and Composition AP,11,91.54,English
 3376,STU211,Spanish IV Honors,11,97.69,Foreign Language
 3377,STU211,Pre-Calculus Honors,11,91.96,Math
-3378,STU211,Environmental Science AP,11,88.78,Science
+3378,STU211,Environmental Science AP,11,88.78,unknown
 3379,STU211,Anatomy and Physiology Honors,11,92.55,Science
 3380,STU211,European History AP,11,96.56,Humanities
 3381,STU766,English Literature and Composition AP,11,91.61,English
 3382,STU766,Spanish IV,11,89.22,Foreign Language
 3383,STU766,Pre-Calculus,11,90.85,Math
-3384,STU766,Environmental Science AP,11,88.73,Science
+3384,STU766,Environmental Science AP,11,88.73,unknown
 3385,STU766,European History AP,11,88.44,Humanities
 3386,STU766,AP Seminar (Capstone Year 1),11,90.37,Research
 3387,STU766,Social Entrepreneurship II Advanced,11,95.93,Entrepreneurship
@@ -3396,7 +3396,7 @@
 3394,STU336,English Literature and Composition AP,11,92.3,English
 3395,STU336,Spanish IV Honors,11,98.8,Foreign Language
 3396,STU336,Calculus AB AP,11,91.15,Math
-3397,STU336,Environmental Science AP,11,94.18,Science
+3397,STU336,Environmental Science AP,11,94.18,unknown
 3398,STU336,Government and Politics: United States AP,11,95.23,Humanities
 3399,STU336,Social Entrepreneurship II Advanced,11,97.93,Entrepreneurship
 3400,STU774,English Literature and Composition AP,11,94.77,English
@@ -3423,7 +3423,7 @@
 3421,STU32,Calculus AB AP,11,95.42,Math
 3422,STU32,Data Structures Post-AP,11,95.5,Computer Science
 3423,STU32,Biology AP,11,94.24,Science
-3424,STU32,Science Research II Advanced,11,94.0,Science
+3424,STU32,Science Research II Advanced,11,94.0,unknown
 3425,STU32,Microeconomics AP,11,97.89,Humanities
 3426,STU754,English Literature and Composition AP,11,88.43,English
 3427,STU754,Talented Writers Program II Honors,11,90.93,English
@@ -3436,19 +3436,19 @@
 3434,STU252,Studio Art 3-D Design AP,11,94.68,Arts
 3435,STU252,Spanish IV,11,89.49,Foreign Language
 3436,STU252,Pre-Calculus,11,86.06,Math
-3437,STU252,Marine Science Honors,11,95.27,Science
+3437,STU252,Marine Science Honors,11,95.27,unknown
 3438,STU252,European History AP,11,93.05,Humanities
 3439,STU252,Government and Politics: United States AP,11,91.3,Humanities
 3440,STU24,English Literature and Composition AP,11,89.83,English
 3441,STU24,Studio Art 3-D Design AP,11,97.44,Arts
 3442,STU24,Spanish IV,11,86.46,Foreign Language
 3443,STU24,Pre-Calculus,11,93.03,Math
-3444,STU24,Marine Science Honors,11,96.86,Science
+3444,STU24,Marine Science Honors,11,96.86,unknown
 3445,STU24,Government and Politics: United States AP,11,85.12,Humanities
 3446,STU22,English Literature and Composition AP,11,91.52,English
 3447,STU22,Spanish Literature and Culture AP,11,90.37,Foreign Language
 3448,STU22,Pre-Calculus,11,86.63,Math
-3449,STU22,Environmental Science AP,11,90.9,Science
+3449,STU22,Environmental Science AP,11,90.9,unknown
 3450,STU22,Psychology AP,11,91.9,Psychology
 3451,STU22,European History AP,11,93.78,Humanities
 3452,STU725,English Literature and Composition AP,11,96.54,English
@@ -3456,7 +3456,7 @@
 3454,STU725,Calculus AB AP,11,94.3,Math
 3455,STU725,Data Structures Post-AP,11,93.85,Computer Science
 3456,STU725,Biology AP,11,97.29,Science
-3457,STU725,Environmental Science AP,11,96.58,Science
+3457,STU725,Environmental Science AP,11,96.58,unknown
 3458,STU725,Microeconomics AP,11,94.59,Humanities
 3459,STU418,English Literature and Composition AP,11,94.29,English
 3460,STU418,Latin III Honors,11,98.18,Foreign Language
@@ -3468,14 +3468,14 @@
 3466,STU818,English Language and Composition AP,11,94.18,English
 3467,STU818,Spanish IV Honors,11,97.81,Foreign Language
 3468,STU818,Pre-Calculus Honors,11,90.92,Math
-3469,STU818,Computer Science A AP,11,92.98,Science
+3469,STU818,Computer Science A AP,11,92.98,Computer Science
 3470,STU818,Chemistry AP,11,89.8,Science
 3471,STU818,European History AP,11,93.9,Humanities
 3472,STU137,English Language and Composition AP,11,90.71,English
 3473,STU137,Spanish IV,11,94.99,Foreign Language
 3474,STU137,Pre-Calculus Honors,11,80.41,Math
-3475,STU137,Environmental Science AP,11,90.79,Science
-3476,STU137,Marine Science Honors,11,95.39,Science
+3475,STU137,Environmental Science AP,11,90.79,unknown
+3476,STU137,Marine Science Honors,11,95.39,unknown
 3477,STU137,Government and Politics: United States AP,11,93.82,Humanities
 3478,STU117,English Literature and Composition AP,11,94.73,English
 3479,STU117,Studio Art 3-D Design AP,11,97.93,Arts
@@ -3487,33 +3487,33 @@
 3485,STU448,English Literature and Composition AP,11,88.53,English
 3486,STU448,Latin III Honors,11,94.74,Foreign Language
 3487,STU448,Pre-Calculus Honors,11,87.42,Math
-3488,STU448,Computer Science Principles AP,11,93.65,Science
+3488,STU448,Computer Science Principles AP,11,93.65,Computer Science
 3489,STU448,Biology AP,11,89.86,Science
 3490,STU448,European History AP,11,91.69,Humanities
 3491,STU230,English Literature and Composition AP,11,92.08,English
 3492,STU230,French IV,11,81.05,Foreign Language
 3493,STU230,Pre-Calculus Honors,11,77.48,Math
-3494,STU230,Computer Science Principles AP,11,92.05,Science
-3495,STU230,Environmental Science AP,11,87.27,Science
+3494,STU230,Computer Science Principles AP,11,92.05,Computer Science
+3495,STU230,Environmental Science AP,11,87.27,unknown
 3496,STU230,European History AP,11,87.23,Humanities
 3497,STU550,English Language and Composition AP,11,89.21,English
 3498,STU550,Latin II Honors,11,97.0,Foreign Language
 3499,STU550,Pre-Calculus,11,84.56,Math
-3500,STU550,Environmental Science AP,11,94.81,Science
-3501,STU550,Marine Science Honors,11,95.52,Science
+3500,STU550,Environmental Science AP,11,94.81,unknown
+3501,STU550,Marine Science Honors,11,95.52,unknown
 3502,STU550,World History AP,11,96.33,Humanities
 3503,STU89,English Language and Composition AP,11,88.52,English
 3504,STU89,Spanish IV,11,92.54,Foreign Language
 3505,STU89,Pre-Calculus Honors,11,81.7,Math
-3506,STU89,Computer Science Principles AP,11,90.93,Science
-3507,STU89,Environmental Science AP,11,91.31,Science
+3506,STU89,Computer Science Principles AP,11,90.93,Computer Science
+3507,STU89,Environmental Science AP,11,91.31,unknown
 3508,STU89,European History AP,11,90.37,Humanities
 3509,STU89,Government and Politics: United States AP,11,90.56,Humanities
 3510,STU17,English Language and Composition AP,11,85.18,English
 3511,STU17,Spanish IV,11,81.1,Foreign Language
 3512,STU17,Pre-Calculus,11,78.03,Math
-3513,STU17,Computer Science A AP,11,82.01,Science
-3514,STU17,Marine Science Honors,11,92.47,Science
+3513,STU17,Computer Science A AP,11,82.01,Computer Science
+3514,STU17,Marine Science Honors,11,92.47,unknown
 3515,STU17,European History AP,11,77.92,Humanities
 3516,STU485,English Literature and Composition AP,11,95.58,English
 3517,STU485,Spanish IV Honors,11,98.43,Foreign Language
@@ -3523,7 +3523,7 @@
 3521,STU122,English Literature and Composition AP,11,92.3,English
 3522,STU122,Spanish IV Honors,11,91.88,Foreign Language
 3523,STU122,Pre-Calculus,11,94.38,Math
-3524,STU122,Environmental Science AP,11,91.36,Science
+3524,STU122,Environmental Science AP,11,91.36,unknown
 3525,STU122,Psychology AP,11,93.3,Psychology
 3526,STU122,European History AP,11,91.64,Humanities
 3527,STU752,English Literature and Composition AP,11,94.82,English
@@ -3535,7 +3535,7 @@
 3533,STU86,English Language and Composition AP,11,89.4,English
 3534,STU86,Spanish IV,11,89.19,Foreign Language
 3535,STU86,Pre-Calculus,11,93.83,Math
-3536,STU86,Computer Science A AP,11,77.64,Science
+3536,STU86,Computer Science A AP,11,77.64,Computer Science
 3537,STU86,Anatomy and Physiology Honors,11,90.46,Science
 3538,STU86,Government and Politics: United States AP,11,84.17,Humanities
 3539,STU642,English Literature and Composition AP,11,92.37,English
@@ -3553,14 +3553,14 @@
 3551,STU816,English Literature and Composition AP,11,94.23,English
 3552,STU816,French III Honors,11,96.09,Foreign Language
 3553,STU816,Pre-Calculus Honors,11,97.15,Math
-3554,STU816,Computer Science A AP,11,95.95,Science
+3554,STU816,Computer Science A AP,11,95.95,Computer Science
 3555,STU816,Biology Honors,11,99.76,Science
 3556,STU816,Astronomy Honors,11,98.57,Science
 3557,STU816,World History AP,11,100.82,Humanities
 3558,STU620,English Literature and Composition AP,11,93.38,English
 3559,STU620,Spanish IV,11,91.71,Foreign Language
 3560,STU620,Pre-Calculus Honors,11,87.86,Math
-3561,STU620,Computer Science A AP,11,95.38,Science
+3561,STU620,Computer Science A AP,11,95.38,Computer Science
 3562,STU620,Biology AP,11,92.99,Science
 3563,STU620,AP Seminar (Capstone Year 1),11,87.31,Research
 3564,STU557,English Literature and Composition AP,11,90.85,English
@@ -3574,18 +3574,18 @@
 3572,STU276,Music Theory AP,11,97.46,Arts
 3573,STU276,Spanish IV,11,93.27,Foreign Language
 3574,STU276,Pre-Calculus,11,93.62,Math
-3575,STU276,Marine Science Honors,11,95.03,Science
+3575,STU276,Marine Science Honors,11,95.03,unknown
 3576,STU276,Psychology AP,11,86.23,Psychology
 3577,STU255,English Literature and Composition AP,11,87.03,English
 3578,STU255,Spanish IV Honors,11,96.79,Foreign Language
 3579,STU255,Pre-Calculus,11,92.71,Math
-3580,STU255,Marine Science Honors,11,92.79,Science
+3580,STU255,Marine Science Honors,11,92.79,unknown
 3581,STU255,AP Seminar (Capstone Year 1),11,90.0,Research
 3582,STU93,English Language and Composition AP,11,92.11,English
 3583,STU93,Studio Art 2-D Design AP,11,97.0,Arts
 3584,STU93,Spanish IV,11,90.03,Foreign Language
 3585,STU93,Pre-Calculus,11,94.96,Math
-3586,STU93,Environmental Science AP,11,88.66,Science
+3586,STU93,Environmental Science AP,11,88.66,unknown
 3587,STU93,United States History AP,11,80.34,Humanities
 3588,STU93,Government and Politics: United States AP,11,91.11,Humanities
 3589,STU401,English Literature and Composition AP,11,96.76,English
@@ -3612,7 +3612,7 @@
 3610,STU602,English Language and Composition AP,11,92.59,English
 3611,STU602,Spanish III,11,92.85,Foreign Language
 3612,STU602,Pre-Calculus,11,92.68,Math
-3613,STU602,Environmental Science AP,11,93.19,Science
+3613,STU602,Environmental Science AP,11,93.19,unknown
 3614,STU602,United States History AP,11,92.97,Humanities
 3615,STU602,Government and Politics: United States AP,11,87.78,Humanities
 3616,STU858,English Language and Composition AP,11,93.25,English
@@ -3657,24 +3657,24 @@
 3655,STU466,English Literature and Composition AP,11,92.37,English
 3656,STU466,Spanish IV,11,89.39,Foreign Language
 3657,STU466,Pre-Calculus Honors,11,89.38,Math
-3658,STU466,Environmental Science AP,11,92.56,Science
+3658,STU466,Environmental Science AP,11,92.56,unknown
 3659,STU466,Psychology AP,11,92.91,Psychology
 3660,STU466,European History AP,11,93.57,Humanities
 3661,STU2,English Language and Composition AP,11,89.33,English
 3662,STU2,Studio Art 3-D Design AP,11,95.49,Arts
 3663,STU2,Spanish IV,11,90.76,Foreign Language
 3664,STU2,Pre-Calculus,11,83.83,Math
-3665,STU2,Marine Science Honors,11,91.04,Science
+3665,STU2,Marine Science Honors,11,91.04,unknown
 3666,STU2,Psychology AP,11,78.12,Psychology
 3667,STU251,English Language and Composition AP,11,93.7,English
 3668,STU251,Spanish IV,11,93.32,Foreign Language
 3669,STU251,Pre-Calculus,11,93.53,Math
-3670,STU251,Marine Science Honors,11,94.91,Science
+3670,STU251,Marine Science Honors,11,94.91,unknown
 3671,STU251,Government and Politics: United States AP,11,90.2,Humanities
 3672,STU229,English Language and Composition AP,11,87.47,English
 3673,STU229,Spanish III,11,89.93,Foreign Language
 3674,STU229,Pre-Calculus,11,86.87,Math
-3675,STU229,Marine Science Honors,11,97.6,Science
+3675,STU229,Marine Science Honors,11,97.6,unknown
 3676,STU229,Psychology AP,11,83.31,Psychology
 3677,STU229,International Relations Honors,11,92.56,Law and Politics
 3678,STU229,Social Entrepreneurship II Advanced,11,93.42,Entrepreneurship
@@ -3690,12 +3690,12 @@
 3688,STU473,Art History AP,11,92.01,Humanities
 3689,STU473,Spanish IV,11,82.93,Foreign Language
 3690,STU473,Pre-Calculus,11,85.08,Math
-3691,STU473,Marine Science Honors,11,95.39,Science
+3691,STU473,Marine Science Honors,11,95.39,unknown
 3692,STU204,English Language and Composition AP,11,90.3,English
 3693,STU204,Studio Art 3-D Design AP,11,96.22,Arts
 3694,STU204,Chinese IV Honors,11,85.29,Foreign Language
 3695,STU204,Pre-Calculus,11,82.48,Math
-3696,STU204,Marine Science Honors,11,93.86,Science
+3696,STU204,Marine Science Honors,11,93.86,unknown
 3697,STU204,Anatomy and Physiology Honors,11,85.2,Science
 3698,STU204,Psychology AP,11,83.28,Psychology
 3699,STU525,English Literature and Composition AP,11,92.4,English
@@ -3708,21 +3708,21 @@
 3706,STU36,Studio Art 2-D Design AP,11,95.52,Arts
 3707,STU36,Spanish IV Honors,11,96.06,Foreign Language
 3708,STU36,Pre-Calculus,11,94.51,Math
-3709,STU36,Environmental Science AP,11,91.66,Science
+3709,STU36,Environmental Science AP,11,91.66,unknown
 3710,STU36,Psychology AP,11,87.15,Psychology
 3711,STU36,European History AP,11,95.45,Humanities
 3712,STU105,English Literature and Composition AP,11,92.98,English
 3713,STU105,Spanish IV Honors,11,97.93,Foreign Language
 3714,STU105,Pre-Calculus,11,96.7,Math
-3715,STU105,Computer Science Principles AP,11,94.9,Science
-3716,STU105,Environmental Science AP,11,93.15,Science
+3715,STU105,Computer Science Principles AP,11,94.9,Computer Science
+3716,STU105,Environmental Science AP,11,93.15,unknown
 3717,STU105,European History AP,11,95.58,Humanities
 3718,STU105,Government and Politics: United States AP,11,96.0,Humanities
 3719,STU179,English Language and Composition AP,11,89.68,English
 3720,STU179,Studio Art 2-D Design AP,11,95.57,Arts
 3721,STU179,Spanish IV Honors,11,92.29,Foreign Language
 3722,STU179,Pre-Calculus,11,88.23,Math
-3723,STU179,Marine Science Honors,11,94.1,Science
+3723,STU179,Marine Science Honors,11,94.1,unknown
 3724,STU179,United States History AP,11,82.82,Humanities
 3725,STU179,Government and Politics: United States AP,11,86.79,Humanities
 3726,STU633,English Literature and Composition AP,11,97.18,English
@@ -3730,55 +3730,55 @@
 3728,STU633,Art History AP,11,98.09,Humanities
 3729,STU633,Spanish IV Honors,11,98.24,Foreign Language
 3730,STU633,Pre-Calculus,11,96.63,Math
-3731,STU633,Environmental Science AP,11,93.98,Science
+3731,STU633,Environmental Science AP,11,93.98,unknown
 3732,STU101,English Literature and Composition AP,11,91.18,English
 3733,STU101,Studio Art 3-D Design AP,11,98.66,Arts
 3734,STU101,Spanish IV Honors,11,90.07,Foreign Language
 3735,STU101,Pre-Calculus,11,93.55,Math
-3736,STU101,Environmental Science AP,11,92.63,Science
+3736,STU101,Environmental Science AP,11,92.63,unknown
 3737,STU101,European History AP,11,94.79,Humanities
 3738,STU101,AP Seminar (Capstone Year 1),11,91.57,Research
 3739,STU394,English Literature and Composition AP,11,91.7,English
 3740,STU394,Spanish IV Honors,11,97.6,Foreign Language
 3741,STU394,Calculus AB AP,11,94.92,Math
-3742,STU394,Computer Science A AP,11,95.92,Science
+3742,STU394,Computer Science A AP,11,95.92,Computer Science
 3743,STU394,Biology AP,11,95.44,Science
 3744,STU394,Psychology AP,11,91.79,Psychology
 3745,STU394,European History AP,11,90.56,Humanities
 3746,STU499,English Language and Composition AP,11,96.42,English
 3747,STU499,Spanish IV,11,96.2,Foreign Language
 3748,STU499,Pre-Calculus Honors,11,89.68,Math
-3749,STU499,Computer Science Principles AP,11,96.49,Science
-3750,STU499,Environmental Science AP,11,98.05,Science
+3749,STU499,Computer Science Principles AP,11,96.49,Computer Science
+3750,STU499,Environmental Science AP,11,98.05,unknown
 3751,STU499,Social Entrepreneurship II Advanced,11,97.45,Entrepreneurship
 3752,STU128,English Language and Composition AP,11,90.49,English
 3753,STU128,Spanish IV,11,88.94,Foreign Language
 3754,STU128,Pre-Calculus Honors,11,84.75,Math
-3755,STU128,Computer Science Principles AP,11,96.52,Science
-3756,STU128,Environmental Science AP,11,88.27,Science
+3755,STU128,Computer Science Principles AP,11,96.52,Computer Science
+3756,STU128,Environmental Science AP,11,88.27,unknown
 3757,STU128,European History AP,11,87.17,Humanities
 3758,STU570,English Literature and Composition AP,11,90.12,English
 3759,STU570,Spanish IV Honors,11,93.35,Foreign Language
 3760,STU570,Pre-Calculus Honors,11,89.51,Math
-3761,STU570,Environmental Science AP,11,94.79,Science
-3762,STU570,Marine Science Honors,11,98.21,Science
+3761,STU570,Environmental Science AP,11,94.79,unknown
+3762,STU570,Marine Science Honors,11,98.21,unknown
 3763,STU570,European History AP,11,90.76,Humanities
 3764,STU430,English Language and Composition AP,11,87.68,English
 3765,STU430,Studio Art 3-D Design AP,11,92.68,Arts
 3766,STU430,Spanish IV,11,85.69,Foreign Language
 3767,STU430,Pre-Calculus,11,81.53,Math
-3768,STU430,Marine Science Honors,11,94.53,Science
+3768,STU430,Marine Science Honors,11,94.53,unknown
 3769,STU430,European History AP,11,82.97,Humanities
 3770,STU154,English Language and Composition AP,11,93.77,English
 3771,STU154,Studio Art 3-D Design AP,11,97.56,Arts
 3772,STU154,Spanish IV Honors,11,96.96,Foreign Language
 3773,STU154,Pre-Calculus Honors,11,85.86,Math
-3774,STU154,Marine Science Honors,11,94.67,Science
+3774,STU154,Marine Science Honors,11,94.67,unknown
 3775,STU154,Psychology AP,11,88.67,Psychology
 3776,STU282,English Language and Composition AP,11,88.29,English
 3777,STU282,Spanish IV,11,81.85,Foreign Language
 3778,STU282,Pre-Calculus,11,83.11,Math
-3779,STU282,Computer Science Principles AP,11,89.22,Science
+3779,STU282,Computer Science Principles AP,11,89.22,Computer Science
 3780,STU282,Anatomy and Physiology Honors,11,87.15,Science
 3781,STU282,Psychology AP,11,75.64,Psychology
 3782,STU18,English Literature and Composition AP,11,91.79,English
@@ -3792,19 +3792,19 @@
 3790,STU687,Spanish Literature and Culture AP,11,95.94,Foreign Language
 3791,STU687,French IV Honors,11,93.94,Foreign Language
 3792,STU687,Pre-Calculus Honors,11,95.51,Math
-3793,STU687,Environmental Science AP,11,94.93,Science
+3793,STU687,Environmental Science AP,11,94.93,unknown
 3794,STU687,European History AP,11,94.07,Humanities
 3795,STU669,English Literature and Composition AP,11,95.1,English
 3796,STU669,Chinese IV Honors,11,97.78,Foreign Language
 3797,STU669,Calculus AB AP,11,97.39,Math
 3798,STU669,Data Structures Post-AP,11,98.8,Computer Science
 3799,STU669,Biology AP,11,97.31,Science
-3800,STU669,Science Research II Advanced,11,98.0,Science
+3800,STU669,Science Research II Advanced,11,98.0,unknown
 3801,STU669,Government and Politics: United States AP,11,95.9,Humanities
 3802,STU828,English Language and Composition AP,11,91.09,English
 3803,STU828,Chinese IV Honors,11,85.34,Foreign Language
 3804,STU828,Pre-Calculus Honors,11,81.7,Math
-3805,STU828,Environmental Science AP,11,90.14,Science
+3805,STU828,Environmental Science AP,11,90.14,unknown
 3806,STU828,Psychology AP,11,84.81,Psychology
 3807,STU828,European History AP,11,90.2,Humanities
 3808,STU75,English Literature and Composition AP,11,91.6,English
@@ -3817,24 +3817,24 @@
 3815,STU488,Spanish IV Honors,11,97.06,Foreign Language
 3816,STU488,Pre-Calculus Honors,11,90.07,Math
 3817,STU488,Biology AP,11,95.29,Science
-3818,STU488,Environmental Science AP,11,94.82,Science
+3818,STU488,Environmental Science AP,11,94.82,unknown
 3819,STU488,Psychology AP,11,93.06,Psychology
 3820,STU488,Government and Politics: United States AP,11,92.79,Humanities
 3821,STU527,English Literature and Composition AP,12,88.34,English
 3822,STU527,Spanish IV,12,82.12,Foreign Language
 3823,STU527,Calculus I Honors,12,84.97,Math
-3824,STU527,Environmental Science AP,12,84.09,Science
+3824,STU527,Environmental Science AP,12,84.09,unknown
 3825,STU527,European History AP,12,79.1,Humanities
 3826,STU87,English Literature and Composition AP,12,90.77,English
 3827,STU87,Seminar in Visual Arts Post-AP,12,94.16,Arts
 3828,STU87,Spanish Language and Culture AP,12,89.84,Foreign Language
 3829,STU87,Statistics AP,12,89.4,Math
-3830,STU87,Environmental Science AP,12,84.47,Science
+3830,STU87,Environmental Science AP,12,84.47,unknown
 3831,STU87,Psychology AP,12,84.86,Psychology
 3832,STU51,English Literature and Composition AP,12,93.74,English
 3833,STU51,Spanish Language and Culture AP,12,94.45,Foreign Language
 3834,STU51,Calculus AB AP,12,89.95,Math
-3835,STU51,Environmental Science AP,12,94.95,Science
+3835,STU51,Environmental Science AP,12,94.95,unknown
 3836,STU51,International Relations Honors,12,97.21,Law and Politics
 3837,STU51,Microeconomics AP,12,93.62,Humanities
 3838,STU52,Women Writers Post-AP,12,96.27,English
@@ -3842,7 +3842,7 @@
 3840,STU52,Multivariable Calculus Post-AP,12,95.2,Math
 3841,STU52,Artificial Intelligence Post-AP,12,97.18,Computer Science
 3842,STU52,Physics C AP: Mechanics,12,95.1,Science
-3843,STU52,Science Research III Advanced,12,99.0,Science
+3843,STU52,Science Research III Advanced,12,99.0,unknown
 3844,STU52,"Philosophy, Politics, and Economics Post-AP",12,95.76,Law and Politics
 3845,STU358,English Literature and Composition AP,12,93.24,English
 3846,STU358,Spanish Language and Culture AP,12,95.2,Foreign Language
@@ -3908,7 +3908,7 @@
 3906,STU802,English Literature and Composition AP,12,96.52,English
 3907,STU802,Spanish Literature and Culture AP,12,97.14,Foreign Language
 3908,STU802,Calculus AB AP,12,96.7,Math
-3909,STU802,Computer Science Principles AP,12,97.87,Science
+3909,STU802,Computer Science Principles AP,12,97.87,Computer Science
 3910,STU802,Biology Post-AP,12,94.15,Science
 3911,STU802,Chemistry AP,12,96.35,Science
 3912,STU802,European History AP,12,96.73,Humanities
@@ -3944,7 +3944,7 @@
 3942,STU500,Art History AP,12,95.49,Humanities
 3943,STU500,Spanish IV,12,88.67,Foreign Language
 3944,STU500,Statistics AP,12,85.11,Math
-3945,STU500,Environmental Science AP,12,86.08,Science
+3945,STU500,Environmental Science AP,12,86.08,unknown
 3946,STU500,European History AP,12,91.03,Humanities
 3947,STU667,Spanish Literature and Culture AP,12,97.23,Foreign Language
 3948,STU667,Statistics AP,12,98.28,Math
@@ -4004,7 +4004,7 @@
 4002,STU678,Spanish: 20th Century Latin American Literature Post-AP,12,96.5,Foreign Language
 4003,STU678,Statistics AP,12,96.14,Math
 4004,STU678,Calculus BC AP,12,93.45,Math
-4005,STU678,Environmental Science AP,12,94.04,Science
+4005,STU678,Environmental Science AP,12,94.04,unknown
 4006,STU678,Psychology AP,12,95.59,Psychology
 4007,STU678,European History AP,12,98.59,Humanities
 4008,STU284,English Literature and Composition AP,12,94.24,English
@@ -4029,7 +4029,7 @@
 4027,STU9,Chinese Language and Culture AP,12,93.67,Foreign Language
 4028,STU9,Calculus I Honors,12,95.75,Math
 4029,STU9,Biology AP,12,84.73,Science
-4030,STU9,Marine Science Honors,12,92.34,Science
+4030,STU9,Marine Science Honors,12,92.34,unknown
 4031,STU9,Microeconomics AP,12,86.47,Humanities
 4032,STU213,English Literature and Composition AP,12,76.45,English
 4033,STU213,Spanish IV,12,86.3,Foreign Language
@@ -4052,7 +4052,7 @@
 4050,STU492,Studio Art 3-D Design AP,12,89.51,Arts
 4051,STU492,Spanish V Honors,12,88.64,Foreign Language
 4052,STU492,Calculus I Honors,12,84.25,Math
-4053,STU492,Marine Science Honors,12,76.5,Science
+4053,STU492,Marine Science Honors,12,76.5,unknown
 4054,STU492,European History AP,12,77.39,Humanities
 4055,STU702,English Literature and Composition AP,12,86.32,English
 4056,STU702,Spanish IV,12,82.88,Foreign Language
@@ -4075,7 +4075,7 @@
 4073,STU490,Spanish Language and Culture AP,12,96.25,Foreign Language
 4074,STU490,Statistics AP,12,90.94,Math
 4075,STU490,Calculus I Honors,12,91.35,Math
-4076,STU490,Marine Science Honors,12,94.62,Science
+4076,STU490,Marine Science Honors,12,94.62,unknown
 4077,STU490,Microeconomics AP,12,85.93,Humanities
 4078,STU699,English Literature and Composition AP,12,58.62,English
 4079,STU699,Spanish: 20th Century Latin American Literature Post-AP,12,73.33,Foreign Language
@@ -4088,7 +4088,7 @@
 4086,STU70,Multivariable Calculus Post-AP,12,93.0,Math
 4087,STU70,Artificial Intelligence Post-AP,12,96.96,Computer Science
 4088,STU70,Organic Chemistry Post-AP,12,96.54,Science
-4089,STU70,Science Research III Advanced,12,97.0,Science
+4089,STU70,Science Research III Advanced,12,97.0,unknown
 4090,STU70,European History AP,12,97.42,Humanities
 4091,STU277,Shakespeare Post-AP,12,93.95,English
 4092,STU277,Spanish Language and Culture AP,12,97.53,Foreign Language
@@ -4106,12 +4106,12 @@
 4104,STU164,Spanish Language and Culture AP,12,91.3,Foreign Language
 4105,STU164,Statistics AP,12,93.08,Math
 4106,STU164,Calculus AB AP,12,83.35,Math
-4107,STU164,Marine Science Honors,12,93.77,Science
+4107,STU164,Marine Science Honors,12,93.77,unknown
 4108,STU164,Microeconomics AP,12,87.64,Humanities
 4109,STU231,English Literature and Composition AP,12,77.45,English
 4110,STU231,Spanish V Honors,12,87.48,Foreign Language
 4111,STU231,Calculus I Honors,12,81.48,Math
-4112,STU231,Environmental Science AP,12,72.19,Science
+4112,STU231,Environmental Science AP,12,72.19,unknown
 4113,STU231,European History AP,12,75.08,Humanities
 4114,STU231,Microeconomics AP,12,70.96,Humanities
 4115,STU77,Shakespeare Post-AP,12,95.35,English
@@ -4119,13 +4119,13 @@
 4117,STU77,Statistics AP,12,95.34,Math
 4118,STU77,Calculus BC AP,12,92.63,Math
 4119,STU77,Chemistry AP,12,91.35,Science
-4120,STU77,Science Research III Advanced,12,98.0,Science
+4120,STU77,Science Research III Advanced,12,98.0,unknown
 4121,STU77,Microeconomics AP,12,96.41,Humanities
 4122,STU23,Women Writers Post-AP,12,94.92,English
 4123,STU23,Spanish Language and Culture AP,12,93.78,Foreign Language
 4124,STU23,Multivariable Calculus Post-AP,12,92.8,Math
 4125,STU23,Physics C AP: Mechanics,12,92.79,Science
-4126,STU23,Science Research III Advanced,12,96.0,Science
+4126,STU23,Science Research III Advanced,12,96.0,unknown
 4127,STU23,European History AP,12,94.06,Humanities
 4128,STU397,English Literature and Composition AP,12,92.88,English
 4129,STU397,Spanish Language and Culture AP,12,93.4,Foreign Language
@@ -4160,7 +4160,7 @@
 4158,STU540,Seminar in Visual Arts Post-AP,12,98.47,Arts
 4159,STU540,Spanish Language and Culture AP,12,94.45,Foreign Language
 4160,STU540,Calculus AB AP,12,79.0,Math
-4161,STU540,Environmental Science AP,12,88.03,Science
+4161,STU540,Environmental Science AP,12,88.03,unknown
 4162,STU540,Government and Politics: United States AP,12,88.59,Humanities
 4163,STU540,Microeconomics AP,12,82.96,Humanities
 4164,STU290,Shakespeare Post-AP,12,96.15,English
@@ -4174,7 +4174,7 @@
 4172,STU39,French Language and Culture AP,12,93.33,Foreign Language
 4173,STU39,Calculus AB AP,12,81.94,Math
 4174,STU39,Physics I AP,12,79.36,Science
-4175,STU39,Science Research III Advanced,12,97.0,Science
+4175,STU39,Science Research III Advanced,12,97.0,unknown
 4176,STU39,European History AP,12,90.91,Humanities
 4177,STU708,Shakespeare Post-AP,12,93.22,English
 4178,STU708,Spanish IV,12,94.66,Foreign Language
@@ -4201,7 +4201,7 @@
 4199,STU408,Calculus BC AP,12,94.18,Math
 4200,STU408,Biology Post-AP,12,95.83,Science
 4201,STU408,Chemistry AP,12,94.46,Science
-4202,STU408,Science Research III Advanced,12,97.0,Science
+4202,STU408,Science Research III Advanced,12,97.0,unknown
 4203,STU530,English Literature and Composition AP,12,83.99,English
 4204,STU530,Spanish Language and Culture AP,12,94.0,Foreign Language
 4205,STU530,Statistics AP,12,92.96,Math
@@ -4211,7 +4211,7 @@
 4209,STU83,Shakespeare Post-AP,12,96.4,English
 4210,STU83,Spanish Language and Culture AP,12,95.35,Foreign Language
 4211,STU83,Calculus AB AP,12,91.6,Math
-4212,STU83,Environmental Science AP,12,94.96,Science
+4212,STU83,Environmental Science AP,12,94.96,unknown
 4213,STU83,European History AP,12,97.98,Humanities
 4214,STU83,AP Research (Capstone Year 2),12,100.0,Research
 4215,STU352,Women Writers Post-AP,12,95.93,English
@@ -4248,13 +4248,13 @@
 4246,STU603,Latin AP,12,88.17,Foreign Language
 4247,STU603,Statistics AP,12,82.08,Math
 4248,STU603,Calculus I Honors,12,86.09,Math
-4249,STU603,Environmental Science AP,12,79.22,Science
+4249,STU603,Environmental Science AP,12,79.22,unknown
 4250,STU603,Microeconomics AP,12,76.82,Humanities
 4251,STU103,Women Writers Post-AP,12,96.61,English
 4252,STU103,Chinese Language and Culture AP,12,93.21,Foreign Language
 4253,STU103,Calculus BC AP,12,90.78,Math
 4254,STU103,Chemistry AP,12,93.06,Science
-4255,STU103,Environmental Science AP,12,95.21,Science
+4255,STU103,Environmental Science AP,12,95.21,unknown
 4256,STU103,European History AP,12,93.53,Humanities
 4257,STU141,English Literature and Composition AP,12,95.58,English
 4258,STU141,Spanish V Honors,12,95.21,Foreign Language
@@ -4304,7 +4304,7 @@
 4302,STU695,Spanish: 20th Century Latin American Literature Post-AP,12,98.92,Foreign Language
 4303,STU695,Statistics AP,12,96.5,Math
 4304,STU695,Calculus BC AP,12,90.33,Math
-4305,STU695,Environmental Science AP,12,95.51,Science
+4305,STU695,Environmental Science AP,12,95.51,unknown
 4306,STU695,Microeconomics AP,12,93.47,Humanities
 4307,STU157,Women Writers Post-AP,12,95.79,English
 4308,STU157,Spanish Language and Culture AP,12,95.5,Foreign Language
@@ -4317,7 +4317,7 @@
 4315,STU421,Art History AP,12,95.73,Humanities
 4316,STU421,Spanish V Honors,12,91.62,Foreign Language
 4317,STU421,Calculus I Honors,12,94.35,Math
-4318,STU421,Marine Science Honors,12,89.34,Science
+4318,STU421,Marine Science Honors,12,89.34,unknown
 4319,STU5,English Literature and Composition AP,12,84.61,English
 4320,STU5,Spanish V Honors,12,94.01,Foreign Language
 4321,STU5,Calculus I Honors,12,94.24,Math
@@ -4352,7 +4352,7 @@
 4350,STU535,Spanish V Honors,12,93.84,Foreign Language
 4351,STU535,Calculus BC AP,12,85.62,Math
 4352,STU535,Chemistry AP,12,85.17,Science
-4353,STU535,Science Research III Advanced,12,95.0,Science
+4353,STU535,Science Research III Advanced,12,95.0,unknown
 4354,STU535,European History AP,12,93.48,Humanities
 4355,STU545,English Literature and Composition AP,12,92.58,English
 4356,STU545,Seminar in Visual Arts Post-AP,12,98.0,Arts
@@ -4396,7 +4396,7 @@
 4394,STU37,Spanish: 20th Century Latin American Literature Post-AP,12,94.08,Foreign Language
 4395,STU37,Statistics AP,12,84.4,Math
 4396,STU37,Calculus I Honors,12,89.96,Math
-4397,STU37,Environmental Science AP,12,88.43,Science
+4397,STU37,Environmental Science AP,12,88.43,unknown
 4398,STU37,Social Entrepreneurship III Advanced,12,90.96,Entrepreneurship
 4399,STU37,Microeconomics AP,12,90.31,Humanities
 4400,STU145,Shakespeare Post-AP,12,94.59,English
@@ -4432,13 +4432,13 @@
 4430,STU74,Art History AP,12,90.15,Humanities
 4431,STU74,Spanish Language and Culture AP,12,87.25,Foreign Language
 4432,STU74,Calculus I Honors,12,86.55,Math
-4433,STU74,Environmental Science AP,12,82.82,Science
+4433,STU74,Environmental Science AP,12,82.82,unknown
 4434,STU74,Psychology AP,12,82.68,Psychology
 4435,STU79,English Literature and Composition AP,12,92.91,English
 4436,STU79,Seminar in Visual Arts Post-AP,12,98.11,Arts
 4437,STU79,Spanish Language and Culture AP,12,87.64,Foreign Language
 4438,STU79,Calculus AB AP,12,79.45,Math
-4439,STU79,Environmental Science AP,12,88.58,Science
+4439,STU79,Environmental Science AP,12,88.58,unknown
 4440,STU79,Social Entrepreneurship III Advanced,12,97.23,Entrepreneurship
 4441,STU79,Microeconomics AP,12,85.88,Humanities
 4442,STU31,English Literature and Composition AP,12,91.92,English
@@ -4484,15 +4484,15 @@
 4482,STU26,Shakespeare Post-AP,12,94.7,English
 4483,STU26,Latin AP,12,91.81,Foreign Language
 4484,STU26,Calculus I Honors,12,93.75,Math
-4485,STU26,Computer Science Principles AP,12,94.83,Science
-4486,STU26,Marine Science Honors,12,94.71,Science
+4485,STU26,Computer Science Principles AP,12,94.83,Computer Science
+4486,STU26,Marine Science Honors,12,94.71,unknown
 4487,STU26,European History AP,12,96.5,Humanities
 4488,STU26,Social Entrepreneurship III Advanced,12,91.81,Entrepreneurship
 4489,STU517,English Literature and Composition AP,12,89.66,English
 4490,STU517,Art History AP,12,91.22,Humanities
 4491,STU517,Spanish Language and Culture AP,12,92.72,Foreign Language
 4492,STU517,Calculus I Honors,12,84.3,Math
-4493,STU517,Marine Science Honors,12,86.25,Science
+4493,STU517,Marine Science Honors,12,86.25,unknown
 4494,STU543,Mythology Classical and World Literature Post-AP,12,88.01,English
 4495,STU543,French Language and Culture AP,12,83.51,Foreign Language
 4496,STU543,Calculus I Honors,12,93.98,Math
@@ -4508,7 +4508,7 @@
 4506,STU171,Mythology Classical and World Literature Post-AP,12,97.99,English
 4507,STU171,Chinese Language and Culture AP,12,98.34,Foreign Language
 4508,STU171,Multivariable Calculus Post-AP,12,95.5,Math
-4509,STU171,Computer Science Principles AP,12,97.72,Science
+4509,STU171,Computer Science Principles AP,12,97.72,Computer Science
 4510,STU171,Physics C AP: Mechanics,12,93.45,Science
 4511,STU171,"Philosophy, Politics, and Economics Post-AP",12,98.18,Law and Politics
 4512,STU172,Mythology Classical and World Literature Post-AP,12,96.02,English
@@ -4522,7 +4522,7 @@
 4520,STU181,Spanish Language and Culture AP,12,92.35,Foreign Language
 4521,STU181,Statistics AP,12,93.93,Math
 4522,STU181,Calculus BC AP,12,79.6,Math
-4523,STU181,Marine Science Honors,12,93.75,Science
+4523,STU181,Marine Science Honors,12,93.75,unknown
 4524,STU181,European History AP,12,82.57,Humanities
 4525,STU181,Government and Politics: United States AP,12,91.57,Humanities
 4526,STU192,English Literature and Composition AP,12,95.27,English
@@ -4553,7 +4553,7 @@
 4551,STU495,Talented Writers Program III Honors,12,91.45,English
 4552,STU495,Chinese Language and Culture AP,12,87.2,Foreign Language
 4553,STU495,Calculus I Honors,12,89.6,Math
-4554,STU495,Environmental Science AP,12,91.28,Science
+4554,STU495,Environmental Science AP,12,91.28,unknown
 4555,STU495,Psychology AP,12,91.42,Psychology
 4556,STU495,Government and Politics: United States AP,12,91.91,Humanities
 4557,STU495,AP Research (Capstone Year 2),12,97.84,Research
@@ -4591,7 +4591,7 @@
 4589,STU631,Latin AP,12,89.97,Foreign Language
 4590,STU631,Multivariable Calculus Post-AP,12,90.9,Math
 4591,STU631,Physics C AP: Mechanics,12,91.03,Science
-4592,STU631,Science Research III Advanced,12,94.0,Science
+4592,STU631,Science Research III Advanced,12,94.0,unknown
 4593,STU631,Microeconomics AP,12,86.67,Humanities
 4594,STU554,English Literature and Composition AP,12,90.39,English
 4595,STU554,Spanish Language and Culture AP,12,94.0,Foreign Language
@@ -4608,7 +4608,7 @@
 4606,STU16,English Literature and Composition AP,12,94.15,English
 4607,STU16,Latin AP,12,89.82,Foreign Language
 4608,STU16,Calculus I Honors,12,94.47,Math
-4609,STU16,Environmental Science AP,12,88.23,Science
+4609,STU16,Environmental Science AP,12,88.23,unknown
 4610,STU16,Psychology AP,12,87.26,Psychology
 4611,STU16,Microeconomics AP,12,87.46,Humanities
 4612,STU728,Women Writers Post-AP,12,96.49,English
@@ -4622,7 +4622,7 @@
 4620,STU170,Art History AP,12,88.95,Humanities
 4621,STU170,Latin AP,12,89.34,Foreign Language
 4622,STU170,Calculus I Honors,12,88.26,Math
-4623,STU170,Environmental Science AP,12,80.72,Science
+4623,STU170,Environmental Science AP,12,80.72,unknown
 4624,STU170,Psychology AP,12,82.56,Psychology
 4625,STU158,On The Fringe: Marginalized Voices in Literature Post-AP,12,99.15,English
 4626,STU158,Spanish V Honors,12,97.57,Foreign Language
@@ -4633,13 +4633,13 @@
 4631,STU567,English Literature and Composition AP,12,91.37,English
 4632,STU567,Spanish IV,12,86.65,Foreign Language
 4633,STU567,Calculus I Honors,12,87.5,Math
-4634,STU567,Environmental Science AP,12,89.13,Science
+4634,STU567,Environmental Science AP,12,89.13,unknown
 4635,STU567,European History AP,12,84.67,Humanities
 4636,STU567,Holocaust History Honors,12,98.51,Humanities
 4637,STU698,English Literature and Composition AP,12,94.25,English
 4638,STU698,Spanish IV,12,94.3,Foreign Language
 4639,STU698,Calculus AB AP,12,91.38,Math
-4640,STU698,Environmental Science AP,12,90.51,Science
+4640,STU698,Environmental Science AP,12,90.51,unknown
 4641,STU698,Psychology AP,12,86.38,Psychology
 4642,STU698,Microeconomics AP,12,86.66,Humanities
 4643,STU46,Shakespeare Post-AP,12,96.34,English
@@ -4650,14 +4650,14 @@
 4648,STU718,English Literature and Composition AP,12,92.9,English
 4649,STU718,Spanish IV,12,89.44,Foreign Language
 4650,STU718,Calculus BC AP,12,89.52,Math
-4651,STU718,Computer Science Principles AP,12,96.27,Science
+4651,STU718,Computer Science Principles AP,12,96.27,Computer Science
 4652,STU718,Physics C AP: Mechanics,12,87.03,Science
 4653,STU718,Psychology AP,12,84.97,Psychology
 4654,STU120,English Literature and Composition AP,12,90.0,English
 4655,STU120,Art History AP,12,94.54,Humanities
 4656,STU120,French Language and Culture AP,12,87.32,Foreign Language
 4657,STU120,Calculus I Honors,12,88.85,Math
-4658,STU120,Marine Science Honors,12,93.77,Science
+4658,STU120,Marine Science Honors,12,93.77,unknown
 4659,STU553,Mythology Classical and World Literature Post-AP,12,91.24,English
 4660,STU553,Chinese V Honors,12,93.01,Foreign Language
 4661,STU553,Calculus I Honors,12,94.65,Math
@@ -4669,13 +4669,13 @@
 4667,STU55,Statistics AP,12,98.77,Math
 4668,STU55,Multivariable Calculus Post-AP,12,92.1,Math
 4669,STU55,Physics C AP: Mechanics,12,91.92,Science
-4670,STU55,Science Research III Advanced,12,98.0,Science
+4670,STU55,Science Research III Advanced,12,98.0,unknown
 4671,STU55,"Philosophy, Politics, and Economics Post-AP",12,97.88,Law and Politics
 4672,STU684,On The Fringe: Marginalized Voices in Literature Post-AP,12,97.78,English
 4673,STU684,Spanish Language and Culture AP,12,97.9,Foreign Language
 4674,STU684,Calculus BC AP,12,91.7,Math
 4675,STU684,Physics I AP,12,92.72,Science
-4676,STU684,Science Research III Advanced,12,99.0,Science
+4676,STU684,Science Research III Advanced,12,99.0,unknown
 4677,STU684,European History AP,12,98.52,Humanities
 4678,STU511,Mythology Classical and World Literature Post-AP,12,93.8,English
 4679,STU511,Chinese Language and Culture AP,12,99.64,Foreign Language
@@ -4718,8 +4718,8 @@
 4716,STU134,English Literature and Composition AP,12,93.1,English
 4717,STU134,Chinese Language and Culture AP,12,87.02,Foreign Language
 4718,STU134,Calculus I Honors,12,95.52,Math
-4719,STU134,Environmental Science AP,12,88.26,Science
-4720,STU134,Marine Science Honors,12,89.22,Science
+4719,STU134,Environmental Science AP,12,88.26,unknown
+4720,STU134,Marine Science Honors,12,89.22,unknown
 4721,STU134,European History AP,12,83.74,Humanities
 4722,STU349,English Literature and Composition AP,12,86.94,English
 4723,STU349,Spanish: 20th Century Latin American Literature Post-AP,12,93.25,Foreign Language
@@ -4730,7 +4730,7 @@
 4728,STU142,English Literature and Composition AP,12,86.78,English
 4729,STU142,Spanish V Honors,12,88.59,Foreign Language
 4730,STU142,Calculus I Honors,12,88.71,Math
-4731,STU142,Environmental Science AP,12,74.32,Science
+4731,STU142,Environmental Science AP,12,74.32,unknown
 4732,STU142,Microeconomics AP,12,74.06,Humanities
 4733,STU562,On The Fringe: Marginalized Voices in Literature Post-AP,12,79.53,English
 4734,STU562,Studio Art 2-D Design AP,12,76.52,Arts
@@ -4743,7 +4743,7 @@
 4741,STU232,Spanish IV,12,84.61,Foreign Language
 4742,STU232,Calculus I Honors,12,94.18,Math
 4743,STU232,Data Structures Post-AP,12,92.26,Computer Science
-4744,STU232,Environmental Science AP,12,87.62,Science
+4744,STU232,Environmental Science AP,12,87.62,unknown
 4745,STU232,European History AP,12,82.4,Humanities
 4746,STU293,English Literature and Composition AP,12,92.92,English
 4747,STU293,Latin AP,12,95.35,Foreign Language
@@ -4797,7 +4797,7 @@
 4795,STU180,Latin AP,12,93.23,Foreign Language
 4796,STU180,Statistics AP,12,90.44,Math
 4797,STU180,Calculus BC AP,12,86.55,Math
-4798,STU180,Marine Science Honors,12,95.18,Science
+4798,STU180,Marine Science Honors,12,95.18,unknown
 4799,STU180,Microeconomics AP,12,91.26,Humanities
 4800,STU174,English Literature and Composition AP,12,88.3,English
 4801,STU174,Seminar in Visual Arts Post-AP,12,92.58,Arts
@@ -4828,7 +4828,7 @@
 4826,STU54,Art History AP,12,93.14,Humanities
 4827,STU54,Latin AP,12,90.55,Foreign Language
 4828,STU54,Calculus I Honors,12,91.54,Math
-4829,STU54,Environmental Science AP,12,88.76,Science
+4829,STU54,Environmental Science AP,12,88.76,unknown
 4830,STU54,European History AP,12,92.61,Humanities
 4831,STU149,English Literature and Composition AP,12,95.61,English
 4832,STU149,Spanish Literature and Culture AP,12,91.2,Foreign Language
@@ -4839,13 +4839,13 @@
 4837,STU531,English Literature and Composition AP,12,87.98,English
 4838,STU531,Spanish Language and Culture AP,12,91.67,Foreign Language
 4839,STU531,Statistics AP,12,83.3,Math
-4840,STU531,Environmental Science AP,12,80.27,Science
+4840,STU531,Environmental Science AP,12,80.27,unknown
 4841,STU531,AP Research (Capstone Year 2),12,91.86,Research
 4842,STU531,Microeconomics AP,12,80.08,Humanities
 4843,STU425,English Literature and Composition AP,12,92.11,English
 4844,STU425,Chinese Language and Culture AP,12,87.21,Foreign Language
 4845,STU425,Statistics AP,12,89.7,Math
-4846,STU425,Environmental Science AP,12,84.29,Science
+4846,STU425,Environmental Science AP,12,84.29,unknown
 4847,STU425,Astronomy Honors,12,92.17,Science
 4848,STU425,Microeconomics AP,12,80.69,Humanities
 4849,STU635,English Literature and Composition AP,12,93.94,English
@@ -4858,7 +4858,7 @@
 4856,STU178,Talented Writers Program III Honors,12,92.05,English
 4857,STU178,Spanish Language and Culture AP,12,92.95,Foreign Language
 4858,STU178,Calculus AB AP,12,80.35,Math
-4859,STU178,Marine Science Honors,12,97.31,Science
+4859,STU178,Marine Science Honors,12,97.31,unknown
 4860,STU178,European History AP,12,92.7,Humanities
 4861,STU178,AP Research (Capstone Year 2),12,100.0,Research
 4862,STU722,English Literature and Composition AP,12,87.49,English
@@ -4873,7 +4873,7 @@
 4871,STU130,Multivariable Calculus Post-AP,12,93.5,Math
 4872,STU130,Physics C AP: Mechanics,12,91.14,Science
 4873,STU130,Biology Post-AP,12,94.94,Science
-4874,STU130,Science Research III Advanced,12,99.0,Science
+4874,STU130,Science Research III Advanced,12,99.0,unknown
 4875,STU28,Seminar in Visual Arts Post-AP,12,99.16,Arts
 4876,STU28,French Language and Culture AP,12,88.63,Foreign Language
 4877,STU28,Statistics AP,12,92.67,Math
@@ -4896,11 +4896,11 @@
 4894,STU57,Art History AP,12,93.74,Humanities
 4895,STU57,Spanish V Honors,12,88.38,Foreign Language
 4896,STU57,Calculus I Honors,12,78.64,Math
-4897,STU57,Marine Science Honors,12,84.3,Science
+4897,STU57,Marine Science Honors,12,84.3,unknown
 4898,STU340,Mythology Classical and World Literature Post-AP,12,93.64,English
 4899,STU340,Spanish V Honors,12,92.34,Foreign Language
 4900,STU340,Calculus AB AP,12,91.15,Math
-4901,STU340,Environmental Science AP,12,88.17,Science
+4901,STU340,Environmental Science AP,12,88.17,unknown
 4902,STU340,European History AP,12,93.76,Humanities
 4903,STU107,English Literature and Composition AP,12,76.25,English
 4904,STU107,Seminar in Visual Arts Post-AP,12,93.74,Arts
@@ -4935,7 +4935,7 @@
 4933,STU151,Women Writers Post-AP,12,95.25,English
 4934,STU151,Spanish Literature and Culture AP,12,88.49,Foreign Language
 4935,STU151,Calculus AB AP,12,85.54,Math
-4936,STU151,Environmental Science AP,12,91.08,Science
+4936,STU151,Environmental Science AP,12,91.08,unknown
 4937,STU151,European History AP,12,90.09,Humanities
 4938,STU151,AP Research (Capstone Year 2),12,100.0,Research
 4939,STU420,English Literature and Composition AP,12,94.5,English
@@ -4953,7 +4953,7 @@
 4951,STU206,English Literature and Composition AP,12,91.9,English
 4952,STU206,Spanish Language and Culture AP,12,92.2,Foreign Language
 4953,STU206,Calculus I Honors,12,91.9,Math
-4954,STU206,Environmental Science AP,12,86.95,Science
+4954,STU206,Environmental Science AP,12,86.95,unknown
 4955,STU206,Microeconomics AP,12,86.57,Humanities
 4956,STU353,Mythology Classical and World Literature Post-AP,12,96.57,English
 4957,STU353,French Language and Culture AP,12,97.23,Foreign Language
@@ -5023,8 +5023,8 @@
 5021,STU112,Art History AP,12,96.54,Humanities
 5022,STU112,French Language and Culture AP,12,91.43,Foreign Language
 5023,STU112,Calculus I Honors,12,87.48,Math
-5024,STU112,Environmental Science AP,12,91.4,Science
-5025,STU112,Marine Science Honors,12,96.91,Science
+5024,STU112,Environmental Science AP,12,91.4,unknown
+5025,STU112,Marine Science Honors,12,96.91,unknown
 5026,STU592,On The Fringe: Marginalized Voices in Literature Post-AP,12,98.72,English
 5027,STU592,Calculus AB AP,12,91.01,Math
 5028,STU592,Physics I AP,12,94.38,Science
@@ -5064,7 +5064,7 @@
 5062,STU503,Calculus BC AP,12,89.95,Math
 5063,STU503,Data Structures Post-AP,12,95.05,Computer Science
 5064,STU503,Chemistry AP,12,94.26,Science
-5065,STU503,Science Research III Advanced,12,96.0,Science
+5065,STU503,Science Research III Advanced,12,96.0,unknown
 5066,STU503,Psychology Research and Applications Post-AP,12,100.0,Psychology
 5067,STU596,Mythology Classical and World Literature Post-AP,12,88.67,English
 5068,STU596,Art History AP,12,95.76,Humanities
@@ -5082,7 +5082,7 @@
 5080,STU483,Calculus BC AP,12,89.58,Math
 5081,STU483,Physics I AP,12,84.69,Science
 5082,STU483,Organic Chemistry Post-AP,12,95.06,Science
-5083,STU483,Science Research III Advanced,12,88.0,Science
+5083,STU483,Science Research III Advanced,12,88.0,unknown
 5084,STU483,Microeconomics AP,12,93.42,Humanities
 5085,STU34,English Literature and Composition AP,12,92.88,English
 5086,STU34,Spanish Language and Culture AP,12,94.9,Foreign Language
@@ -5122,7 +5122,7 @@
 5120,STU155,Spanish IV,12,92.33,Foreign Language
 5121,STU155,Calculus AB AP,12,87.46,Math
 5122,STU155,Data Structures Post-AP,12,93.04,Computer Science
-5123,STU155,Environmental Science AP,12,91.67,Science
+5123,STU155,Environmental Science AP,12,91.67,unknown
 5124,STU155,World History AP,12,93.88,Humanities
 5125,STU528,Shakespeare Post-AP,12,89.35,English
 5126,STU528,Chinese Language and Culture AP,12,90.28,Foreign Language
