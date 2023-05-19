@@ -81,7 +81,7 @@ def layout1():
             html.H2("Kaggle Data", style={"padding": "20px"}),
             
             html.P(
-                "Kaggle Data Set - 'This dataset contains information on the performance of high school students in mathematics, including their grades and demographic information. The data was collected from three high schools in the United States.",
+                "This dataset contains information on the performance of high school students in mathematics, including their grades and demographic information. The data was collected from three high schools in the United States.",
                 className="custom-text",
             ),
             
@@ -119,15 +119,6 @@ def layout1():
                 value=demographics_df['student_id'].iloc[0],),
             html.H3(children='Student Information Overview by Demographics'),
             dcc.Graph(id='update_score_graph', figure={}),
-            
-    
-            # dcc.Graph(id='update_demographic_table'),
-            # dcc.Dropdown(
-            #     id='student-dropdown1',
-            #     options=[{'label': str(index), 'value': index} for index in demographics_df.index],
-            #     value=1,
-            #     placeholder='Select a student...',
-            # ),
             
             
         ],

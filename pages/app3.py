@@ -77,8 +77,8 @@ def layout3():
                 SWD: Student with Disability<br>
                 ED: Economically Disadvantaged<br>
                 SST: Student Support Team<br>
-                Lexile: measure of reading ability (<a href="https://lexile.com/">https://lexile.com/</a>)<br>
-                Achievement Levels: (<a href="https://www.gadoe.org/Curriculum-Instruction-and-Assessment/Assessment/Pages/Georgia-Milestones-ALD.aspx">https://www.gadoe.org/Curriculum-Instruction-and-Assessment/Assessment/Pages/Georgia-Milestones-ALD.aspx</a>)<br>
+                Lexile: measure of reading ability <br>
+                Achievement Levels: <br>
                 1 - Beginning Learner (failing)<br>
                 2 - Developing Learner<br>
                 3 - Proficient Learner<br>
@@ -87,9 +87,9 @@ def layout3():
             ),
             html.H3("Neural Network Model"),
             html.P("We created a neural network model with two layers as shown below:"),
-            # Insert the code or diagram for the neural network model here
+            html.Img(src="static/image.png", alt="Image Description"),
+
             html.P("The compiling and training is shown below:"),
-            # Insert the code or details of the compiling and training here
             html.P(
                 '''
                 We used the same model for Georgia Milestones data from Union County and a
