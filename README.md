@@ -32,21 +32,21 @@ Open your web browser and navigate to the provided URL (usually http://127.0.0.1
 To run currently:
 Navigate to the pages folder and launch the files app1.py, app2.py, app3.py, app4.py respectively.
 
-## Dependencies
-The project relies on the following dependencies:
+## Dependencies and Toolchain
 
-Dash: The core library for building Dash applications.
-Dash Bootstrap Components (dbc): A library of Bootstrap-themed Dash components.
-Plotly Express (px): A high-level library for interactive data visualization.
-Pandas: A powerful data manipulation and analysis library.
-pathlib: A module providing classes for working with file and directory paths.
+A combination of the Dash framework for building the web application, Python programming language for coding the application logic, and various libraries such as Dash Bootstrap Components, Plotly Express, Pandas, and pathlib for specific functionalities were used.
+
+* Dash: The core library for building Dash applications.
+* Dash Bootstrap Components (dbc): A library of Bootstrap-themed Dash components.
+* Plotly Express (px): A high-level library for interactive data visualization.
+* Pandas: A powerful data manipulation and analysis library.
+* pathlib: A module providing classes for working with file and directory paths.
+* 
 Website Views
 Kaggle View - app1.py
 Kaggle View Screenshot 1
-
 Kaggle View Screenshot 2
-
-Rural Georgia View - app2.py
+FtL View - app2.py
 
 ## Website Views
 ### Kaggle View - app1.py
