@@ -1,5 +1,5 @@
 ## Dash Application Project
-This project is a Dash application developed using the Dash framework, which allows you to build interactive web applications with Python. The intention of this project was a learning one. The other part of this project is a [bootcamp group project located](https://github.com/gamountainmama/data_dames "Neural Network Project")
+This project is a Dash application developed using the Dash framework, which allows you to build interactive web applications with Python. The intention of this project was a learning one. The other part of this project is a [bootcamp group project located](https://github.com/gamountainmama/data_dames "Neural Network Project") on this repository. This project is a neural network project that is building a model to predict various aspects of education from the potential success of a student in Computer Science to the effects of the the students demographics on their successs.
 
 ## Project Structure
 The project structure is organized as follows:
