@@ -15,7 +15,7 @@ The project utilizes three different datasets:
 
 Kaggle Dataset: This dataset is sourced from Kaggle and provides data from four schools including demographics.
 
-Rural Georgia Dataset: This dataset is from a school in a rural region in Georgia, it provides insight into students scores over a time period. THe data has been cleaned and transformed by a a contributor in a bootcamp group.
+Rural Georgia Dataset: This dataset is from a school in a rural region in Georgia, it provides insight into students scores over a time period. The data has been cleaned and transformed by a a contributor in a bootcamp group.
 
 Private School in Florida Dataset: This dataset is from a private school in Florida and includes information on all section grades for a snapshot for grades 9-12. The data is clean and was directly sourced from a SIS.
 
