@@ -1,5 +1,5 @@
 ## Dash Application Project
-This project is a Dash application developed using the Dash framework, which allows you to build interactive web applications with Python.
+This project is a Dash application developed using the Dash framework, which allows you to build interactive web applications with Python. The intention of this project was a learning one. The other part of this project is a [bootcamp group project located] (https://github.com/gamountainmama/data_dames)
 
 ## Project Structure
 The project structure is organized as follows:
@@ -61,9 +61,11 @@ FtL View - app2.py
 ## Contributing
 Contributions to this project are welcome. If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request on the project's GitHub repository.
 
+# SME's
+Developers capable of advance skills in data visualizations welcome also, experts in education interested in contributing data to analyze potential prediction models for students succeess based on students grades and a demographics. In addition, look into what makes a students successflul in Computer Science.
+
 ## License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for both commercial and non-commercial purposes.
-
 
 ## Resources
 * Dash Documentation
