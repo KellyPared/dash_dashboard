@@ -10,6 +10,15 @@ The project structure is organized as follows:
 * pages: This directory contains modules defining the layout for different pages or sections of the application.
 * data: This directory contains data files or datasets used by the application.
 
+## Datasets
+The project utilizes three different datasets:
+
+Kaggle Dataset: This dataset is sourced from Kaggle and provides a comprehensive collection of data for analysis and visualization within the application.
+
+Rural Georgia Dataset: This dataset focuses on rural regions in Georgia, providing specific data points and insights relevant to those areas.
+
+Private School in Florida Dataset: This dataset is specific to private schools in Florida and includes information such as enrollment numbers, academic performance, and other relevant metrics.
+
 ## Getting Started
 To run the Dash application, follow these steps:
 
@@ -20,11 +29,18 @@ Open your web browser and navigate to the provided URL (usually http://127.0.0.1
 ## Dependencies
 The project relies on the following dependencies:
 
-* Dash: The core library for building Dash applications.
-* Dash Bootstrap Components (dbc): A library of Bootstrap-themed Dash components.
-* Plotly Express (px): A high-level library for interactive data visualization.
-* Pandas: A powerful data manipulation and analysis library.
-* pathlib: A module providing classes for working with file and directory paths.
+Dash: The core library for building Dash applications.
+Dash Bootstrap Components (dbc): A library of Bootstrap-themed Dash components.
+Plotly Express (px): A high-level library for interactive data visualization.
+Pandas: A powerful data manipulation and analysis library.
+pathlib: A module providing classes for working with file and directory paths.
+Website Views
+Kaggle View - app1.py
+Kaggle View Screenshot 1
+
+Kaggle View Screenshot 2
+
+Rural Georgia View - app2.py
 
 ## Website Views
 ### Kaggle View - app1.py
@@ -42,8 +58,6 @@ Contributions to this project are welcome. If you have any suggestions, bug repo
 ## License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for both commercial and non-commercial purposes.
 
-## Acknowledgements
-This project was developed using the Dash framework, which is maintained by Plotly. Special thanks to the Dash and Plotly teams for their contributions and support.
 
 ## Resources
 * Dash Documentation
@@ -51,3 +65,4 @@ This project was developed using the Dash framework, which is maintained by Plot
 * Plotly Express Documentation
 * Pandas Documentation
 * pathlib Documentation
+* ChatGPT
