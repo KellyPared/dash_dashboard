@@ -13,18 +13,24 @@ The project structure is organized as follows:
 ## Datasets
 The project utilizes three different datasets:
 
-Kaggle Dataset: This dataset is sourced from Kaggle and provides a comprehensive collection of data for analysis and visualization within the application.
+Kaggle Dataset: This dataset is sourced from Kaggle and provides data from four schools including demographics.
 
-Rural Georgia Dataset: This dataset focuses on rural regions in Georgia, providing specific data points and insights relevant to those areas.
+Rural Georgia Dataset: This dataset is from a school in a rural region in Georgia, it provides insight into students scores over a time period. THe data has been cleaned and transformed by a a contributor in a bootcamp group.
 
-Private School in Florida Dataset: This dataset is specific to private schools in Florida and includes information such as enrollment numbers, academic performance, and other relevant metrics.
+Private School in Florida Dataset: This dataset is from a private school in Florida and includes information on all section grades for a snapshot for grades 9-12. The data is clean and was directly sourced from a SIS.
 
 ## Getting Started
+This project was a plearning project of the Dash Library. This was the first time using the library.  The intention was to develop a multipage website showcasing the three different datasets. It is structured in the format required in the documentation. However, there is a currently a caching issues and the pages now load in different ports and are not accessible via the bootstrap dropdown menu.
+
 To run the Dash application, follow these steps:
 
-Install the required dependencies by running pip install -r requirements.txt.
+Install the required dependencies by running the requirements. (In the process of writing the correct requirements text: pip install -r requirements.txt.)
+If the multipage system works: 
 Execute the app.py file using Python: python app.py.
 Open your web browser and navigate to the provided URL (usually http://127.0.0.1:8050 or http://localhost:8050).
+
+To run currently:
+Navigate to the pages folder and launch the files app1.py, app2.py, app3.py, app4.py respectively.
 
 ## Dependencies
 The project relies on the following dependencies:
