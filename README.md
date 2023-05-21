@@ -6,9 +6,10 @@ The project structure is organized as follows:
 
 * app.py: This is the main file that runs the Dash application server and defines the application layout and callbacks.
 * components: This directory contains reusable components or modules that can be used in the application.
-* apps: This directory contains separate modules for different pages or sections of the application.
-* pages: This directory contains modules defining the layout for different pages or sections of the application.
+* apps: These files contain separate pages or sections of the web application.
+* pages: This directory contains the different pages or sections of the application.
 * data: This directory contains data files or datasets used by the application.
+* 
 
 ## Datasets
 The project utilizes three different datasets:
