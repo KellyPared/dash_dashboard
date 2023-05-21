@@ -59,14 +59,14 @@ FtL View - app2.py
 ### Fl School - app2.py
 <img width="1019" alt="Screenshot 2023-05-17 at 8 17 58 PM" src="https://github.com/KellyPared/dash_dashboard/assets/40581033/d63dba14-7f62-4ebb-b947-40e2fb8fabdb">
 
-## Contributing
+### Contributing
 Contributions to this project are welcome. If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request on the project's GitHub repository.
 
-# SME's
+### SME's
 Developers capable of advance skills in data visualizations welcome also, experts in education interested in contributing data to analyze potential prediction models for students succeess based on students grades and a demographics. In addition, look into what makes a students successflul in Computer Science.
 
 ## License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for both commercial and non-commercial purposes.
+This project is free to use, and modify.
 
 ## Resources
 * Dash Documentation
