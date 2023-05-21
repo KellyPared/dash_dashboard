@@ -21,7 +21,7 @@ Rural Georgia Dataset: This dataset is from a school in a rural region in Georgi
 Private School in Florida Dataset: This dataset is from a private school in Florida and includes information on all section grades for a snapshot for grades 9-12. The data is clean and was directly sourced from a SIS.
 
 ## Getting Started
-This project was a plearning project of the Dash Library. This was the first time using the library.  The intention was to develop a multipage website showcasing the three different datasets. It is structured in the format required in the documentation. However, there is a currently a caching issues and the pages now load in different ports and are not accessible via the bootstrap dropdown menu.
+This project was a learning project of the Dash Library. This was the first time using the library.  The intention was to develop a multipage website showcasing three different datasets. It is structured in the format required in the documentation. However, there is a currently a caching issues and the pages now load in different ports and are not accessible via the bootstrap dropdown menu. This project is a work in progress. Currently investigating The Explainer Dashboard to incorporate into this website.
 
 To run the Dash application, follow these steps:
 
