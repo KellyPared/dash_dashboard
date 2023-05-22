@@ -5,6 +5,7 @@ import pathlib
 import plotly.express as px
 from dash import dcc, html, Input, Output
 from dash.dependencies import State
+from PIL import Image
 
 PATH = pathlib.Path(__file__).parent
 DATA_PATH = PATH.joinpath("../data").resolve()
@@ -15,6 +16,8 @@ demographics_df.reset_index(inplace=True)
 demographics_df.rename(
     columns={'index': 'student_id', 'race/ethnicity': 'race_ethnicity', 'parental level of education': 'parent_education'},
     inplace=True)
+
+pil_img3 = Image.open("../assets/kaggle_features.png")
 
 app = dash.Dash(
     __name__,
@@ -44,21 +47,17 @@ navbar = dbc.NavbarSimple(
     dark=True,
 )
 
-
 def layout1():
     layout = dbc.Container(
         [
             navbar,
-            html.H2("The Problem with Standardizing Students", style={"padding": "20px"}),
-            
+            html.H2("The Problem with Standardizing Students", style={"padding": "10px"}),
             html.P(
                 "Education demographics is a complex and multifaceted field with various factors such as test scores, financial incomes, gender, race, ethnicity, "
-                "school location, and parental education levels. This area of study has many problems that can make it difficult to obtain accurate and reliable data.",
+                "school location, and parental education levels. This area of study has many problems that can make it difficult to obtain accurate and reliable data."
+                "Here are three key problems in education demographics:",
                 className="custom-text",
             ),
-            
-            html.P("Here are three key problems in education demographics:", className="custom-text"),
-            
             dbc.ListGroup(
                 [
                     dbc.ListGroupItem(
@@ -77,37 +76,49 @@ def layout1():
                 flush=True,
                 className="custom-list",
             ),
-            
-            html.H2("Kaggle Data", style={"padding": "20px"}),
-            
+            html.H2("Kaggle Data", style={"padding": "10px"}),
             html.P(
                 "This dataset contains information on the performance of high school students in mathematics, including their grades and demographic information. The data was collected from three high schools in the United States.",
                 className="custom-text",
             ),
-            
-            dbc.Table(
+            html.Div(
                 [
-                    html.Thead(
-                        html.Tr([html.Th("Attribute"), html.Th("Description")])
-                    ),
-                    html.Tbody(
+                    html.Table(
                         [
-                            html.Tr([html.Td("Gender"), html.Td("The gender of the student (male/female)")]),
-                            html.Tr([html.Td("Race/ethnicity"), html.Td("The student's racial or ethnic background (Asian, African-American, Hispanic, etc.)")]),
-                            html.Tr([html.Td("Parental level of education"), html.Td("The highest level of education attained by the student's parent(s) or guardian(s)")]),
-                            html.Tr([html.Td("Lunch"), html.Td("Whether the student receives free or reduced-price lunch (yes/no)")]),
-                            html.Tr([html.Td("Test preparation course"), html.Td("Whether the student completed a test preparation course (yes/no)")]),
-                            html.Tr([html.Td("Math score"), html.Td("The student's score on a standardized mathematics test")]),
-                            html.Tr([html.Td("Reading score"), html.Td("The student's score on a standardized reading test")]),
-                            html.Tr([html.Td("Writing score"), html.Td("The student's score on a standardized writing test")]),
+                            html.Thead(
+                                html.Tr([html.Th("Attribute"), html.Th("Description")])
+                            ),
+                            html.Tbody(
+                                [
+                                    html.Tr([html.Td("Gender"), html.Td("The gender of the student (male/female)")]),
+                                    html.Tr([html.Td("Race/ethnicity"), html.Td("The student's racial or ethnic background (Asian, African-American, Hispanic, etc.)")]),
+                                    html.Tr([html.Td("Parental level of education"), html.Td("The highest level of education attained by the student's parent(s) or guardian(s)")]),
+                                    html.Tr([html.Td("Lunch"), html.Td("Whether the student receives free or reduced-price lunch (yes/no)")]),
+                                    html.Tr([html.Td("Test preparation course"), html.Td("Whether the student completed a test preparation course (yes/no)")]),
+                                    html.Tr([html.Td("Math score"), html.Td("The student's score on a standardized mathematics test")]),
+                                    html.Tr([html.Td("Reading score"), html.Td("The student's score on a standardized reading test")]),
+                                    html.Tr([html.Td("Writing score"), html.Td("The student's score on a standardized writing test")]),
+                                ],
+                                className="custom-table"
+                            ),
                         ],
-                        className="custom-table",
+                        bordered=True,
+                        responsive=True,
+                        style={"margin": "10px", "border": "2px solid black"}
                     ),
                 ],
-                bordered=True,
-                responsive=True,
+                className="col-md-5"
             ),
-            
+            html.Div(
+                [
+                    html.Img(
+                        src=pil_img3,
+                        className="image-style",
+                        style={"width": "700px", "height": "389px", "border": "2px solid black", "padding": "20px"}
+                    ),
+                ],
+                className="col-md-7 image-container"
+            ),
             html.H3(children='Student Demographics'),
             dcc.Graph(id='scatter_plot_data'),
             html.P('Select a student index to view individual Student Demographics.'),
@@ -116,18 +127,15 @@ def layout1():
             dcc.Dropdown(
                 id='student-dropdown',
                 options=[{'label': student_id, 'value': student_id} for student_id in demographics_df['student_id']],
-                value=demographics_df['student_id'].iloc[0],),
+                value=demographics_df['student_id'].iloc[0],
+            ),
             html.H3(children='Student Information Overview by Demographics'),
             dcc.Graph(id='update_score_graph', figure={}),
-            
-            
         ],
         style={"padding": "20px"},
         fluid=True,
     )
     return layout
-
-
 
 @app.callback(
     Output('scatter_plot_data', 'figure'),
@@ -138,7 +146,6 @@ def layout1():
 )
 def update_student_data(student_index):
     print(f"student_index: {student_index}")
-
     scatter_data = px.scatter(
         demographics_df,
         x='math score',
@@ -147,7 +154,6 @@ def update_student_data(student_index):
         template='plotly_dark',
         labels={"race_ethnicity": "Race/Ethnicity"},
     )
-
     student_row = demographics_df.loc[demographics_df['student_id'] == student_index]
     student_id = student_row['student_id'].iloc[0]
     gender = student_row['gender'].iloc[0]
@@ -158,7 +164,6 @@ def update_student_data(student_index):
     math_score = student_row['math score'].iloc[0]
     reading_score = student_row['reading score'].iloc[0]
     writing_score = student_row['writing score'].iloc[0]
-
     demographic_table = html.Table(
         [
             html.Tr([html.Td('Student ID:'), html.Td(student_id)]),
@@ -173,11 +178,9 @@ def update_student_data(student_index):
         ],
         style={'margin-top': '20px', 'margin-bottom': '20px'},
     )
-
     subjects = ['Math', 'Reading', 'Writing']
     scores = [math_score, reading_score, writing_score]
     score_df = pd.DataFrame({'Subject': subjects, 'Score': scores})
-
     score_data = px.bar(
         data_frame=score_df,
         x='Subject',
@@ -185,16 +188,13 @@ def update_student_data(student_index):
         labels={'Score': 'Score'},
         hover_data={'Subject': False, 'Score': ':.2f'},
     )
-
     score_data.update_traces(hovertemplate='Subject: %{x}<br>Score: %{y}')
     print("scatter_data:", scatter_data)
     print("demographic_table:", demographic_table)
     print("score_data:", score_data)
-
     return scatter_data, demographic_table, score_data
-
 
 app.layout = layout1
 
 if __name__ == "__main__":
-    app.run_server(port=8051,debug=True)
+    app.run_server(port=8051, debug=True)

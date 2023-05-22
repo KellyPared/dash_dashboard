@@ -1,13 +1,15 @@
 import dash
 import dash_bootstrap_components as dbc
 from dash import dcc, html
+import dash_bootstrap_components as dbc
+
 from PIL import Image
 
-pil_img1 = Image.open("assets/overall.png")
-pil_img2 = Image.open("assets/plotted.png")
-pil_img3 = Image.open("assets/spread.png")
-pil_img4 = Image.open("assets/spread2.png")
-pil_img5 = Image.open("assets/spread3.png")
+pil_img1 = Image.open("../assets/overall.png")
+pil_img2 = Image.open("../assets/plotted.png")
+pil_img3 = Image.open("../assets/spread.png")
+pil_img4 = Image.open("../assets/spread2.png")
+
 
 app4 = dash.Dash(
     __name__,
@@ -17,10 +19,26 @@ app4 = dash.Dash(
     suppress_callback_exceptions=True,
     assets_folder="assets"
 )
-app4.css.append_css({
-    "external_url": "https://your-stylesheet-url.com"
-})
-navbar = dbc.NavbarSimple()
+
+
+navbar = dbc.NavbarSimple(children=[
+        dbc.NavItem(dbc.NavLink("Home", href="/app")),
+        dbc.DropdownMenu(
+            children=[
+                dbc.DropdownMenuItem("Rural School GA", href="/app3"),
+                dbc.DropdownMenuItem("Private School FL", href="/app2"),
+                dbc.DropdownMenuItem("Kaggle Data", href="/app1")],
+            nav=True,
+            in_navbar=True,
+            label="Education Stats",
+        ),
+        dbc.NavItem(dbc.NavLink("About", href="/pages/about")),
+    ],
+    brand="School Statistics",
+    brand_href="/pages/home",
+    style={"marginBottom": 5},
+    color="black",
+    dark=True,)
 
 def layout4():
     layout = dbc.Container(
@@ -49,10 +67,7 @@ def layout4():
                         html.Img(src=pil_img4, className="image-style"),
                         className="image-container"
                     ),
-                    html.Div(
-                        html.Img(src=pil_img5, className="image-style"),
-                        className="image-container"
-                    ),
+                   
                 ],
                 className="grid-container"
             ),

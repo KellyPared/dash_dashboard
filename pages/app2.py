@@ -1,26 +1,18 @@
 import dash
 import dash_bootstrap_components as dbc
+from dash import dcc, html
 import pandas as pd
 import pathlib
 import plotly.express as px
 from dash import dcc, html, Input, Output
+from PIL import Image
 
 PATH = pathlib.Path(__file__).parent
 DATA_PATH = PATH.joinpath("../data").resolve()
 PC_CSV_PATH = DATA_PATH.joinpath("new_PC_data.csv")
+PCdemographics_df = pd.read_csv(PC_CSV_PATH)
 
-try:
-    PCdemographics_df = pd.read_csv(PC_CSV_PATH)
-    # print(PCdemographics_df.head()) 
-except FileNotFoundError:
-    # print(f"File '{PC_CSV_PATH}' not found.")
-    PCdemographics_df = pd.DataFrame() 
-except Exception as e:
-    # print(f"An error occurred while reading the CSV file: {e}")
-    PCdemographics_df = pd.DataFrame()  
-
-#PCdemographics_df['Grade'] = pd.Categorical(PCdemographics_df['Grade'], ordered=True, categories=["Grade 9", "Grade 10", "Grade 11", "Grade 12"])
-
+pil_img1 = Image.open("../assets/pc_features.png")
 
 app2 = dash.Dash(
     __name__,
@@ -29,7 +21,6 @@ app2 = dash.Dash(
     url_base_pathname="/",
     suppress_callback_exceptions=False
 )
-app2.css.append_css({"external_url": "/static/style.css?v=1.0"})
 
 navbar = dbc.NavbarSimple(
     children=[
@@ -57,7 +48,6 @@ navbar = dbc.NavbarSimple(
     Output("scatter_plot_data2", "figure"),
     Input("student-dropdown2", "value"),
 )
-
 def update_student_data2(student_id):
     filtered_df = PCdemographics_df[PCdemographics_df["StudentID"] == student_id]
     
@@ -86,6 +76,9 @@ def update_student_data2(student_id):
             "Unknown": "gray"
         }
     )
+    scatter_data2.update_traces(marker=dict(size=28))
+    scatter_data2.update_layout(title="Course Grade per Student Data")
+
     return scatter_data2
 
 
@@ -93,7 +86,6 @@ def update_student_data2(student_id):
     Output("scatter_plot_alldata", "figure"),
     Input("student-dropdown2", "value"),
 )
-
 def update_all_student(student_id):
     scatter_all_data = px.scatter(
         PCdemographics_df,
@@ -108,25 +100,32 @@ def update_all_student(student_id):
             "Grade 11": "orange",
             "Grade 12": "red",
             "Unknown": "gray"
-        }
+        },
     )
-    
+
+    scatter_all_data.update_traces(marker=dict(size=18))
+    scatter_all_data.update_layout(title="Course Grades per Grade")
+
     return scatter_all_data
-
-
-
 
 def layout2():
     print("Rendering layout2")
     layout = dbc.Container(
         [
             navbar,
-            html.H2("The Problem with Standardizing Students", style={"padding": "20px"}),
+            html.H3("The Problem with Standardizing Students", style={"padding": "10px"}),
             html.P(
-                """Education demographics is a complex and multifaceted field with various factors such as test scores, financial incomes, gender, race, ethnicity,
-                school location, and parental education levels. This area of study has many problems that can make it difficult to obtain accurate and reliable data."""
+                [
+                    "Education demographics is a complex and multifaceted field with various factors such as test scores, financial incomes, gender, race, ethnicity,",
+                    "school location, and parental education levels. This area of study has many problems that can make it difficult to obtain accurate and reliable data."
+                ]
             ),
-            html.H3("Florida Private School Data", style={"padding": "20px"}),
+            html.H3("Florida Private School Data", style={"padding": "10px"}),
+            html.Img(   src=pil_img1,
+                        className="image-style",
+                        style={"width": "700px", "height": "389px", "border": "2px solid black", "padding": "30px"}
+                    ),
+            html.P(''),
             dcc.Graph(id="scatter_plot_data2"),  # Add this line to display the graph
             dcc.Dropdown(
                 id="student-dropdown2",
@@ -136,6 +135,7 @@ def layout2():
                 ],
                 value=PCdemographics_df["StudentID"].iloc[0],
             ),
+
             dcc.Graph(id="scatter_plot_alldata")
         ]
     )
@@ -144,4 +144,4 @@ def layout2():
 app2.layout = layout2
 
 if __name__ == '__main__':
-    app2.run_server(port=8052, debug=True) #port=8052
+    app2.run_server(port=8052, debug=True)
