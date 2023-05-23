@@ -22,7 +22,7 @@ demographics_df.rename(
     inplace=True
 )
 
-app = dash.Dash(
+app1 = dash.Dash(
     __name__,
     external_stylesheets=[dbc.themes.BOOTSTRAP],
     title="Evaluation of Education Standards",
@@ -139,7 +139,7 @@ def layout1():
     )
     return layout
 
-@app.callback(
+@app1.callback(
     Output("scatter_plot_data", "figure"),
     Output("demographic-table", "children"),
     Output("update_score_graph", "figure"),
@@ -191,7 +191,7 @@ def update_student_data(student_index):
     score_data.update_traces(hovertemplate="Subject: %{x}<br>Score: %{y}", marker_color="black")
     return scatter_data, demographic_table, score_data
 
-app.layout = layout1
+app1.layout = layout1
 
 if __name__ == "__main__":
-    app.run_server(port=8052, debug=True)
+    app1.run_server(port=8051, debug=True)
