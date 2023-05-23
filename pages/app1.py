@@ -27,8 +27,10 @@ app = dash.Dash(
     external_stylesheets=[dbc.themes.BOOTSTRAP],
     title="Evaluation of Education Standards",
     url_base_pathname="/",
-    suppress_callback_exceptions=True
+    suppress_callback_exceptions=True,
+    assets_folder=str(DATA_PATH.joinpath("../assets").resolve())
 )
+
 
 navbar = dbc.Navbar(
     dbc.Container(
@@ -61,7 +63,7 @@ navbar = dbc.Navbar(
 )
 
 def layout1():
-     layout = dbc.Container(
+    layout = dbc.Container(
         [
             navbar,
             html.Div(
@@ -90,6 +92,8 @@ def layout1():
                 ],
                 className="jumbotron",
             ),
+            html.Img(src='../assets/kaggle_features.png', alt="My Image", style={'width': '70%', 'height': '50%'}),
+
             html.H2("Kaggle Data", className="display-5"),
             html.Div(
                 [
@@ -132,7 +136,8 @@ def layout1():
         ],
         className="container mt-4",
         fluid=True,
-    )return layout
+    )
+    return layout
 
 @app.callback(
     Output("scatter_plot_data", "figure"),
