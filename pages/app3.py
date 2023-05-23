@@ -4,14 +4,15 @@ import pandas as pd
 import pathlib
 import plotly.express as px
 from dash import dcc, html, Input, Output
+import app1, app2, app4
 from PIL import Image
 
 
 PATH = pathlib.Path(__file__).parent
 DATA_PATH = PATH.joinpath("../data").resolve()
-EXAMS_CSV_PATH = DATA_PATH.joinpath("ga_data_overall_success.csv")
+GA_CSV_PATH = DATA_PATH.joinpath("ga_data_overall_success.csv")
 
-GAdemographics_df = pd.read_csv(EXAMS_CSV_PATH)
+GAdemographics_df = pd.read_csv(GA_CSV_PATH)
 
 pil_img1 = Image.open("../assets/neural.png")
 pil_img2 = Image.open("../assets/ga_features.png")
@@ -30,9 +31,11 @@ navbar = dbc.NavbarSimple(
         dbc.NavItem(dbc.NavLink("Home", href="/app")),
         dbc.DropdownMenu(
             children=[
-                dbc.DropdownMenuItem("Rural School GA", href="/app3"),
-                dbc.DropdownMenuItem("Private School FL", href="/app2"),
-                dbc.DropdownMenuItem("Kaggle Data", href="/app1")],
+                dbc.DropdownMenuItem("Rural School GA", href="app3"),
+                dbc.DropdownMenuItem("Private School FL", href="app2"),
+                dbc.DropdownMenuItem("Kaggle Data", href="app1"),
+                dbc.DropdownMenuItem("Primitive Data Analysis", href="app4")],
+
             nav=True,
             in_navbar=True,
             label="Education Stats",

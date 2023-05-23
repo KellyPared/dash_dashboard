@@ -12,7 +12,7 @@ DATA_PATH = PATH.joinpath("../data").resolve()
 PC_CSV_PATH = DATA_PATH.joinpath("new_PC_data.csv")
 PCdemographics_df = pd.read_csv(PC_CSV_PATH)
 
-pil_img1 = Image.open("../assets/pc_features.png")
+pil_img1 = Image.open(DATA_PATH.joinpath("assets/pc_features.png"))
 
 app2 = dash.Dash(
     __name__,
@@ -27,10 +27,11 @@ navbar = dbc.NavbarSimple(
         dbc.NavItem(dbc.NavLink("Home", href="/app")),
         dbc.DropdownMenu(
             children=[
-                dbc.DropdownMenuItem("Rural School GA", href="/app3"),
-                dbc.DropdownMenuItem("Private School FL", href="/app2"),
-                dbc.DropdownMenuItem("Kaggle Data", href="/app1")
-            ],
+                dbc.DropdownMenuItem("Rural School GA", href="app3"),
+                dbc.DropdownMenuItem("Private School FL", href="app2"),
+                dbc.DropdownMenuItem("Kaggle Data", href="app1"),
+                dbc.DropdownMenuItem("Primitive Data Analysis", href="app4")],
+
             nav=True,
             in_navbar=True,
             label="Education Stats"

@@ -2,6 +2,7 @@ import dash
 import dash_bootstrap_components as dbc
 from dash import dcc, html
 import dash_bootstrap_components as dbc
+import app1, app2, app3
 
 from PIL import Image
 
@@ -25,9 +26,11 @@ navbar = dbc.NavbarSimple(children=[
         dbc.NavItem(dbc.NavLink("Home", href="/app")),
         dbc.DropdownMenu(
             children=[
-                dbc.DropdownMenuItem("Rural School GA", href="/app3"),
-                dbc.DropdownMenuItem("Private School FL", href="/app2"),
-                dbc.DropdownMenuItem("Kaggle Data", href="/app1")],
+                dbc.DropdownMenuItem("Rural School GA", href="app3"),
+                dbc.DropdownMenuItem("Private School FL", href="app2"),
+                dbc.DropdownMenuItem("Kaggle Data", href="app1"),
+                dbc.DropdownMenuItem("Primitive Data Analysis", href="app4")],
+
             nav=True,
             in_navbar=True,
             label="Education Stats",
