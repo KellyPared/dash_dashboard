@@ -133,8 +133,8 @@ def layout2():
                 html.Div([
                     html.Img(src='../assets/pc_features.png', alt="My Image", style={'width': '60%', 'height': '30%'}),
                     html.A(
-                        html.Img(src='../assets/kaggle_tableau.png', alt="My Image", style={'width': '40%', 'height': '30%', 'padding-left': '20px'}),
-                        href="https://public.tableau.com/app/profile/sahmirah.muhammad/viz/KaggleStudentPerformance/Story1",
+                        html.Img(src='../assets/pc_tableau.png', alt="My Image", style={'width': '40%', 'height': '30%', 'padding-left': '20px'}),
+                        href="https://public.tableau.com/app/profile/sahmirah.muhammad/viz/FloridaPrivateSchoolData/StudentData",
                         target="_blank"
                     )
                 ]),
@@ -150,7 +150,10 @@ def layout2():
                 ),
             ]),
 
-            dcc.Graph(id="scatter_plot_alldata")
+            dcc.Graph(id="scatter_plot_alldata"),
+            html.Img(src='../assets/neural.png', alt="My Image", style={'width': '90%', 'height': '60%'}),
+
+            
         ]),
     ])
     return layout

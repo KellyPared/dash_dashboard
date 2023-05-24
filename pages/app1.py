@@ -131,6 +131,8 @@ def layout1():
             ),
             html.H3("Student Information Overview by Demographics"),
             dcc.Graph(id="update_score_graph", figure={}),
+            html.Img(src='../assets/neural.png', alt="My Image", style={'width': '90%', 'height': '60%'}),
+
         ],
         className="container mt-4",
     ),],)
