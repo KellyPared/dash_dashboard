@@ -7,6 +7,7 @@ import plotly.express as px
 from dash import dcc, html, Input, Output
 from flask import Flask, url_for
 
+'''This is the app for the Independent School in Florida.'''
 
 PATH = pathlib.Path(__file__).parent
 DATA_PATH = PATH.joinpath("../data").resolve()
@@ -23,27 +24,34 @@ app2 = dash.Dash(
     assets_folder=str(DATA_PATH.joinpath("../assets").resolve())
 )
 
-navbar = dbc.NavbarSimple(
-    children=[
-        dbc.NavItem(dbc.NavLink("Home", href="/app")),
-        dbc.DropdownMenu(
-            children=[
-                dbc.DropdownMenuItem("Rural School GA", href="app3"),
-                dbc.DropdownMenuItem("Private School FL", href="app2"),
-                dbc.DropdownMenuItem("Kaggle Data", href="app1"),
-                dbc.DropdownMenuItem("Primitive Data Analysis", href="app4")],
-
-            nav=True,
-            in_navbar=True,
-            label="Education Stats"
-        ),
-        dbc.NavItem(dbc.NavLink("About", href="/pages/about")),
-    ],
-    brand="School Statistics",
-    brand_href="/pages/home",
-    style={"marginBottom": 5},
-    color="black",
-    dark=True
+navbar = dbc.Navbar(
+    dbc.Container(
+        [
+            dbc.NavbarBrand("School Statistics", href="/pages/home"),
+            dbc.Nav(
+                [
+                    dbc.NavLink("Home", href="/app"),
+                    dbc.DropdownMenu(
+                        [
+                            dbc.DropdownMenuItem("Education Stats", header=True),
+                            dbc.DropdownMenuItem("Rural School GA", href="http://127.0.0.1:8053/"),
+                            dbc.DropdownMenuItem("Private School FL", href="http://127.0.0.1:8052/"),
+                            dbc.DropdownMenuItem("Kaggle Data", href="http://127.0.0.1:8051/"),
+                            dbc.DropdownMenuItem("Primitive Data Analysis", href="http://127.0.0.1:8054/"),
+                        ],
+                        in_navbar=True,
+                        label="Education Stats",
+                        color="secondary",
+                    ),
+                    dbc.NavLink("About", href="/pages/about"),
+                ],
+                className="ml-auto",
+                navbar=True,
+            ),
+        ]
+    ),
+    color="dark",
+    dark=True,
 )
 
 @app2.callback(
@@ -113,31 +121,41 @@ def update_all_student(student_id):
 
 def layout2():
     print("Rendering layout2")
-    layout = dbc.Container(
-        [
-            navbar,
-            html.H3("The Problem with Standardizing Students", style={"padding": "10px"}),
-            html.P('''Establishing standardized grading systems in independent schools can be a challenge due to the wide range of courses and resources. 
-                The course offerings in independent schools make it difficult to find a pattern, identify issues and increases the features.
-            '''),
-            html.H3("Florida Private School Data", style={"padding": "10px"}),
-            html.Img(src='../assets/pc_features.png', alt="My Image", style={'width': '70%', 'height': '50%'}),
-
-            html.P(''),
-            dcc.Graph(id="scatter_plot_data2"),  # Add this line to display the graph
-            dcc.Dropdown(
-                id="student-dropdown2",
-                options=[
-                    {"label": str(student_id), "value": student_id}
-                    for student_id in PCdemographics_df["StudentID"]
-                ],
-                value=PCdemographics_df["StudentID"].iloc[0],
-            ),
+    layout = html.Div([
+        navbar,
+        dbc.Container([   
+            html.Div([
+                html.H1("The Problems in Standardizing Educational Data", className="display-4"),
+                html.P('''Establishing standardized grading systems in independent schools can be a challenge due to the wide range of courses and resources. 
+                    The numerous course offerings in independent schools also makes it difficult to easily find patterns. Furthermore, the demographics are primarily homogenic
+                    making it difficult to identify demographic issues.'''),  # Added a comma at the end of this line
+                html.H2("Florida Private School Data", style={"padding": "10px"}),
+                html.Div([
+                    html.Img(src='../assets/pc_features.png', alt="My Image", style={'width': '60%', 'height': '30%'}),
+                    html.A(
+                        html.Img(src='../assets/kaggle_tableau.png', alt="My Image", style={'width': '40%', 'height': '30%', 'padding-left': '20px'}),
+                        href="https://public.tableau.com/app/profile/sahmirah.muhammad/viz/KaggleStudentPerformance/Story1",
+                        target="_blank"
+                    )
+                ]),
+                html.P(''),
+                dcc.Graph(id="scatter_plot_data2"),  # Add this line to display the graph
+                dcc.Dropdown(
+                    id="student-dropdown2",
+                    options=[
+                        {"label": str(student_id), "value": student_id}
+                        for student_id in PCdemographics_df["StudentID"]
+                    ],
+                    value=PCdemographics_df["StudentID"].iloc[0],
+                ),
+            ]),
 
             dcc.Graph(id="scatter_plot_alldata")
-        ]
-    )
+        ]),
+    ])
     return layout
+
+
 
 app2.layout = layout2
 

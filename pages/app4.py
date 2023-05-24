@@ -1,86 +1,99 @@
 import dash
 import dash_bootstrap_components as dbc
 from dash import dcc, html
-import dash_bootstrap_components as dbc
-import app1, app2, app3
+import pathlib
 
-from PIL import Image
 
-pil_img1 = Image.open("../assets/overall.png")
-pil_img2 = Image.open("../assets/plotted.png")
-pil_img3 = Image.open("../assets/spread.png")
-pil_img4 = Image.open("../assets/spread2.png")
+'''This is the app for the excel evaluation of GA. '''
 
+
+PATH = pathlib.Path(__file__).parent
+DATA_PATH = PATH.joinpath("../data").resolve()
 
 app4 = dash.Dash(
     __name__,
     external_stylesheets=[dbc.themes.BOOTSTRAP],
     title="Evaluation of Education Standards",
     url_base_pathname="/",
-    suppress_callback_exceptions=True,
-    assets_folder="assets"
+    suppress_callback_exceptions=False,
+    assets_folder=str(DATA_PATH.joinpath("../assets").resolve())
 )
 
-
-navbar = dbc.NavbarSimple(children=[
-        dbc.NavItem(dbc.NavLink("Home", href="/app")),
-        dbc.DropdownMenu(
-            children=[
-                dbc.DropdownMenuItem("Rural School GA", href="app3"),
-                dbc.DropdownMenuItem("Private School FL", href="app2"),
-                dbc.DropdownMenuItem("Kaggle Data", href="app1"),
-                dbc.DropdownMenuItem("Primitive Data Analysis", href="app4")],
-
-            nav=True,
-            in_navbar=True,
-            label="Education Stats",
-        ),
-        dbc.NavItem(dbc.NavLink("About", href="/pages/about")),
-    ],
-    brand="School Statistics",
-    brand_href="/pages/home",
-    style={"marginBottom": 5},
-    color="black",
-    dark=True,)
+navbar = dbc.Navbar(
+    dbc.Container(
+        [
+            dbc.NavbarBrand("School Statistics", href="/pages/home"),
+            dbc.Nav(
+                [
+                    dbc.NavLink("Home", href="/app"),
+                    dbc.DropdownMenu(
+                        [
+                            dbc.DropdownMenuItem("Education Stats", header=True),
+                            dbc.DropdownMenuItem("Rural School GA", href="http://127.0.0.1:8053/"),
+                            dbc.DropdownMenuItem("Private School FL", href="http://127.0.0.1:8052/"),
+                            dbc.DropdownMenuItem("Kaggle Data", href="http://127.0.0.1:8051/"),
+                            dbc.DropdownMenuItem("Primitive Data Analysis", href="http://127.0.0.1:8054/"),
+                        ],
+                        in_navbar=True,
+                        label="Education Stats",
+                        color="secondary",
+                    ),
+                    dbc.NavLink("About", href="/pages/about"),
+                ],
+                className="ml-auto",
+                navbar=True,
+            ),
+        ]
+    ),
+    color="dark",
+    dark=True,
+)
 
 def layout4():
-    layout = dbc.Container(
-        [
+    return dbc.Container([
             navbar,
             html.H2("Analyzing On a Yearly Basis", style={"padding": "20px"}),
             html.P(
-                "Education demographics is a complex and multifaceted field with various factors...",
-                className="custom-text",
+                '''Education demographics is a complex and multifaceted field with various 
+                factors.Some issues with my previous experience include time constraints, 
+                minimal visualizations, lack of timely analysis to help current students, 
+                and my inability to assess the influence of various demographics. With machine 
+                learning, we attempt to create models that will help predict the future 
+                performance of students with similar demographics. Before Bootcamp, this is what 
+                analysis of a rural Georgia school looked like using only Excel.'''
             ),
-            html.Div(
-                children=[
-                    html.Div(
-                        html.Img(src=pil_img1, className="image-style"),
+            dbc.Row(
+                [
+                    dbc.Col(
+                        html.Img(src='../assets/overall.png', alt="My Image", style={'width': '100%', 'height': 'auto'}),
+                        width=6,
                         className="image-container"
                     ),
-                    html.Div(
-                        html.Img(src=pil_img2, className="image-style"),
+                    dbc.Col(
+                        html.Img(src='../assets/plotted.png', alt="My Image", style={'width': '100%', 'height': 'auto'}),
+                        width=6,
                         className="image-container"
                     ),
-                    html.Div(
-                        html.Img(src=pil_img3, className="image-style"),
+                    dbc.Col(
+                        html.Img(src='../assets/spread.png', alt="My Image", style={'width': '100%', 'height': 'auto'}),
+                        width=6,
                         className="image-container"
                     ),
-                    html.Div(
-                        html.Img(src=pil_img4, className="image-style"),
+                    dbc.Col(
+                        html.Img(src='../assets/spread2.png', alt="My Image", style={'width': '100%', 'height': 'auto'}),
+                        width=6,
                         className="image-container"
                     ),
-                   
                 ],
                 className="grid-container"
             ),
         ],
         style={"padding": "20px"},
-        fluid=True,
+        fluid=True
     )
-    return layout
 
 app4.layout = layout4
 
 if __name__ == "__main__":
     app4.run_server(port=8054, debug=True)
+

@@ -6,6 +6,7 @@ import plotly.express as px
 from dash import dcc, html, Input, Output
 from flask import Flask, url_for
 
+'''This is the app for the Kaggle Data.'''
 
 PATH = pathlib.Path(__file__).parent
 DATA_PATH = PATH.joinpath("../data").resolve()
@@ -42,10 +43,10 @@ navbar = dbc.Navbar(
                     dbc.DropdownMenu(
                         [
                             dbc.DropdownMenuItem("Education Stats", header=True),
-                            dbc.DropdownMenuItem("Rural School GA", href="app3"),
-                            dbc.DropdownMenuItem("Private School FL", href="app2"),
-                            dbc.DropdownMenuItem("Kaggle Data", href="app1"),
-                            dbc.DropdownMenuItem("Primitive Data Analysis", href="app4"),
+                            dbc.DropdownMenuItem("Rural School GA", href="http://127.0.0.1:8053/"),
+                            dbc.DropdownMenuItem("Private School FL", href="http://127.0.0.1:8052/"),
+                            dbc.DropdownMenuItem("Kaggle Data", href="http://127.0.0.1:8051/"),
+                            dbc.DropdownMenuItem("Primitive Data Analysis", href="http://127.0.0.1:8054/"),
                         ],
                         in_navbar=True,
                         label="Education Stats",
@@ -63,64 +64,61 @@ navbar = dbc.Navbar(
 )
 
 def layout1():
-    layout = dbc.Container(
+    layout = html.Div(
         [
             navbar,
-            html.Div(
-                [
+            dbc.Container([
+            html.Div([
                     html.H1("The Problems in Standardizing Educational Data", className="display-4"),
                     html.P(
                         "Education demographics is a complex and multifaceted field with various factors such as test scores, financial incomes, gender, race, ethnicity, "
                         "school location, and parental education levels. This area of study has many problems that can make it difficult to obtain accurate and reliable data."
                         "Here are three key problems in education demographics:",
-                        className="lead",
-                    ),
-                    html.Ul(
-                        [
+                        className="lead",),
+                    html.Ul([
                             html.Li(
-                                "Lack of standardized data collection methods: Different educational institutions and organizations may use different methods to collect data, leading to inconsistencies and difficulties in comparing and analyzing the information."
-                            ),
+                                '''Lack of standardized data collection methods: Different educational institutions and organizations may use different methods to collect data, 
+                                leading to inconsistencies and difficulties in comparing and analyzing the information.'''),
                             html.Li(
-                                "Data privacy concerns: Education demographics often involve sensitive information about students and their families. Ensuring data privacy and security while still extracting valuable insights can be challenging."
-                            ),
+                                '''Data privacy concerns: Education demographics often involve sensitive information about students and their families. Ensuring data privacy and 
+                                security while still extracting valuable insights can be challenging.'''),
                             html.Li(
-                                "Limited representation: Some demographic groups may be underrepresented or overlooked in education data, leading to biased analyses and inadequate policy decisions."
-                            ),
-                        ],
-                        className="custom-list",
-                    ),
-                ],
-                className="jumbotron",
-            ),
-            html.Img(src='../assets/kaggle_features.png', alt="My Image", style={'width': '70%', 'height': '50%'}),
-
-            html.H2("Kaggle Data", className="display-5"),
-            html.Div(
-                [
-                    html.Table(
-                        [
-                            html.Thead(
-                                html.Tr([html.Th("Attribute"), html.Th("Description")])
-                            ),
-                            html.Tbody(
-                                [
-                                    html.Tr([html.Td("Gender"), html.Td("The gender of the student (male/female)")]),
-                                    html.Tr([html.Td("Race/ethnicity"), html.Td("The student's racial or ethnic background (Asian, African-American, Hispanic, etc.)")]),
-                                    html.Tr([html.Td("Parental level of education"), html.Td("The highest level of education attained by the student's parent(s) or guardian(s)")]),
-                                    html.Tr([html.Td("Lunch"), html.Td("Whether the student receives free or reduced-price lunch (yes/no)")]),
-                                    html.Tr([html.Td("Test preparation course"), html.Td("Whether the student completed a test preparation course (yes/no)")]),
-                                    html.Tr([html.Td("Math score"), html.Td("The student's score on a standardized mathematics test")]),
-                                    html.Tr([html.Td("Reading score"), html.Td("The student's score on a standardized reading test")]),
-                                    html.Tr([html.Td("Writing score"), html.Td("The student's score on a standardized writing test")]),
-                                ],
-                                className="custom-table"
-                            ),
-                        ],
-                        className="table table-bordered table-hover",
-                    ),
-                ],
-                className="card mb-3",
-            ),
+                                "Limited representation: Some demographic groups may be underrepresented or overlooked in education data, leading to biased analyses and inadequate policy decisions."), ],
+                        className="custom-list",),],
+                className="jumbotron",),
+            dbc.Row([
+                dbc.Col(
+                    [
+                        html.Img(src='../assets/kaggle_features.png', alt="My Image", style={'width': '90%', 'height': '50%'}),
+                        html.A(
+                            html.Img(src='../assets/kaggle_tableau.png', alt="My Image", style={'width': '80%', 'height': '40%','padding-left': '60px'}),
+                            href="https://public.tableau.com/app/profile/sahmirah.muhammad/viz/KaggleStudentPerformance/Story1",
+                            target="_blank"
+                        ),
+                    ],
+                    width=6
+                ),
+                    dbc.Col([
+                        html.H2("Kaggle Data", className="display-5"),
+                        html.Div([
+                            html.Table([
+                                html.Thead(
+                                    html.Tr([html.Th("Attribute"), html.Th("Description")])),
+                                        html.Tbody([
+                                            html.Tr([html.Td("Gender"), html.Td("The gender of the student (male/female)")]),
+                                            html.Tr([html.Td("Race/ethnicity"), html.Td("The student's racial or ethnic background (Asian, African-American, Hispanic, etc.)")]),
+                                            html.Tr([html.Td("Parental level of education"), html.Td("The highest level of education attained by the student's parent(s) or guardian(s)")]),
+                                            html.Tr([html.Td("Lunch"), html.Td("Whether the student receives free or reduced-price lunch (yes/no)")]),
+                                            html.Tr([html.Td("Test preparation course"), html.Td("Whether the student completed a test preparation course (yes/no)")]),
+                                            html.Tr([html.Td("Math score"), html.Td("The student's score on a standardized mathematics test")]),
+                                            html.Tr([html.Td("Reading score"), html.Td("The student's score on a standardized reading test")]),
+                                            html.Tr([html.Td("Writing score"), html.Td("The student's score on a standardized writing test")]),
+                                                ],
+                                                className="custom-table" ), ],
+                                        className="table table-bordered table-hover", ), ],
+                                className="card mb-4",),  ],
+                        width=6  ),  ] ),
+            
             html.H3("Student Demographics"),
             dcc.Graph(id="scatter_plot_data"),
             html.P("Select a student index to view individual Student Demographics."),
@@ -135,8 +133,7 @@ def layout1():
             dcc.Graph(id="update_score_graph", figure={}),
         ],
         className="container mt-4",
-        fluid=True,
-    )
+    ),],)
     return layout
 
 @app1.callback(
