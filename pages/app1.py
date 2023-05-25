@@ -69,7 +69,7 @@ def layout1():
             navbar,
             dbc.Container([
             html.Div([
-                    html.H1("The Problems in Standardizing Educational Data", className="display-4"),
+                html.H1("Predictive Modeling in Education", className="display-4"),
                     html.P(
                         "Education demographics is a complex and multifaceted field with various factors such as test scores, financial incomes, gender, race, ethnicity, "
                         "school location, and parental education levels. This area of study has many problems that can make it difficult to obtain accurate and reliable data."
